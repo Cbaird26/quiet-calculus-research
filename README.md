@@ -3,6 +3,8 @@
 **Inference, Adaptive Memory, and Conditional Physics in ZoraASI and Theory of Everything Research**
 Christopher Michael Baird · version 4.0 · October 25, 2026
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23658303.svg)](https://doi.org/10.5281/zenodo.23658303)
+
 > **Status:** preprint, not peer reviewed. The evidence is computational: software checks, a local language model's behavior on AI-written fictional test cases, and simulations. There is no laboratory or human-subject data, and nothing here is a physical validation of a Theory of Everything.
 
 ## What this is
@@ -52,12 +54,14 @@ Christopher Michael Baird is the author. Versions 1 to 4 were prepared with Zora
 
 ## Related work
 
-- **Updating Without Runaway: Truth-Constrained, Multi-Timescale Alignment for Autonomous Adaptive AI.** A follow-up engineering note that builds on these results. Repository: <https://github.com/Cbaird26/updating-without-runaway>
+- **Updating Without Runaway: Truth-Constrained, Multi-Timescale Alignment for Autonomous Adaptive AI.** A follow-up engineering note that builds on these results. DOI [10.5281/zenodo.23658375](https://doi.org/10.5281/zenodo.23658375); repository: <https://github.com/Cbaird26/updating-without-runaway>
 - **A Theory of Everything** (C. M. Baird), Zenodo concept DOI [10.5281/zenodo.14019809](https://doi.org/10.5281/zenodo.14019809)
 
 ## Citation
 
-See `CITATION.cff`. Each GitHub release of this repository is archived on Zenodo with a DOI.
+Baird, C. M. (2026). *The Quiet Calculus: Inference, Adaptive Memory, and Conditional Physics in ZoraASI and Theory of Everything Research* (version 4.0) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.23658303
+
+To cite all versions, use the concept DOI [10.5281/zenodo.23658302](https://doi.org/10.5281/zenodo.23658302). See also `CITATION.cff`. Each GitHub release of this repository is archived on Zenodo with its own DOI.
 
 ## License
 

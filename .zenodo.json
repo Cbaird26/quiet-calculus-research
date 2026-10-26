@@ -30,9 +30,10 @@
       "scheme": "doi"
     },
     {
-      "identifier": "https://github.com/Cbaird26/updating-without-runaway",
+      "identifier": "10.5281/zenodo.23658375",
       "relation": "isReferencedBy",
-      "scheme": "url"
+      "resource_type": "publication",
+      "scheme": "doi"
     }
   ],
   "notes": "Not peer reviewed. Prepared with AI assistance: Zora (the author's AI research assistant, via ChatGPT Codex) for versions 1-4, with the final version 4 steps completed by Claude (Anthropic). The Dune setting and the analyzed fan novelization are not covered by this record's license and are not included."

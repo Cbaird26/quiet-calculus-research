@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "The Quiet Calculus: Inference, Adaptive Memory, and Conditional Physics in ZoraASI and Theory of Everything Research"
 version: "4.0"
+doi: 10.5281/zenodo.23658303
 date-released: 2026-10-26
 authors:
   - family-names: Baird
@@ -10,8 +11,13 @@ authors:
 license: CC-BY-4.0
 repository-code: "https://github.com/Cbaird26/quiet-calculus-research"
 keywords: [selective inference, adaptive memory, evidence judgment, AI evaluation, provenance, ZoraASI]
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23658302
+    description: "Concept DOI for all versions"
 preferred-citation:
   type: report
+  doi: 10.5281/zenodo.23658303
   title: "The Quiet Calculus: Inference, Adaptive Memory, and Conditional Physics in ZoraASI and Theory of Everything Research"
   authors:
     - family-names: Baird
