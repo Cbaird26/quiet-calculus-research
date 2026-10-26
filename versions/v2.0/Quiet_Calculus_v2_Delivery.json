@@ -1,0 +1,13 @@
+{
+  "version": "2.0",
+  "pages": 41,
+  "zip_files": 47,
+  "pdf": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Scientific_Paper.pdf",
+  "pdf_sha256": "d040569689faf6c082943729450d1c4ca4122eb9e879af9cc0e4abb383fb8c8d",
+  "zip": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Overleaf.zip",
+  "zip_sha256": "f4fa851c75c6871b00ab915bde372b7464e38fd3f05741b58245f1c4f1b8049e",
+  "final_zip_checksums_verified": true,
+  "final_zip_compile_inputs_match_clean_rebuild": true,
+  "desktop_compiler": "success on final manuscript source",
+  "originals_preserved": true
+}

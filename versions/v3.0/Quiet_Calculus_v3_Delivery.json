@@ -1,0 +1,22 @@
+{
+  "version": "3.0",
+  "pages": 48,
+  "paper_zip_files": 58,
+  "test_zip_files": 257,
+  "pdf": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Scientific_Paper.pdf",
+  "pdf_sha256": "41c2f568457d15620fa6142eeee9e00e701af0dc041af19ebc29814bc9142d00",
+  "overleaf_zip": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Overleaf.zip",
+  "overleaf_zip_sha256": "dbf5639e0ce6d4a649b861f1267d107c459b11db77a2462a08e0ef76989ee405",
+  "test_zip": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Local_Test_Bundle.zip",
+  "test_zip_sha256": "1750e4c7b214a374c41b000d2a55e2b6998f931fe0c0827e3d3e5aecb6d2e735",
+  "final_archive_checksums_verified": true,
+  "final_zip_compile_inputs_match_clean_rebuild": true,
+  "desktop_compiler": "success on final saved manuscript",
+  "originals_preserved": true,
+  "physical_evidence": false,
+  "notable_negative_results": [
+    "Both inference arms make the same two false refutations.",
+    "Adaptive-memory joint robustness criterion failed.",
+    "Initial portal reference emitted nine warnings; exploratory follow-up is separate."
+  ]
+}

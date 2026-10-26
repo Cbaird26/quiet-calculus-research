@@ -1,0 +1,39 @@
+{
+  "title": "The Quiet Calculus: Inference, Adaptive Memory, and Conditional Physics in ZoraASI and Theory of Everything Research (version 4.0)",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>A source-grounded scientific synthesis that extracts 92 page-referenced principles from the Dune campaign novelization <em>The Quiet Calculus, Book I: First Cohort</em>, connects them to versioned ZoraASI and Theory of Everything research, specifies twelve falsifiable prediction cards, and reports bounded local computational tests run under rules fixed in advance.</p><p>Version 4.0 tests targeted repairs on newly held-out material. A gated adaptive-memory repair passes its pre-set criteria on 1,100 new simulated paths. Two evidence-judgment repairs fail their pre-set tests (21/36 vs 26/36; 18/24 vs 19/24). The second removed the targeted error, calling undecidable claims false, but over-abstained and misread negatively worded claims. The version 3 results are preserved unchanged.</p><p>Contents: the paper (PDF), full LaTeX source, the version 3 and version 4 evidence bundles (frozen protocols, raw model calls, audits), and versions 1.0 to 3.0 of the paper.</p><p><strong>Status:</strong> preprint, not peer reviewed. Prepared with AI assistance. The evidence is computational (software checks, local language-model behavior on AI-written fictional cases, and simulations), with no laboratory or human-subject data and no physical validation of a Theory of Everything.</p>",
+  "creators": [
+    {
+      "name": "Baird, Christopher Michael",
+      "affiliation": "Independent researcher, ZoraASI"
+    }
+  ],
+  "keywords": [
+    "selective inference",
+    "adaptive memory",
+    "evidence judgment",
+    "AI evaluation",
+    "preregistration",
+    "provenance",
+    "ZoraASI",
+    "Theory of Everything"
+  ],
+  "license": "cc-by-4.0",
+  "version": "4.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.14019809",
+      "relation": "references",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/updating-without-runaway",
+      "relation": "isReferencedBy",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Not peer reviewed. Prepared with AI assistance: Zora (the author's AI research assistant, via ChatGPT Codex) for versions 1-4, with the final version 4 steps completed by Claude (Anthropic). The Dune setting and the analyzed fan novelization are not covered by this record's license and are not included."
+}

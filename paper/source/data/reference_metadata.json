@@ -1,0 +1,308 @@
+{
+  "bental": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "shannon": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "garfinkel": {
+    "DOI": "10.1016/j.biopsycho.2014.11.004",
+    "title": [
+      "Knowing your own heart: Distinguishing interoceptive accuracy from interoceptive awareness"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5961-1012",
+        "authenticated-orcid": false,
+        "given": "Sarah N.",
+        "family": "Garfinkel",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anil K.",
+        "family": "Seth",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adam B.",
+        "family": "Barrett",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Keisuke",
+        "family": "Suzuki",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hugo D.",
+        "family": "Critchley",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Biological Psychology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          1
+        ]
+      ]
+    },
+    "volume": "104",
+    "issue": null,
+    "page": "65-74",
+    "URL": "https://doi.org/10.1016/j.biopsycho.2014.11.004"
+  },
+  "desmedt": {
+    "DOI": "10.1016/j.biopsycho.2018.09.004",
+    "title": [
+      "The heartbeat counting task largely involves non-interoceptive processes: Evidence from both the original and an adapted counting task"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9496-5465",
+        "authenticated-orcid": false,
+        "given": "Olivier",
+        "family": "Desmedt",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olivier",
+        "family": "Luminet",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olivier",
+        "family": "Corneille",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Biological Psychology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          10
+        ]
+      ]
+    },
+    "volume": "138",
+    "issue": null,
+    "page": "185-188",
+    "URL": "https://doi.org/10.1016/j.biopsycho.2018.09.004"
+  },
+  "woolley": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "edmondson": {
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "breath": {
+    "DOI": "10.1016/j.xcrm.2022.100895",
+    "title": [
+      "Brief structured respiration practices enhance mood and reduce physiological arousal"
+    ],
+    "author": [
+      {
+        "given": "Melis Yilmaz",
+        "family": "Balban",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "Neri",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Manuela M.",
+        "family": "Kogon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lara",
+        "family": "Weed",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bita",
+        "family": "Nouriani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Booil",
+        "family": "Jo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gary",
+        "family": "Holl",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jamie M.",
+        "family": "Zeitzer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "David",
+        "family": "Spiegel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2343-8895",
+        "authenticated-orcid": false,
+        "given": "Andrew D.",
+        "family": "Huberman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Cell Reports Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1
+        ]
+      ]
+    },
+    "volume": "4",
+    "issue": "1",
+    "page": "100895",
+    "URL": "https://doi.org/10.1016/j.xcrm.2022.100895"
+  },
+  "dwork": {
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+}

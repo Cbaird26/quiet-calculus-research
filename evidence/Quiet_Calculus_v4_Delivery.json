@@ -1,0 +1,35 @@
+{
+  "version": "4.0",
+  "delivered_at": "2026-10-26T01:53:22.961563+00:00",
+  "pages": 58,
+  "paper_zip_files": 65,
+  "revision_zip_files": 557,
+  "pdf": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Scientific_Paper.pdf",
+  "pdf_sha256": "f7f0c2a09d631f5ea82f8e5426dcbf7eb71fbd1b91336bcd418e73aae61e0c08",
+  "overleaf_zip": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Overleaf.zip",
+  "overleaf_zip_sha256": "d59f4e7da6139378c62610607e66b7bdf8ad5cbe7a0189aed7f54f8f168d619b",
+  "revision_zip": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/pdf/Quiet_Calculus_Revision_Test_Bundle.zip",
+  "revision_zip_sha256": "05c3e47c7d4748225d46293e39cdb4daaee5893155fd9e86812341f4aa3f84b3",
+  "version3_test_zip_unchanged": true,
+  "final_archive_checksums_verified": true,
+  "final_zip_compile_inputs_match_clean_rebuild": true,
+  "compiler": "pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)",
+  "desktop_compiler": "not used for version 4 (Codex session ended)",
+  "artifact_audit": {
+    "pages": 58,
+    "bibliography_items": 33,
+    "all_citation_keys_resolved": true,
+    "source_hash_unchanged": true,
+    "all_research_hashes_unchanged": true,
+    "out_of_page_text_bounds": []
+  },
+  "originals_preserved": true,
+  "physical_evidence": false,
+  "semantic_followup_gate_passed": false,
+  "operator_note": "Codex prepared version 4 until its usage allowance ran out after semantic follow-up model selection; Claude (Anthropic) executed the remaining frozen evaluation, manuscript integration, compilation and packaging without changing frozen materials.",
+  "archives_preserved": [
+    "quiet-calculus-version-1-archive",
+    "quiet-calculus-version-2-archive",
+    "quiet-calculus-version-3-archive"
+  ]
+}

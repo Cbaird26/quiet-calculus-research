@@ -1,0 +1,368 @@
+{
+  "date_local": "2026-10-25",
+  "timezone": "America/New_York",
+  "generated_utc": "2026-10-26T00:24:01.240523+00:00",
+  "scope": "Bounded classical spectral computational replication and perturbation tests, not laboratory or ToE validation.",
+  "protocol_freeze_sha256": "78df3370d890b12daa9d716b09e62894ddea7af1c45e480aaa9c1ef57644f0e1",
+  "frozen_at_utc": "2026-10-26T00:22:15.718511+00:00",
+  "historical_outcomes_known_before_freeze": true,
+  "original_source_files_checked": 76,
+  "original_source_files_changed": [],
+  "frozen_files_changed": [],
+  "execution": [
+    {
+      "stage": "T0",
+      "command": [
+        "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/.venv/bin/python",
+        "run_all.py"
+      ],
+      "cwd": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/research/quiet-calculus-tests-2026-10-25/spectral/exact_mode_copy",
+      "started_utc": "2026-10-26T00:22:20.828422+00:00",
+      "timeout_seconds": 600,
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 54.9374998750136,
+      "ended_utc": "2026-10-26T00:23:15.766832+00:00"
+    },
+    {
+      "stage": "additional",
+      "command": [
+        "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/.venv/bin/python",
+        "additional_tests.py"
+      ],
+      "cwd": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/research/quiet-calculus-tests-2026-10-25/spectral",
+      "started_utc": "2026-10-26T00:23:15.767364+00:00",
+      "timeout_seconds": 600,
+      "exit_code": 0,
+      "timed_out": false,
+      "elapsed_seconds": 17.556593624991365,
+      "ended_utc": "2026-10-26T00:23:33.324071+00:00"
+    }
+  ],
+  "T0": {
+    "passed": 126,
+    "total": 126,
+    "fresh_execution_succeeded": true
+  },
+  "additional": {
+    "counts": {
+      "pass": 48,
+      "fail": 0,
+      "inconclusive": 0
+    },
+    "fatal_error": null,
+    "checks": {
+      "T1a_reference_L8_h0.15_0.45_minus": {
+        "status": "pass",
+        "metric": 2.3062637682837867e-12,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L8_h0.15_0.45_minus": {
+        "status": "pass",
+        "metric": 1.973158940925257e-12,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L8_h0.15_0.45_plus": {
+        "status": "pass",
+        "metric": 2.306652481867677e-12,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L8_h0.15_0.45_plus": {
+        "status": "pass",
+        "metric": 1.973549633178112e-12,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L8_h0.2_0.6_minus": {
+        "status": "pass",
+        "metric": 3.368672720871317e-11,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L8_h0.2_0.6_minus": {
+        "status": "pass",
+        "metric": 3.475207459042312e-11,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L8_h0.2_0.6_plus": {
+        "status": "pass",
+        "metric": 3.369250671102393e-11,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L8_h0.2_0.6_plus": {
+        "status": "pass",
+        "metric": 3.4757863416872564e-11,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L12_h0.15_0.45_minus": {
+        "status": "pass",
+        "metric": 1.2186622967268884e-12,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L12_h0.15_0.45_minus": {
+        "status": "pass",
+        "metric": 8.913555657463768e-13,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L12_h0.15_0.45_plus": {
+        "status": "pass",
+        "metric": 1.2190564584266955e-12,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L12_h0.15_0.45_plus": {
+        "status": "pass",
+        "metric": 8.917788382745151e-13,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L12_h0.2_0.6_minus": {
+        "status": "pass",
+        "metric": 3.3750227412072606e-11,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L12_h0.2_0.6_minus": {
+        "status": "pass",
+        "metric": 3.4842808976573436e-11,
+        "tolerance": 1e-10
+      },
+      "T1a_reference_L12_h0.2_0.6_plus": {
+        "status": "pass",
+        "metric": 3.375602320452101e-11,
+        "tolerance": 1e-09
+      },
+      "T1a_independent_sum_L12_h0.2_0.6_plus": {
+        "status": "pass",
+        "metric": 3.4848618023393396e-11,
+        "tolerance": 1e-10
+      },
+      "T1a_grid_cutoff_spread": {
+        "status": "pass",
+        "metric": 3.253156511534572e-11,
+        "tolerance": 1e-09
+      },
+      "CONTROL_T1_local_equality_rejected": {
+        "status": "pass",
+        "metric": 7.74841864272564e-05,
+        "tolerance": 1e-06
+      },
+      "CONTROL_T1_altered_Yukawa_rejected": {
+        "status": "pass",
+        "metric": 0.00015000825521187125,
+        "tolerance": 1e-06
+      },
+      "T1b_profile_difference_L8": {
+        "status": "pass",
+        "metric": 5.421010862427522e-20,
+        "tolerance": 1e-11
+      },
+      "T1b_profile_difference_L12": {
+        "status": "pass",
+        "metric": 5.421010862427522e-20,
+        "tolerance": 1e-11
+      },
+      "T1b_retained_local_moments": {
+        "status": "pass",
+        "metric": 4.7704895589362195e-18,
+        "tolerance": 2e-15
+      },
+      "T1b_quadrature_cutoff_delta": {
+        "status": "pass",
+        "metric": 2.9259552329605975e-20,
+        "tolerance": 1e-11
+      },
+      "T2a_photon_null_L8_t1.0": {
+        "status": "pass",
+        "metric": 1.2386780320656123e-13,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L8_t0.75": {
+        "status": "pass",
+        "metric": 1.7429152246813763e-13,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L8_t0.5": {
+        "status": "pass",
+        "metric": 3.6482363799719723e-13,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L8_t0.375": {
+        "status": "pass",
+        "metric": 4.755671449327894e-13,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L8_t0.25": {
+        "status": "pass",
+        "metric": 1.048031727606685e-12,
+        "tolerance": 1e-09
+      },
+      "T2a_fourth_order_L8_1.0_0.5": {
+        "status": "pass",
+        "metric": 0.06258795618461466
+      },
+      "T2a_fourth_order_L8_0.5_0.25": {
+        "status": "pass",
+        "metric": 0.06252198723343723
+      },
+      "T2a_photon_null_L12_t1.0": {
+        "status": "pass",
+        "metric": 8.57143011213574e-14,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L12_t0.75": {
+        "status": "pass",
+        "metric": 4.08240172527578e-14,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L12_t0.5": {
+        "status": "pass",
+        "metric": 4.441158903436609e-13,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L12_t0.375": {
+        "status": "pass",
+        "metric": 3.440349300794551e-13,
+        "tolerance": 1e-09
+      },
+      "T2a_photon_null_L12_t0.25": {
+        "status": "pass",
+        "metric": 1.9348711333450836e-12,
+        "tolerance": 1e-09
+      },
+      "T2a_fourth_order_L12_1.0_0.5": {
+        "status": "pass",
+        "metric": 0.06258795557767374
+      },
+      "T2a_fourth_order_L12_0.5_0.25": {
+        "status": "pass",
+        "metric": 0.06252199153940124
+      },
+      "T2a_response_cutoff_change": {
+        "status": "pass",
+        "metric": 1.7931077629651515e-13,
+        "tolerance": 1e-10
+      },
+      "T2a_Ward_independent_G_0": {
+        "status": "pass",
+        "metric": 1.3317055791439714e-12,
+        "tolerance": 2e-09
+      },
+      "T2a_Ward_independent_G_1": {
+        "status": "pass",
+        "metric": 9.026460134897718e-13,
+        "tolerance": 2e-09
+      },
+      "T2a_independent_mass_projection_eps0.0": {
+        "status": "pass",
+        "metric": 4.446602055926607e-16,
+        "tolerance": 1e-11
+      },
+      "T2a_independent_mass_projection_eps0.05": {
+        "status": "pass",
+        "metric": 4.275059988087179e-17,
+        "tolerance": 1e-11
+      },
+      "T2a_direct_protected_mass": {
+        "status": "pass",
+        "metric": 4.0205106021398045e-16,
+        "tolerance": 1e-11
+      },
+      "CONTROL_T2_wrong_generator_rejected": {
+        "status": "pass",
+        "metric": 3.010333285427451e-06,
+        "tolerance": 1e-08
+      },
+      "T2b_new_Clifford_fixture_0": {
+        "status": "pass",
+        "metric": 7.676064645023573e-14,
+        "tolerance": 2e-09
+      },
+      "T2b_new_Clifford_fixture_1": {
+        "status": "pass",
+        "metric": 2.9866300405023694e-14,
+        "tolerance": 2e-09
+      },
+      "T2b_new_Clifford_fixture_2": {
+        "status": "pass",
+        "metric": 1.8791392053518763e-15,
+        "tolerance": 2e-09
+      },
+      "CONTROL_T2_omitted_Pauli_rejected": {
+        "status": "pass",
+        "metric": 0.001036133239219321,
+        "tolerance": 1e-07
+      }
+    },
+    "timings": {
+      "T1a_seconds": 1.188829083010205,
+      "T1b_seconds": 3.7723686670069583,
+      "T2a_seconds": 10.919444917002693,
+      "T2b_seconds": 0.5685420420049923,
+      "total_seconds": 16.45219941700634
+    }
+  },
+  "comparison": {
+    "results.json": {
+      "byte_identical": true,
+      "difference_count": 0,
+      "numeric_max_absolute_difference": 0,
+      "nonnumeric_differences": []
+    },
+    "checks.json": {
+      "byte_identical": true,
+      "difference_count": 0,
+      "numeric_max_absolute_difference": 0,
+      "nonnumeric_differences": []
+    }
+  },
+  "limitations": [
+    "Historical outcomes known; internal prospective replication protocol, not public or blinded preregistration.",
+    "Additional routes reuse the monopole matrix builder; not a fully independent implementation of the entire model.",
+    "Double precision, finite angular cutoffs and finite test points; no interval enclosure or universal tail bound.",
+    "Field-scaling check is a bounded numerical diagnostic, not proof of an asymptotic theorem.",
+    "No physical vacuum solved; no six-dimensional anomaly completion, quantum thresholds, physical pole masses, observed coupling or laboratory test.",
+    "Negative controls deliberately violate assumptions and test sensitivity; they do not establish sensitivity to every possible implementation error."
+  ],
+  "selected_results": {
+    "real_axis_scalar_minus": {
+      "A2": -0.003247173901751544,
+      "A4": 0.00016967340585381807,
+      "C0": 0.0001309313121945121,
+      "C1": 0.00020841549862176848
+    },
+    "C1_over_C0": 1.591792636372158,
+    "max_real_axis_reference_error_all_fits": 3.375602320452101e-11,
+    "max_protected_sum_residual_all_fits": 3.4848618023393396e-11,
+    "max_normalized_photon_null_residual": 1.9348711333450836e-12,
+    "negative_control_residuals": {
+      "CONTROL_T1_local_equality_rejected": 7.74841864272564e-05,
+      "CONTROL_T1_altered_Yukawa_rejected": 0.00015000825521187125,
+      "CONTROL_T2_wrong_generator_rejected": 3.010333285427451e-06,
+      "CONTROL_T2_omitted_Pauli_rejected": 0.001036133239219321
+    },
+    "direct_profile_delta_G": {
+      "L8_order160": 1.8962286435064007e-09,
+      "L12_order240": 1.8962286435064007e-09
+    },
+    "photon_remainders_L12": {
+      "1.0": 1.822506452226545e-06,
+      "0.75": 5.771255753994811e-07,
+      "0.5": 1.1406695287197878e-07,
+      "0.375": 3.609890439703717e-08,
+      "0.25": 7.131693062387138e-09
+    },
+    "independent_projected_masses": {
+      "0.0": {
+        "mass": 4.0205106021398045e-16,
+        "matrix_projection": -4.2609145378680324e-17,
+        "error": 4.446602055926607e-16
+      },
+      "0.05": {
+        "mass": 3.010333285427451e-06,
+        "matrix_projection": 3.0103332853847005e-06,
+        "error": 4.275059988087179e-17
+      }
+    },
+    "external_Clifford_absolute_errors": [
+      7.676064645023573e-14,
+      2.9866300405023694e-14,
+      1.8791392053518763e-15
+    ]
+  }
+}

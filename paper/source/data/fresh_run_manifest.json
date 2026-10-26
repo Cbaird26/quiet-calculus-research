@@ -1,0 +1,155 @@
+{
+  "version": "3.0",
+  "date_local": "2026-10-25",
+  "date_utc": "2026-10-26",
+  "bundle": "Quiet_Calculus_Local_Test_Bundle.zip",
+  "evidence_classes": [
+    "software checks",
+    "synthetic model behavior",
+    "generated-path simulation",
+    "conditional mathematical numerics"
+  ],
+  "physical_evidence": false,
+  "public_preregistration": false,
+  "experimental_campaign_root": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/research/quiet-calculus-tests-2026-10-25",
+  "workstreams": {
+    "pilot": {
+      "records": [
+        {
+          "path": "pilot/protocol-freeze.json",
+          "sha256": "b18148c0c337ac1887f1be36cba1e1a29369ec833196d340965d200302682386",
+          "bytes": 5079
+        },
+        {
+          "path": "pilot/dataset.json",
+          "sha256": "1808ec89d26f0bd545b3bf39494a51443c1b73158d5797cea171a5792d7d59b0",
+          "bytes": 16069
+        },
+        {
+          "path": "pilot/run.py",
+          "sha256": "a0869b7ea98de786cbf587f929b204646db751358eeeb33720373eec0210d226",
+          "bytes": 5009
+        },
+        {
+          "path": "pilot/result.json",
+          "sha256": "398f6e531a387b53fbdacffe6707bde8167de11d06ad67c17ec82bf97df53169",
+          "bytes": 370713
+        },
+        {
+          "path": "pilot/integration_summary.json",
+          "sha256": "0c904d418f638fdd8391583c35b8646cec3d655961d9684e90e4e7dd810cf636",
+          "bytes": 5322
+        },
+        {
+          "path": "pilot/audit-result.json",
+          "sha256": "1869977d46bd4d51d8ed462a45e56b95ddebe4b0353c5e20b554e76ec5b70803",
+          "bytes": 30434
+        },
+        {
+          "path": "pilot/controls-result.json",
+          "sha256": "538a50a68ca6687225d66fefc6ce15fed98f76c5ecebaf46a2c46da1151c494b",
+          "bytes": 860
+        }
+      ],
+      "interpretation": "Both arms 10/12 provisional labels; shared errors; no extra accuracy from three roles."
+    },
+    "memory": {
+      "records": [
+        {
+          "path": "memory/freeze.json",
+          "sha256": "f41a2d1de586d66b646fc4e59bb318d856cf3aabd41351aff79d27e8b73571cb",
+          "bytes": 1752
+        },
+        {
+          "path": "memory/results/summary.json",
+          "sha256": "d311f300c9c5060182fe0bd2aad1b759c128d9ffa1b3af8b43ffb7beec6cb655",
+          "bytes": 377036
+        },
+        {
+          "path": "memory/results/audit.json",
+          "sha256": "3e55f2a19b4098af430a5d1d3873d614f3a28c24d715d7fdd36fd9b3c95efb92",
+          "bytes": 2158
+        }
+      ],
+      "interpretation": "Small mean gain; frozen joint robustness criterion failed."
+    },
+    "portal": {
+      "records": [
+        {
+          "path": "portal/freeze.json",
+          "sha256": "dd605e89b81f174e1ef3bcba2a8e98c10ac29c2d683d0a4bdb923298b717393f",
+          "bytes": 434
+        },
+        {
+          "path": "portal/PROTOCOL.txt",
+          "sha256": "2b4af771844edcf6d543866952afc17e1a6a30932866cdc87a07149d29a65c61",
+          "bytes": 2567
+        },
+        {
+          "path": "portal/run_tests.py",
+          "sha256": "cf0cd018106f657933fc05c9ed26df4c3b9318e3b4ba1ba4a4f7a10aaf174b4b",
+          "bytes": 5670
+        },
+        {
+          "path": "portal/results.json",
+          "sha256": "9b2b7507099ebcf43ed921391d567d4d56d585afc5a8f247fde5800875b2329a",
+          "bytes": 39231
+        },
+        {
+          "path": "portal/followup_freeze.json",
+          "sha256": "98f72b9fe19dd8cf3dbae725626b3a9e0d59172773d0a6dd83d125ab932fa6a6",
+          "bytes": 447
+        },
+        {
+          "path": "portal/FOLLOWUP_PROTOCOL.txt",
+          "sha256": "f1477a0187b1686c2c507812ce049f714612d1e05d0e78f9ccaa504be85de2f5",
+          "bytes": 1141
+        },
+        {
+          "path": "portal/followup.py",
+          "sha256": "7d23ad449647fbaf8ddb8aac90e0bc773495b04566f2ce81af4f4f7239e2f602",
+          "bytes": 3286
+        },
+        {
+          "path": "portal/followup_results.json",
+          "sha256": "abd1dcb11f9ecaba21b17119cddcf7fd8a93bae692546768318f8556d0ddcd7b",
+          "bytes": 27711
+        }
+      ],
+      "interpretation": "Initial warnings preserved; exploratory follow-up resolves tested quadrature discrepancies. Channel checks are conditional."
+    },
+    "spectral": {
+      "records": [
+        {
+          "path": "spectral/PROTOCOL_FREEZE.json",
+          "sha256": "78df3370d890b12daa9d716b09e62894ddea7af1c45e480aaa9c1ef57644f0e1",
+          "bytes": 1636
+        },
+        {
+          "path": "spectral/SUMMARY.json",
+          "sha256": "287fe8dc6096989abaebf4b25fbaf3c3a99148ec6b5bb8cc2189ae235242e9d9",
+          "bytes": 11869
+        },
+        {
+          "path": "spectral/additional_results.json",
+          "sha256": "78b31bab8a85792b83350d0190556cd28e2960598a9c9d3834732bc4b505332c",
+          "bytes": 119432
+        },
+        {
+          "path": "spectral/additional_tests.py",
+          "sha256": "c7729a151b186c71074218657984cb30bd88598d09220fc386658486480b572b",
+          "bytes": 11112
+        },
+        {
+          "path": "spectral/execution_records.json",
+          "sha256": "71069f0da7af23413f773eae1d4d3f08705487fceb606db7a15fdb581393762f",
+          "bytes": 1182
+        }
+      ],
+      "interpretation": "126 replication checks and 48 additional numerical/control checks pass; no complete physical theory or measurement."
+    }
+  },
+  "bundle_sha256": "1750e4c7b214a374c41b000d2a55e2b6998f931fe0c0827e3d3e5aecb6d2e735",
+  "bundle_file_count": 257,
+  "bundle_bytes": 5133987
+}

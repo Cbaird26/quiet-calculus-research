@@ -1,0 +1,293 @@
+{
+  "version": "4.0",
+  "date_local": "2026-10-25",
+  "date_utc": "2026-10-26",
+  "bundle": "Quiet_Calculus_Revision_Test_Bundle.zip",
+  "revision_root": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/research/quiet-calculus-revisions-2026-10-25",
+  "evidence_classes": [
+    "software checks",
+    "synthetic local-model behavior on AI-authored fictional cases",
+    "generated-path simulation"
+  ],
+  "physical_evidence": false,
+  "public_preregistration": false,
+  "version3_evidence_unchanged": "Quiet_Calculus_Local_Test_Bundle.zip (version 3) is not modified; see preservation_audit.json.",
+  "workstreams": {
+    "memory": {
+      "records": [
+        {
+          "path": "memory/PROTOCOL.txt",
+          "sha256": "ef3f2787ab59a464d15e303b38c1dbe2cff812e6a5e13708e3129f48c72247fa",
+          "bytes": 6958
+        },
+        {
+          "path": "memory/protocol.json",
+          "sha256": "12f5a6173fb8a106274b6f8dfc1583fbced3fb57160042a937369ce7fe68adf1",
+          "bytes": 7525
+        },
+        {
+          "path": "memory/freeze.json",
+          "sha256": "5d6b5270af7ee1a314e68efb395414828782cfad77a60bf1028b93c8c8151531",
+          "bytes": 1944
+        },
+        {
+          "path": "memory/results/selection_freeze.json",
+          "sha256": "3d32064c3688df2157416359d60d75cd0b2bab8f1ce95a877e4bf7f9e374f8ac",
+          "bytes": 1105
+        },
+        {
+          "path": "memory/results/validation.json",
+          "sha256": "04d7db0e339cd0fca5bf0711e6d7e9421751f09e2e3e12d696c94f7295a6d208",
+          "bytes": 6751110
+        },
+        {
+          "path": "memory/results/summary.json",
+          "sha256": "c2ad9aa4e8be060571a575071720fa88a4ccecca0c0ffacaaa41b385562b7b6e",
+          "bytes": 192188
+        },
+        {
+          "path": "memory/results/raw_paths.jsonl",
+          "sha256": "5e082defeb04710f31eb651371d6d91ae6fb8bafb03efa096fe9b8cb0515b734",
+          "bytes": 2251164
+        },
+        {
+          "path": "memory/results/audit.json",
+          "sha256": "6684e3dc6617b0941bb0c10b5c46e31b3ae51c1af84eacec66587e8862d7c73c",
+          "bytes": 2598
+        },
+        {
+          "path": "memory/results/execution_receipt.json",
+          "sha256": "01d6007855eba03285f68dedb5a9e985957df0070576308ea446d96e329cce55",
+          "bytes": 2634
+        },
+        {
+          "path": "memory_arithmetic_audit.json",
+          "sha256": "3f38853074b4379bd1509545b37f622da1b1696b00bd406904b8bb102cc76c41",
+          "bytes": 3276
+        },
+        {
+          "path": "memory_precision_erratum.json",
+          "sha256": "6b8640bd7cc882896be2c8172578ea28c9d00f04572c724620695ac883009cc1",
+          "bytes": 524
+        },
+        {
+          "path": "memory_paper_review.json",
+          "sha256": "bcf128d9ec95525c3cc63024665024b7b173109685fec9ce8cbd60feb33e48dc",
+          "bytes": 813
+        }
+      ],
+      "interpretation": "Validation-selected causal gate (eta=128, prior adaptive weight 0.75, no restart share) passes its frozen repair criterion and the unchanged version 3 criterion on 1,100 new known-family paths; five known-family givebacks versus the original adaptive policy and both exploratory transfer families losing to fixed memory are retained."
+    },
+    "semantic_stage1": {
+      "records": [
+        {
+          "path": "semantic/heldout/FREEZE.json",
+          "sha256": "850bd1a34a329231a330b051f1caf48f1d86b7ad1766bc13ec29e6558ebbb9d0",
+          "bytes": 8957
+        },
+        {
+          "path": "semantic/heldout/dataset.json",
+          "sha256": "774c048662b5d0e97665729bf550827b47046df486acb41bd86e21e54b3aea67",
+          "bytes": 75326
+        },
+        {
+          "path": "semantic/implementation/IMPLEMENTATION_FREEZE.json",
+          "sha256": "623efce883e1989ce8128dad4ee1b1844f6e127b71827f43b7b84dbfea81532f",
+          "bytes": 12190
+        },
+        {
+          "path": "semantic/implementation/FREEZE_CORRECTION.txt",
+          "sha256": "6ae14dd67d0a6c800868ee172cb1c210e4a527564d59b29277c84663e7f24b73",
+          "bytes": 504
+        },
+        {
+          "path": "semantic/preflight_schedule_note.json",
+          "sha256": "c14059a7d90378082a4e1c47ccd96a5468b852a844a92e6139b9ef0a3d1e2059",
+          "bytes": 621
+        },
+        {
+          "path": "semantic/evaluation_freeze.json",
+          "sha256": "f42668fd0f3f946c1b8a7dbb97c8d4944dec1ba589a71f6dc5a32cb9c902fc92",
+          "bytes": 12674
+        },
+        {
+          "path": "semantic/result.json",
+          "sha256": "782dab111a4a38277641c2f90a5bf05a88493eb9328a54b11078d30f7fe1e5d3",
+          "bytes": 895192
+        },
+        {
+          "path": "semantic/audit.json",
+          "sha256": "e2e414ac44e5ca75ddf6ddf6f26031876f28bb13b6d3ffc59a6278006adfa697",
+          "bytes": 69655
+        },
+        {
+          "path": "semantic/qualitative_error_review.json",
+          "sha256": "98d27cbf9aee4068dd577dd2bf0e5ccbac4f8376951958a64649ba39e6b22075",
+          "bytes": 961
+        },
+        {
+          "path": "semantic/run.log",
+          "sha256": "cfa0d392bf0c351eed7dbd5607ca95a05b4d9d7fb77598a76cd8e99a6e24938d",
+          "bytes": 6003
+        }
+      ],
+      "interpretation": "Structured certificate fails the frozen repair gate on 36 new cases: 21/36 versus 26/36 label matches, 12 versus 10 incorrect definite judgments, 2 unnecessary abstentions, 1 processing failure. Rejected as a repair."
+    },
+    "semantic_followup": {
+      "records": [
+        {
+          "path": "semantic_followup/STAGE_RATIONALE.md",
+          "sha256": "ba06943ef97e59c74e2974054b3579684ac77b1f88d55a80ca24d18b25e0c4a1",
+          "bytes": 2000
+        },
+        {
+          "path": "semantic_followup/heldout/FREEZE.json",
+          "sha256": "c7d901916ca4bb6f595cbb4a3115a8c7f96eb184b67113cfea0e1fb832ae5266",
+          "bytes": 6934
+        },
+        {
+          "path": "semantic_followup/heldout/dataset.json",
+          "sha256": "d4956aa8417cc4a70bd3736ef1fbc91e6f9e7331919bfa7f6c89c7ec59a27d5b",
+          "bytes": 56158
+        },
+        {
+          "path": "semantic_followup/root_label_review.json",
+          "sha256": "699a503aab0c8ac92718d36629b935867667a865814a2d60b039a39f03004393",
+          "bytes": 1229
+        },
+        {
+          "path": "semantic_followup/implementation/DEVELOPMENT_FREEZE.json",
+          "sha256": "02a29a1d5a1b5ee716053acfd3352bf90d85a1eac31fc50572fa71afcf49b102",
+          "bytes": 3794
+        },
+        {
+          "path": "semantic_followup/implementation/development_run/RESULTS.json",
+          "sha256": "517f3390eab62d39e685d93a08a7d5e1ed4afe71eca06eebbee2351858e069b5",
+          "bytes": 169493
+        },
+        {
+          "path": "semantic_followup/implementation/MODEL_SELECTION.json",
+          "sha256": "02bdbb3d27a9b5f5d0edbe1ac15a54a616811799b3b6ec85d7a9bbcc76cd5a7a",
+          "bytes": 4790
+        },
+        {
+          "path": "semantic_followup/implementation/IMPLEMENTATION_FREEZE.json",
+          "sha256": "a291434e375fb8ab240529b3bc3dbf1503d4a47546338e0fd33c2712ed88ad8b",
+          "bytes": 10335
+        },
+        {
+          "path": "semantic_followup/preflight_model_control_note.json",
+          "sha256": "67b02253c0edbdc99ec6b53e01e261d4d295709eadb13aff1d31adeea508e7e6",
+          "bytes": 995
+        },
+        {
+          "path": "semantic_followup/OPERATOR_HANDOFF.json",
+          "sha256": "3a1b0db61acc3a508613c0678cbfb30e1fadbaae78fd4600c64fc763b7f37fd3",
+          "bytes": 2051
+        },
+        {
+          "path": "semantic_followup/evaluation_freeze.json",
+          "sha256": "1b3c1714f95db25e995ef99e76e0ef5b97e56c47b7989e635d7042c50c5a0957",
+          "bytes": 14726
+        },
+        {
+          "path": "semantic_followup/result.json",
+          "sha256": "09356716900718eb91528c99caa6b1fc7d7d24ae658543faeefd5034351a71cc",
+          "bytes": 753729
+        },
+        {
+          "path": "semantic_followup/audit.json",
+          "sha256": "b2bfe8e035c1f6000e3894de27ae378e2ed61420c882462a25b7cbb503f47ad9",
+          "bytes": 70025
+        },
+        {
+          "path": "semantic_followup/qualitative_error_review.json",
+          "sha256": "e6f7bfed0c86cc02f4b0aad05de4f1f25cc90711fa1c678f37199093d8077e33",
+          "bytes": 2731
+        },
+        {
+          "path": "semantic_followup/run.log",
+          "sha256": "90c34d0a18da2ed9d7998cd7feced3e6a98933e6d5c98bbf60ca74c342861429",
+          "bytes": 7813
+        }
+      ],
+      "interpretation": "Five-field guarded candidate on zora:fast fails the frozen primary gate on 24 new cases: 18/24 versus 19/24 label matches, 2 versus 5 incorrect definite judgments, 4 versus 0 unnecessary abstentions, no processing failures. It abstains on all 8 undecidable cases (baseline 5/8). Unchanged gemma4:12b-it-qat baseline: 21/24 (descriptive model control). Rejected as a repair; 671 audit assertions passed."
+    },
+    "preservation": {
+      "records": [
+        {
+          "path": "prior-results-preservation.json",
+          "sha256": "becabe53795d559502305ae986e01ccd163a82ace56c764842f7e8fdd2cc1559",
+          "bytes": 39254
+        },
+        {
+          "path": "audit_preservation.py",
+          "sha256": "55b661c954a2371fc3a03e583fa0e1a8d8d7e7d0e90db8f71f6af1e79a978da7",
+          "bytes": 1836
+        },
+        {
+          "path": "preservation_audit.json",
+          "sha256": "0b301270adfb6ed49b546ddaa53bac03a6ee386d724777957cbc595f353e8c77",
+          "bytes": 278
+        }
+      ],
+      "interpretation": "All 257 version 3 experiment files, the three version 3 deliverables and the 24 research sources match their recorded hashes; the version 3 results section is byte-identical."
+    }
+  },
+  "prediction_card_coverage": {
+    "Z1": "Targeted original-versus-revised single-pass repair tests on two new constructed holdouts; not the full rules-by-schema factorial, abstention-reduction endpoint, or human-adjudicated benchmark.",
+    "Z2": "Not retested in version 4; version 3 result unchanged.",
+    "Z3": "Revised algorithm passes the original numerical criterion on new paths, plus a separate repair criterion; no claim over all policies, generators or real workloads.",
+    "Z4": "Not tested; metadata ablation remains open."
+  },
+  "operator_note": "Codex completed the memory revision, the first semantic stage, and follow-up development/model selection, then stopped at its usage limit. Claude (Anthropic) executed the remaining frozen follow-up steps and the manuscript integration without changing frozen materials; see semantic_followup/OPERATOR_HANDOFF.json.",
+  "semantic_followup_summary": {
+    "gate": {
+      "all_planned_rows_complete": true,
+      "fewer_incorrect_definite": true,
+      "no_accuracy_drop": false,
+      "no_extra_processing_failure": true,
+      "no_extra_unnecessary_abstention": false,
+      "passed": false
+    },
+    "metrics": {
+      "larger_model_baseline": {
+        "correct": 21,
+        "incorrect_definite_judgments": 3,
+        "unnecessary_abstentions": 0,
+        "processing_errors": 0,
+        "false_confirmations": 0,
+        "input_tokens": 19106,
+        "output_tokens": 2876
+      },
+      "old_fast": {
+        "correct": 19,
+        "incorrect_definite_judgments": 5,
+        "unnecessary_abstentions": 0,
+        "processing_errors": 0,
+        "false_confirmations": 0,
+        "input_tokens": 19105,
+        "output_tokens": 3327
+      },
+      "revised_selected": {
+        "correct": 18,
+        "incorrect_definite_judgments": 2,
+        "unnecessary_abstentions": 4,
+        "processing_errors": 0,
+        "false_confirmations": 0,
+        "input_tokens": 24457,
+        "output_tokens": 3868
+      }
+    },
+    "elapsed_seconds": 1307.735,
+    "inference_calls": 72
+  },
+  "semantic_stage1_gate": {
+    "all_planned_rows_complete": true,
+    "fewer_incorrect_definite": false,
+    "no_accuracy_drop": false,
+    "no_extra_processing_failure": false,
+    "no_extra_unnecessary_abstention": false,
+    "passed": false
+  }
+}

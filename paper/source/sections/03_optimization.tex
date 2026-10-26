@@ -1,0 +1,57 @@
+\section{BLACK VECTOR as two ordinary mathematical problems}
+\subsection{Robust trajectory admissibility}
+The first research prompt, named the Cenva Stability Problem, asks for a distinction between a locally efficient path and one that remains admissible when geometry changes \srcs{22--24,80}. It supplies no dynamical equations, uncertainty distribution, or physical mechanism. The following formulation is therefore an extension developed for this paper, informed by robust optimization \cite{bental}.
+
+Let $x:[0,T]\rightarrow\R^d$ be a candidate path, $\theta_0$ nominal environmental parameters, and $g_j(x(t),t,\theta)\geq0$, $j=1,\ldots,m$, the constraints. Endpoint and dynamical requirements, if any, must be imposed separately. Let
+\begin{equation}
+ \mathcal U_\epsilon=\{\theta:\|\theta-\theta_0\|\leq\epsilon\},\qquad
+ m_j(x)=\inf_{t\in[0,T]}g_j(x(t),t,\theta_0).
+\end{equation}
+Robust admissibility requires each constraint at every time and for every allowed disturbance, not just on a nominal grid.
+
+\begin{proposition}[A sufficient margin certificate]
+Suppose, uniformly over the candidate path, time interval, and uncertainty set,
+\begin{equation}
+ |g_j(x(t),t,\theta)-g_j(x(t),t,\theta_0)|
+ \leq L_j\|\theta-\theta_0\|.
+\end{equation}
+If $m_j(x)\geq L_j\epsilon$ for every $j$, then $x$ satisfies all constraints for every $\theta\in\mathcal U_\epsilon$. Strict inequalities yield a strictly positive certified residual margin.
+\end{proposition}
+\begin{proof}
+For any $t$ and allowed $\theta$, $g_j(x(t),t,\theta)\geq g_j(x(t),t,\theta_0)-L_j\epsilon\geq m_j(x)-L_j\epsilon\geq0$.
+\end{proof}
+
+If the actual trajectory also deviates by at most $\eta$ in a specified state norm, and the constraint is Lipschitz in state with constant $K_j$, the sufficient condition becomes $m_j(x)\geq L_j\epsilon+K_j\eta$. These are conservative certificates, not necessary conditions. The constants must be valid across the whole uncertainty region. A sampled minimum alone is not a continuous-time guarantee unless an interpolation or derivative bound controls between-sample behavior. A disturbance outside the modeled set invalidates the guarantee's applicability.
+
+With path cost $C(x)$, a robust decision solves
+\begin{equation}
+ \min_{x\in\mathcal X} C(x)
+ \quad\text{subject to}\quad
+ \inf_{t,\theta\in\mathcal U_\epsilon}g_j(x(t),t,\theta)\geq0\quad\forall j.
+ \label{eq:robust}
+\end{equation}
+Here $\mathcal X$ includes the endpoints and dynamics. If the feasible set is empty, abstention, delay, or redesign is a legitimate outcome. Increasing $\epsilon$ can shrink this set and raise the optimal cost; it does not create safety for free. When uncertainty is probabilistic, chance constraints are a different formulation and require distributional assumptions. This certificate does not establish physical foldspace, quantum branch control, or consciousness-mediated navigation.
+
+\subsection{Stochastic allocation and nonanticipative decisions}
+The second prompt, named the Junction Allocation Problem, concerns finite transport capacity, uncertain loading, priority classes, and missed connections \srcs{24,80}. For a network $G=(V,E)$, let jobs $i$ require service and capacity, let $\omega$ encode uncertain arrivals and loading times, and let $\pi$ be a policy. An illustrative objective is
+\begin{equation}
+ \min_{\pi\in\Pi}\E_\omega\left[
+ \sum_i w_i D_i(\pi,\omega)+\sum_i\kappa_i M_i(\pi,\omega)
+ \right],
+ \label{eq:allocation}
+\end{equation}
+where $D_i$ is delay in time units, $M_i$ is a missed-connection indicator, $w_i$ converts delay into loss units, and $\kappa_i$ is a loss per missed connection. Combining these terms without units or declared weights would make the objective ambiguous.
+
+Capacity constraints take the form $\sum_i v_i z_{iet}\leq C_{et}$ for occupancy variables $z_{iet}$ and job sizes $v_i$. Flow conservation, precedence, service durations, and priority requirements must also be specified. The policy is nonanticipative: two scenarios with identical observations up to time $t$ must receive identical decisions up to $t$. Optimizing each scenario with knowledge of its future is a lower-bound benchmark, not an implementable policy. The simple enumeration in Section~\ref{sec:examples} evaluates static orders in a single-server special case. It is not a solver for a general transport network.
+
+Priority weights are normative design choices. Minimizing a weighted sum can disadvantage low-weight clients. Report unweighted delay, tail delay, missed connections, and class-specific outcomes alongside the objective. Local delay minimization may be globally inefficient when a missed connection propagates downstream. Likewise, institutional efficiency does not establish equitable allocation.
+
+\subsection{Privacy is a separate claim}
+A route-hiding interface can still leak route information through prices, departure notices, timing, or allocation decisions. The scientific formulation must name the secret, observer, auxiliary knowledge, transcript, and permitted leakage. Access control and confidentiality promises are useful operational constraints but are not mathematical proofs of privacy.
+
+For a carefully chosen database adjacency relation, a randomized release $\mathcal M$ is $\varepsilon_{\rm DP}$-differentially private when, for every adjacent $D,D'$ and measurable output set $S$,
+\begin{equation}
+ \Pr[\mathcal M(D)\in S]\leq e^{\varepsilon_{\rm DP}}
+ \Pr[\mathcal M(D')\in S].
+\end{equation}
+A scalar query with global sensitivity $\Delta_1$ can use Laplace noise of scale $\Delta_1/\varepsilon_{\rm DP}$ under the standard construction \cite{dwork}. This is an optional extension, not a property of the fictional compact. Record-level privacy is not automatically route-topology secrecy. Repeated releases require composition accounting, and noisy internal constraints can violate capacity unless feasibility is separately enforced. This paper implements no privacy-preserving allocation mechanism and claims no leakage guarantee.

@@ -1,0 +1,9 @@
+{
+  "compiler": "pdfTeX 3.141592653-2.6-1.40.27 (TeX Live 2025)",
+  "passes": 3,
+  "success": true,
+  "diagnostics": [],
+  "pdf_bytes": 571259,
+  "pdf_sha256": "f7f0c2a09d631f5ea82f8e5426dcbf7eb71fbd1b91336bcd418e73aae61e0c08",
+  "scope": "Artifact compilation, not empirical validation"
+}

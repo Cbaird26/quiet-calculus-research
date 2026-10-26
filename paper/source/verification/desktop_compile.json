@@ -1,0 +1,6 @@
+{
+  "version": "4.0",
+  "status": "not_run_for_version_4",
+  "note": "The version 3 Codex desktop-compiler success is retained in the version 3 archive. Version 4 was compiled with local three-pass pdfLaTeX and an independent clean rebuild from the Overleaf ZIP; the Codex desktop compiler was not used because the Codex session had ended.",
+  "scope": "Artifact compilation only; no scientific validation"
+}

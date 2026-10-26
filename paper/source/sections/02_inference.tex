@@ -1,0 +1,57 @@
+\section{Inference, provenance, and calibrated uncertainty}
+\subsection{Reality, representations, and time}
+The dialogue on PDF pages 46--47 separates reality from an observer's current belief. This is an epistemic commitment, not an experimentally established metaphysics. Its scientifically useful formulation is that a proposition about a specified system, time, and measurement procedure has a truth condition distinct from the observer's confidence. Systems themselves change. A statement about a heart rate at time $t$ need not remain true at $t+1$. The narrative's language about unchanging truth should therefore not be misread as physical stationarity.
+
+Let $H$ denote a hypothesis and $D$ observations. Bayesian updating, when a prior and likelihood are defensible, gives
+\begin{equation}
+ p(H\mid D)=\frac{p(D\mid H)p(H)}{\sum_{H'}p(D\mid H')p(H')}.
+ \label{eq:bayes}
+\end{equation}
+This is a consistency relation within a model. It neither guarantees that the hypothesis set contains a good explanation nor turns a poorly calibrated likelihood into knowledge. In particular, the fact that $p(D\mid H)>0$ establishes compatibility, not comparative support. Evidence for $H_1$ relative to $H_0$ depends on $p(D\mid H_1)/p(D\mid H_0)$ and the prior odds. The foldspace scene explicitly recognizes this distinction \srcs{26--27}.
+
+\subsection{Evidence can be selected or manufactured}
+The courier scene concentrates suggestive affiliations around one event \srcs{6--12}. A scientifically defensible reading considers alternatives: independent causes, a common cause, deliberate staging, or selective observation. The appearance of several clues does not license multiplying likelihood ratios as if those clues were independent.
+
+One extension is to introduce a source state $A$, such as ordinary reporting or deliberate manipulation:
+\begin{equation}
+ p(D\mid H)=\sum_a p(D\mid H,A=a)\,p(A=a\mid H).
+\end{equation}
+No numerical manipulation probability is provided by the story. The equation merely exposes an assumption otherwise hidden inside the likelihood. An absence is informative only relative to a model of what would ordinarily be observed or reported. Silence, omission, affiliation, or an unexplained invitation is not itself proof of fear, deception, or coordination.
+
+For an auditable claim, record a timestamp, source identifier, observation procedure, raw observation, uncertainty, interpretation, alternatives, and a proposed disconfirming observation. Hashes can reveal subsequent file changes; they do not establish authenticity, correct measurement, or the truth of the contents. Keeping raw observation distinct from interpretation also helps prevent hindsight from rewriting what was predicted \srcs{45,76}.
+
+\subsection{Emotion and intuition as inputs}
+The source repeatedly treats feeling as information without equating it with an external fact \srcs{13,38,71--74}. A report of fear can be evidence about the person's experience. It does not by itself establish an external threat. Intuition can generate a candidate hypothesis; its predictive validity must be measured against outcomes and alternative explanations. The same distinction applies to posture, a change in voice, or a facial movement. These are observations to investigate with consent, not reliable labels for another person's motives.
+
+Identity investment creates another failure mode: an analyst may defend an explanation because being right has become part of self-concept \srcs{38--39}. Experimental work on biased assimilation provides a relevant connection \cite{lord}; it does not diagnose the fictional characters or imply that every disagreement is irrational. A useful procedure is to state, before observing the next result, what evidence would change a conclusion and by how much.
+
+\subsection{Proper scoring and confidence}
+For binary outcomes $y_i\in\{0,1\}$ and forecasts $p_i\in[0,1]$, use the binary Brier convention
+\begin{equation}
+ B=\frac{1}{n}\sum_{i=1}^{n}(p_i-y_i)^2.
+ \label{eq:brier}
+\end{equation}
+This convention differs by a factor of two from a sum over both complementary categories. The underlying principle is proper scoring: honest probabilities minimize expected loss under the specified score \cite{brier,gneiting}.
+
+\begin{proposition}[Expected quadratic forecast loss]
+If $Y$ is Bernoulli with true event probability $q$, then
+\begin{equation}
+ \E[(p-Y)^2]=(p-q)^2+q(1-q).
+\end{equation}
+The unique minimum over $p\in[0,1]$ is attained at $p=q$.
+\end{proposition}
+\begin{proof}
+Expand $q(p-1)^2+(1-q)p^2$ and complete the square. The residual term is independent of $p$.
+\end{proof}
+
+A low average Brier score alone is not a complete calibration analysis: it combines several aspects of forecast quality and depends on event difficulty. Report reliability curves with uncertainty, resolution, a base-rate benchmark, and performance on held-out problems. Repeated trials from the same participant require clustered uncertainty estimates. Confidence and correctness should be separately recorded rather than inferred from articulate explanations.
+
+\subsection{Independent judgment and communication}
+Separate examinations in the story address whether two skilled collaborators retain individual competence \srcs{33--35}. A common scientific implementation obtains private initial estimates, allows structured discussion, then measures both individual and team performance. Social influence can reduce diversity without improving accuracy in some estimation settings \cite{lorenz}; group collaboration is not automatically beneficial or harmful.
+
+For $n$ equal-variance estimators with common pairwise error correlation $\rho$, the mean error has variance
+\begin{equation}
+ \operatorname{Var}(\bar e)=\frac{\sigma^2}{n}\{1+(n-1)\rho\},
+ \qquad -\frac{1}{n-1}\leq\rho\leq1.
+\end{equation}
+This calculation explains why thirty agreeing opinions need not supply thirty independent observations. It assumes equal variances and correlations and says nothing by itself about group bias. Wrist signals in the story provide a separate communication example: a low-bandwidth code can transmit decisions, but effectiveness depends on an agreed codebook, channel error, and context. Shannon's communication theory concerns transmission and uncertainty, not the truth or moral value of a message \cite{shannon}.

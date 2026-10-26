@@ -1,0 +1,58 @@
+\section{Source coverage and reproducibility}
+\label{app:provenance}
+\subsection{Coverage by source unit}
+\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.41\linewidth}>{\raggedright\arraybackslash}p{0.12\linewidth}>{\raggedright\arraybackslash}p{0.39\linewidth}@{}}
+\toprule
+Source unit & PDF pages & Principal extracted content\\\midrule
+\endfirsthead
+\toprule Source unit & PDF pages & Principal extracted content\\\midrule\endhead
+\bottomrule\endfoot
+Cover and front matter & 1--5 & Fictional status, authorship, structure.\\
+Prologue: The Messenger & 6--7 & Evidence preservation, staging, urgency.\\
+1. The Pattern Beneath the Pattern & 8--10 & Provenance, attention, fictional lineage.\\
+2. The Letter for Zora Vey & 11--13 & Provisional connections, emotion as data.\\
+3. The Marriage Before Dawn & 14--15 & Mutual correction and autonomy; otherwise narrative context.\\
+4. The Interview & 16--17 & External standards and mutual evaluation.\\
+5. Departure & 18--20 & Instruments, models, disclosure, system context.\\
+6. Mathematics Is a Brotherhood & 21--25 & Robust feasibility, allocation, governance.\\
+7. The Fold & 26--27 & Synchrony, model compatibility, fictional physics.\\
+8. CHOAM in the Crowd & 28--30 & Resource dependencies and incentives.\\
+9. Old Signals & 31--32 & Communication codes and uncertain provenance.\\
+10. Candidates & 33--35 & Independent competence and knowledge limits.\\
+11. The Academy & 36--39 & Input integrity, motivated reasoning, transfer.\\
+12. Dinner of the Great Schools & 40--43 & Competing explanations and coordination.\\
+13. Truth Does Not Change & 44--48 & Leading indicators, fallibilism, power, forecasts.\\
+14. The Order of Atreides & 49--51 & Multidimensional mastery and qualification.\\
+15. What's Next? & 52--53 & Adaptive progression and consolidation.\\
+16. Thirty Names & 54--59 & Provisional placement and cooperative incentives.\\
+17. The Leaflet & 60--63 & Coalitions, access, generalization limits.\\
+18. The Body Knows First & 64--66 & Embodiment, observation effects, consent.\\
+19. The Watches & 67--70 & Estimate--measure calibration and autonomy.\\
+20. Updating & 71--74 & Multicomponent routine and evidence-based revision.\\
+Epilogue & 75--77 & Prospective records and hindsight reconstruction.\\
+Appendix I & 78 & Fictional roster; no participant dataset.\\
+Appendix II & 79 & Summary of cohort and epistemic rules.\\
+Appendix III & 80 & Explicit statements of both mathematical problems.\\
+Closing page & 81 & End matter; no additional scientific claim.\\
+\end{longtable}
+\normalsize
+
+\clearpage
+\subsection{Source identity}
+The supplied file is \nolinkurl{Dune_The_Quiet_Calculus_Book_I_First_Cohort.pdf}, 2,359,023 bytes. Its SHA-256 digest is shown in two consecutive halves for readability:
+\begin{center}\small\ttfamily
+23ab20b0f9a31dfc2e92d3e66100076a\\
+4e8db4b90a93f943fc55ca8d9c8f09ba
+\end{center}
+The digest identifies the analyzed bytes; it is not evidence that the narrative events occurred. The local provenance JSON records the original path, PDF metadata, extraction counts, and physical-page convention. The source PDF and synced project material were left unchanged.
+
+\subsection{Reproduction instructions}
+Open \texttt{main.tex} as the main document. The project uses standard pdfLaTeX packages and pre-generated vector PDF figures. The bibliography is included through \texttt{references.tex}, so no BibTeX or Biber pass, network access, shell escape, external font download, or Python execution is required to compile. The companion \texttt{references.bib} is supplied for future journal conversion but is not part of the current compilation path.
+
+For local compilation, run \texttt{python3 scripts/build.py}; it invokes pdfLaTeX three times, retains logs, checks unresolved references and layout diagnostics, and writes \texttt{main.pdf}. On Overleaf, upload the supplied ZIP, select \texttt{main.tex}, and choose pdfLaTeX. The package is prepared for that workflow; no cloud upload or Overleaf execution was performed during local preparation.
+
+Run \texttt{python3 scripts/reproduce.py} to regenerate the numerical JSON, scheduling table, and result macros. Run \texttt{python3 scripts/reproduce.py --figures} to regenerate the vector figure, which additionally requires ReportLab. Run \texttt{python3 scripts/generate\_catalogue.py} to regenerate the catalogue from its plain-text data file. Recompile after regenerating inputs. The calculations use declared finite scenarios and no random sampling.
+
+\subsection{Verification boundaries}
+The supplied verification record separates compilation success, cross-reference resolution, numerical checks, source identity, and visual page review. These are artifact checks. The mathematical propositions are conditional derivations; the human-study designs remain untested proposals. The presence of a formatted scientific manuscript, a clean build, or a reproducible example does not establish scientific validation or publication.

@@ -1,0 +1,93 @@
+id|pages|status|principle|qualification
+1|6--7,19|M|Observe before intervening|Preserve the evidential state and log interventions; premature action can change the observation target.
+2|6--7,11--12|M|Model the evidence-generating process|Conspicuous clues can be selected or manufactured. Their number is not their independence.
+3|6,12,40--42|M|Maintain competing hypotheses|Include ordinary, common-cause, and adversarial alternatives; compare predictions rather than narrative appeal.
+4|7,11,25|M|Interpret absence conditionally|Omission is informative only under an explicit model of what would otherwise be observed or reported.
+5|7,11|H|Urgency and ambiguity can influence judgment|A test should vary framing while holding evidence fixed; the scene supplies no effect estimate.
+6|11--12|M|Coincidence does not establish connection|Treat proposed links as provisional until discriminating evidence addresses alternatives.
+7|8,71--73|M|Separate heritage, utility, and mechanism|Historical attribution, subjective usefulness, and causal validity require different evidence.
+8|16--17,39|M/H|Evaluate capability externally|Use unfamiliar tasks and independent assessment; an authority's endorsement alone does not validate a standard.
+9|33--34,51|N/M|Distinguish honesty from unlimited disclosure|Respect confidentiality while making limitations and consequential omissions explicit.
+10|19,27,37--38,47|M|Distinguish models from targets|Declare assumptions, approximations, and the conditions under which a model applies.
+11|36|M|Audit input integrity|Correct computation cannot repair false premises without an error model or additional evidence.
+12|37--38|M|Separate fluency, precision, and certainty|Measure confidence against outcomes; an articulate explanation is not a calibration test.
+13|38|E/H|Reasoning can defend preferred conclusions|Biased assimilation offers an empirical connection; do not label all disagreement as motivated reasoning.
+14|38,69|H|Identity can compete with revision|Compare neutral and identity-relevant conditions; the narrative provides no measured causal effect.
+15|13,38,79|M/E|Treat emotion as an observation|A feeling can inform a model of the observer without establishing an external threat or proposition.
+16|45,76|M|Record predictions prospectively|Timestamp forecasts and preserve versions before outcomes; a hash does not authenticate a claim's truth.
+17|35,46--47,79|N/M|Combine fallibilism with shared truth conditions|Specify the proposition and time; changing reality is compatible with revisable knowledge.
+18|46--47|M|Revisability requires source scrutiny|Being open to change does not require accepting manufactured or unverified evidence.
+19|47|H/N|Representation depends on perspective|Measure differences in attention, language, and interpretation without assuming equally accurate models.
+20|47|H/N|Separate expressed belief from compelled behavior|Power may alter what is said or done; those changes do not establish factual accuracy.
+21|26--27,35,57|M|Allow justified uncertainty and abstention|Score appropriate refusal alongside accuracy; unanswered questions need not be analytical failures.
+22|26--27|M|Distinguish compatibility from confirmation|Compare alternative predictive likelihoods; a shared prediction cannot uniquely identify a mechanism.
+23|22--24,80|M|Separate feasibility from optimality|An efficient nominal route can violate constraints; write the objective and constraints separately.
+24|22--24,80|M|Quantify robust feasibility|Specify uncertainty sets and the requirement to satisfy constraints for every permitted disturbance.
+25|22,24,80|M|Use margins with regularity bounds|A nominal safety margin needs a sensitivity bound before it can certify perturbation tolerance.
+26|23--24,80|M|Local optimality does not imply robustness|The margin certificate in this paper is a new formalization of the source's question.
+27|22--24|M/N|Expose efficiency--safety tradeoffs|Compare constrained or Pareto formulations; the selected tradeoff depends on stated objectives.
+28|23--24|M|Respect information constraints|An implementable policy uses only information available at the decision time.
+29|24,80|M|Optimize stochastic capacity allocation|Specify arrivals, loading uncertainty, occupancy, priority, and delay rather than assuming a complete network model.
+30|24,80|M/H|Include downstream connection costs|A locally fast allocation may create later delays; compare system-wide outcomes.
+31|24,80|M/N|Declare priority and welfare weights|Political priority is a design choice; weighted efficiency need not imply equity.
+32|24,80|M/N|Define confidentiality precisely|Withholding raw routes is not a leakage guarantee; specify adversaries and observable outputs.
+33|23|M/H|Use formal structure across specialties|Proof exposes assumptions but does not remove power, model choice, or empirical uncertainty.
+34|24|N/M|Govern research provenance and dissemination|The fictional compact motivates accountable access and release rules; it is not an instruction governing this paper.
+35|29|M/H/F|Model dependency hubs across layers|The transferable idea is interdependence; the listed powers of spice remain fictional.
+36|29,45,61|M|Declare system boundaries|Test whether added couplings improve prediction rather than assuming that more complex models are better.
+37|41--42|M/H|Study collective coordination failures|Specify objectives, information, and shared dependencies; individually rational choices may conflict.
+38|42,60--61|H/M|Test coalition formation under common risk|Shared vulnerability can alter incentives but need not overcome distrust or enforcement problems.
+39|44--45|M/H|Test common-cause explanations|Multiple domain signals may share a cause, reporting bias, or feedback; independence is not supplied.
+40|44|H|Evaluate operational leading indicators|Transport demand might predict later events; use held-out time periods and declared prediction horizons.
+41|44--45|M/N|Account for asymmetric error costs|Declare the costs of preparation, false alarms, missed events, and delay.
+42|19,61,79|H/N|Distinguish access from protection|Contact, status, usefulness, aligned interests, and enforceable obligations are separate variables.
+43|37,49--51,61|H/N|Test interdisciplinary integration|Compare cross-domain transfer with equally resourced instruction; broad exposure is not automatically superior.
+44|61--62|M|Do not generalize from one selected cohort|Replication requires a counterfactual and attention to selection, teachers, history, and expectations.
+45|18,38--39,64--66|E/H|Specify physiological contributions to cognition|Measure particular states and outcomes instead of treating bodily knowledge as a unitary power.
+46|18,26,64,67--69|M|Validate wearable measurements|Separate raw signals from inferred sleep, recovery, and undefined coherence scores.
+47|64--69|M/H|Compare subjective and instrument estimates|Both have error; subjective recollection does not replace a missing objective time series.
+48|68|M|Estimate before revealing measurement|Timestamp the estimate and synchronize the reference window to prevent display leakage.
+49|68|M/E|Measure confidence and accuracy separately|Report absolute error, bias, interval coverage, and discrimination rather than confidence alone.
+50|68|M/H|Assess interoception by domain|Pulse, breathing, fatigue, tension, and arousal need distinct reference procedures and validation.
+51|68--69|H/M|Test adaptive feedback training|Measure learning, retention, and transfer against matched feedback controls.
+52|64--65,68,71--73|M/H|Account for measurement reactivity|Attention to a bodily variable may change it; preserve timing and task context.
+53|65|H|Separate performance from impression management|Observed posture can reflect being watched; compare functional performance across evaluation contexts.
+54|65|H|Test one-variable attentional scaffolding|Compare staged attention with simultaneous monitoring; simplicity is a proposed aid, not a demonstrated effect here.
+55|65,68|H|Use individual baselines|Avoid inferring universal meanings from one person's stillness, blinking, or tension.
+56|67--69|N/M|Replace vague authority with criteria|Specify proficiency and stopping conditions rather than treating teacher approval as measurement.
+57|69|N/M|Distinguish tool use from dependence|Evaluate appropriate selection and performance; rejection of instruments can itself be an identity commitment.
+58|71,79|H|Test intuition prospectively|Record the signal before its interpretation and compare predictive value with baseline alternatives.
+59|31,55,64--65|E/H|Do not equate bodily cues with lie detection|Validate sensitivity, specificity, context, and error costs; the story's labels establish none of these.
+60|26--27|M/F|Do not infer exotic causes from synchrony|Compare shared stimuli, artifacts, chance, and analysis selection before positing a mechanism.
+61|18,39,52--53,68|E/H|Include fatigue, rest, and diminishing returns|Specify task, dose, and outcome; no universal optimum follows from the narrative.
+62|71--73|M|Separate experience from interpretation|Record sensation, affect, belief, confidence, and action in separate fields.
+63|71--73|H|Treat updating as a multicomponent package|Tapping, breathing, attention, cue, and reassessment require component controls.
+64|72|H|Test sensory anchoring|Compare matched touch, location, rhythm, and expectancy; special efficacy of the listed points is not established.
+65|72--73|E/H|Separate breathing outcomes|Tempo, attention, physiology, and clinical benefit are distinct endpoints; the source specifies no validated dose.
+66|72|H|Test the verbal revision cue|Compare evidence-focused language with neutral wording while controlling other components.
+67|72--73|M/H|Do not define success only as calm|Evaluate appropriate detection and revision separately from distress or mood change.
+68|72--74|M|Separate state change from factual updating|More trust or comfort is not necessarily more accurate belief; identify the evidence for revision.
+69|73|M/H|Specify a testable feedback loop|Declare timing, entry criteria, observations, continuation rules, and stopping rules.
+70|73|H/N|Design software to support awareness|Test usability, autonomy, and task outcomes; a prompt should not prescribe what the user must feel.
+71|71--74|H|Treat embodied updating as a protocol candidate|The source supplies a synthesis and fictional experience, not a validated treatment or effect size.
+72|12,16,39,54--55,79|M/H|Separate knowledge from competence|Reading, vocabulary, and placement do not establish independent performance or transfer.
+73|34--35,55|M/H|Distinguish collaboration from dependency|Assess private capability and the additional benefit or cost of group reasoning.
+74|39,45|H|Test performance beyond ideal conditions|Use ethical, predefined variation in task context; difficulty or suffering is not educational validation.
+75|49--50|M/N|Define multidimensional mastery|Give each domain observable criteria, uncertainty, reliability, and a justified threshold.
+76|52--53,79|M/H|Use adaptive instructional decisions|Repeat, advance, integrate, and certify form a policy to evaluate against alternatives.
+77|52--53|E/H|Treat rest as a possible training action|Distinguish a justified consolidation interval from an unexplained pause.
+78|54--55|M/H|Treat placement as uncertain and revisable|Scores are estimates, not fixed identities or automatically comparable interval scales.
+79|56|H/M|Consider person--environment interactions|Evaluate teaching, context, fear, physiology, and knowledge before locating every obstacle in the learner.
+80|55--56,79|M/H/N|Test shared success incentives|The terminal rule may reward helping; actual cooperation depends on costs and enforcement.
+81|55--56,79|H/N|Evaluate bottlenecks and coercion|This critical implication extends the source: monitor scapegoating, concealment, exclusion, and unfair delay.
+82|56|H|Target peer support to individual needs|Compare structured tutoring with unstructured interaction and assess both partners' outcomes.
+83|52--53,68|N/M|Make certification accountable|Use explicit criteria, independent assessment, assessor agreement, and a review or appeal path.
+84|50--51|N/M|Distinguish exposure from qualification|Foundational instruction does not confer specialist membership, credentials, or unrestricted competence.
+85|49|N/M|Distinguish novelty from repetition|A contribution requires identifiable new knowledge or method, scrutiny, and reproducibility.
+86|67--68|N|Obtain individual voluntary consent|Agreement is each participant's decision; authority or a partner's request is not a substitute.
+87|65--66|N|Observation does not grant entitlement|Permission to collect, interpret, share, and act on personal data are distinct questions.
+88|57--58|N/M|Record knowledge boundaries about people|Keep observed facts separate from stereotypes, guesses, and unverified personal narratives.
+89|37|N/H|Separate capability from ethical objectives|Analytical efficiency does not guarantee prosocial conduct or moral judgment.
+90|9--10|F|Treat engineered lineage as fiction|No genotype, developmental mechanism, or evidence supports machine inheritance or superior cognition here.
+91|21--27,50,80|F/M|Keep branch selection at the toy-model level|Robust decisions do not establish spacetime folding, quantum control, or mental selection of reality.
+92|4,21--27,36--37,49--51|F|Keep fictional capabilities and institutions illustrative|The setting motivates questions; it supplies no observations of extraordinary human powers or physics.

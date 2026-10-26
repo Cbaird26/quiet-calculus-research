@@ -1,0 +1,73 @@
+\clearpage
+\section{Connections to the versioned ZoraASI research program}
+\label{sec:zora}
+\subsection{A shared method does not identify a shared mechanism}
+The strongest connection is methodological: distinguish the world from a record of the world, retain uncertainty, make predictions before feedback, and demand that claimed mechanisms survive controls. In ZoraASI these rules become software interfaces, provenance records, abstention policies, and causal memory updates. In the physical research they become defined operators, state preparation, identifiable parameters, controlled approximations, and experimental likelihoods. The similarity justifies transferring evaluation methods; it does not identify neural, computational, and quantum variables with one another.
+
+This expansion uses four connection labels in addition to the original claim classes: \textbf{direct method} for an operational transfer; \textbf{conditional model} for consequences of stated mathematics; \textbf{proposed test} for an unexecuted evaluation; and \textbf{speculative bridge} for a connection without an adequate empirical or mathematical map. ``ZoraASI'' names the research program, not a measured achievement of artificial superintelligence. ``Theory of Everything'' identifies the author's research corpus, not a demonstrated unification.
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.22\linewidth}>{\raggedright\arraybackslash}p{.37\linewidth}>{\raggedright\arraybackslash}p{.34\linewidth}@{}}
+\toprule
+Narrative principles & Operational research connection & Evidential boundary\\\midrule
+P01--04, P11, P16--18 & Source ancestry, timestamps, preserved evidence, and typed relations in evidence review & Direct method; hashes identify bytes, not truth.\\
+P08, P12, P21, P39, P49 & Selective risk, justified abstention, and blinded challenge & Proposed engineering tests; repeated calls can share errors.\\
+P10, P24--28, P36, P44, P74 & Prequential scoring, adaptive forgetting, and worst-regime loss & Direct method; simulation benefits depend on the regime.\\
+P10, P22, P28, P46--49 & Define physical observables and identifiable parameter combinations & Direct method; a sensor or model output needs a measurement map.\\
+P23--27, P36 & Approximation domains, kinetic positivity, and coupled-vacuum stability & Conditional model tests; subsystem consistency is insufficient.\\
+P45, P58, P60, P62, P91--92 & Embodiment, intuition, synchrony, and fictional origins & Speculative bridge to physical consciousness; no field measurement supplied.\\\bottomrule
+\end{tabular}
+\caption{Crosswalk to the research program. Principle identifiers refer to the unchanged narrative catalogue, not to newly established laws.}
+\end{table}
+
+\subsection{Evidence review: what the completed pilot actually shows}
+The current local evidence-review package contains a completed frozen comparison of four arms, each applied to twelve claims from four source records \cite{pilot}. The older progress description that the comparison was incomplete is superseded by the saved result, completed on October 23, 2026. The version 2 audit inspected the result and its bound hashes without rerunning the model. The new version 3 challenge is reported separately in Section~\ref{sec:local-tests}. Table~\ref{tab:pilot} reports the saved outcomes.
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Measure & Original 1 & Original 3 & Revised 1 & Revised 3\\\midrule
+Provisional-label matches & 5/12 & 4/12 & 12/12 & 11/12\\
+Unnecessary abstentions & 7 & 8 & 0 & 0\\
+Incorrect definite judgments & 0 & 0 & 0 & 0\\
+Processing errors & 0 & 0 & 0 & 1\\
+Decisive coverage & .0833 & .0000 & .6667 & .6667\\
+Input plus output tokens & 13,090 & 40,588 & 14,776 & 46,948\\\bottomrule
+\end{tabular}
+\caption{Saved pilot outcomes. ``1'' means a single pass; ``3'' means three roles using the same model. Correct abstentions can match labels without contributing to decisive coverage. Labels are provisional.}
+\label{tab:pilot}
+\end{table}
+
+The revised rules distinguish what a source reports from whether its report establishes a broader or current proposition. The relation vocabulary \texttt{entailed}, \texttt{contradicted}, and \texttt{not\_determined} maps to judgments explicitly. The challenger is isolated from the verifier's verdict. These are concrete implementations of P04, P17, P18, and P21. Nevertheless, the pilot gives no accuracy advantage to three roles; the revised three-role arm incurred one incomplete generation. Its extra calls also consumed more tokens. The revision changed multiple features together, so the observed improvement cannot be assigned to the schema alone.
+
+The twelve claims are correlated within four records and use author/programmatically prepared labels awaiting independent review. Zero observed incorrect definite judgments is therefore not a reliable population error bound. No confidence probabilities were collected, so the results are not a calibration measurement. They motivate a held-out study rather than general superiority claims.
+
+For a future system with decision indicator $D_i$ and error indicator $W_i$ on independently adjudicated cases, define
+\begin{equation}
+ C=\frac{1}{n}\sum_i D_i,\qquad
+ R_{\rm sel}=\frac{\sum_i D_iW_i}{\sum_iD_i}.
+\end{equation}
+Selective risk is undefined when the denominator is zero; zero coverage must not be scored as zero error. Coverage and risk should be evaluated together, with processing failures separately reported and included as failures in an overall endpoint. Selective classification provides an established risk--coverage framework \cite{geifman}; guarantees from a particular classifier and dataset do not automatically transfer to generated evidence judgments.
+
+\subsection{Adaptive memory: observed benefits and counterexamples}
+The Phase 2.9 package contains saved per-seed outcomes for 2,200 simulated paths: eleven scenarios, one hundred seeds, and two seed banks \cite{memory29}. Its causal ordering is directly relevant to P16 and P28: predict first, observe the outcome, score that forecast, then update. The shadow base and archived snapshots are shared for weighting comparisons. The saved package records identity checks and an earlier successful test run. In the version 2 audit the thirty-two manifest entries were verified; paired summary statistics were also recomputed from saved seed outcomes. No forecasting run was performed for that audit; Section~\ref{sec:local-tests} now adds fresh forecasts on disjoint seeds.
+
+Let $\ell_{s,j}^{A}$ be the mean Brier loss of policy $A$ in scenario $s$, seed $j$. The paired effect is
+\begin{equation}
+ \widehat\Delta_s=\frac{1}{J}\sum_{j=1}^{J}
+ (\ell_{s,j}^{A}-\ell_{s,j}^{\rm no\ memory}).
+\end{equation}
+Negative values favor the policy. For fixed-share forgetting with row-gap handling, the \texttt{mixed\_9} primary-bank effect is $-0.0031993$ with pointwise normal 95\% Monte Carlo interval $[-0.0037538,-0.0026448]$; the second bank gives $-0.0032860$. In \texttt{short\_dwell}, the same contrast is harmful: $+0.0018665$ with interval $[0.0016324,0.0021005]$, and $+0.0016869$ in the second bank. These are exploratory intervals without multiplicity correction, conditional on the synthetic generator and seed design. They are not confidence intervals for real-world intelligence or consciousness.
+
+The useful prediction is therefore conditional adaptation: a causal policy might improve the average tradeoff across recurrence and rapid change while controlling worst-regime harm. Universal benefit is already contradicted by the saved fixture. A fair comparator is the best fixed policy selected on the same validation mixture, not an arbitrarily weak default. Weight adaptation and memory replacement must be ablated separately, because replacement changes the archive itself.
+
+The inspected Phase 2.10 directory contains only an adaptive-memory implementation \cite{memory210}. Its referenced base-suite dependency, protocol, tests, and results are absent from that directory. As supplied, it is an incomplete code proposal. The version 3 tests supply the exact existing base-suite dependency in an isolated copy, add causal-invariant checks, and execute a new bounded evaluation; the original directory remains unchanged. Variable names such as valence and continuity describe internal program quantities; they do not establish subjective experience.
+
+\subsection{A prospective, source-level evaluation design}
+For evidence review, divide underlying records and time periods before deriving claims. Fit thresholds and prompts on development records only. Independent adjudicators should label both the truth conditions and the scope supported by the supplied evidence, with disagreements retained. Blind the adjudicators to system arm. Repeat identical cases across randomized arm orders and cluster uncertainty by source record, since paraphrases and claims from one record share evidence.
+
+For memory, freeze validation and test generators, seed banks, scenario weights, archive capacity, and compute budgets before inspecting test outcomes. Score each forecast before state updates. Report an equally weighted scenario-average effect and the worst scenario; a favorable aggregate does not erase short-dwell failure. Compare no memory, selected fixed forgetting, a uniform mixture, the adaptive mixture, and TTL under common paths. Repeated seed banks test simulation stability, not transport to a new application.
+
+These designs instantiate the narrative's estimate--measure--revise discipline without borrowing its fictional physiology. They also make a stronger claim falsifiable: engineering improvements should survive matched resources, independent source cases, and adversarially selected failure regimes.

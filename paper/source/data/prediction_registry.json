@@ -1,0 +1,182 @@
+{
+  "version": "3.0",
+  "registered": false,
+  "new_experiments_performed": true,
+  "cards": [
+    {
+      "id": "Z1",
+      "title": "Explicit evidence relations reduce avoidable abstention.",
+      "status": "partial computational diagnostic",
+      "fields_tex": {
+        "Prediction and endpoint": "the revised scope rules and relation schema reduce unnecessary abstention on answerable unseen claims without exceeding a prespecified increase in incorrect definite judgments.",
+        "Comparison": "frozen original versus revised single-pass systems, followed by a rules-by-schema factorial ablation.",
+        "Controls": "identical evidence and model digest, held-out records and dates, independent scope/truth labels, blinded adjudication, clustered inference, and failures included in an overall endpoint.",
+        "Decision": "support requires the abstention reduction and the false-certainty guardrail together. A coverage increase alone fails the claim. The existing twelve-case result selects a candidate; it does not estimate a transportable effect.",
+        "Readiness": "protocol specification and independent labels required; no novel physics required."
+      },
+      "full_card_tex": "\\textbf{Prediction and endpoint:} the revised scope rules and relation schema reduce unnecessary abstention on answerable unseen claims without exceeding a prespecified increase in incorrect definite judgments. \\textbf{Comparison:} frozen original versus revised single-pass systems, followed by a rules-by-schema factorial ablation. \\textbf{Controls:} identical evidence and model digest, held-out records and dates, independent scope/truth labels, blinded adjudication, clustered inference, and failures included in an overall endpoint. \\textbf{Decision:} support requires the abstention reduction and the false-certainty guardrail together. A coverage increase alone fails the claim. The existing twelve-case result selects a candidate; it does not estimate a transportable effect. \\textbf{Readiness:} protocol specification and independent labels required; no novel physics required.",
+      "version_3_execution": "Revised-system run; no original-versus-revised factorial or independent human labels."
+    },
+    {
+      "id": "Z2",
+      "title": "Blinded challenge helps through error diversity.",
+      "status": "partial computational diagnostic; no observed aggregate gain",
+      "fields_tex": {
+        "Prediction and endpoint": "hiding the verifier's verdict from the challenger lowers selective error at a prespecified common coverage.",
+        "Comparison": "blind versus informed challenger within the same three-role architecture, plus a single-pass baseline matched on actual resource budget.",
+        "Controls": "identical source families, randomized arm order, separate measurements of joint verifier/challenger mistakes, truncation, tokens, and latency.",
+        "Decision": "no error reduction at matched coverage/cost, or a benefit explained entirely by refusing more cases, fails the proposed advantage. Equal total output allowance does not by itself equalize repeated input cost or truncation risk.",
+        "Readiness": "engineering experiment; the saved pilot currently gives no three-role accuracy gain."
+      },
+      "full_card_tex": "\\textbf{Prediction and endpoint:} hiding the verifier's verdict from the challenger lowers selective error at a prespecified common coverage. \\textbf{Comparison:} blind versus informed challenger within the same three-role architecture, plus a single-pass baseline matched on actual resource budget. \\textbf{Controls:} identical source families, randomized arm order, separate measurements of joint verifier/challenger mistakes, truncation, tokens, and latency. \\textbf{Decision:} no error reduction at matched coverage/cost, or a benefit explained entirely by refusing more cases, fails the proposed advantage. Equal total output allowance does not by itself equalize repeated input cost or truncation risk. \\textbf{Readiness:} engineering experiment; the saved pilot currently gives no three-role accuracy gain.",
+      "version_3_execution": "Single-pass and blind three-role comparison; no informed challenger or cost matching."
+    },
+    {
+      "id": "Z3",
+      "title": "Adaptive forgetting improves the recurrence--change tradeoff.",
+      "status": "bounded criterion failed",
+      "fields_tex": {
+        "Prediction and endpoint": "a causal mixture of forgetting rates improves equally weighted held-out scenario-average Brier loss relative to the best fixed rate selected on the same validation mixture, subject to worst-scenario and stationary-regime harm limits.",
+        "Comparison": "selected fixed rate, adaptive mixture, uniform mixture, no memory, and TTL.",
+        "Controls": "common paths, disjoint seeds, prequential scoring, identical shadow base/archive for weighting ablations, and separate replacement-policy factors.",
+        "Decision": "lack of improvement over the strongest selected baseline or violation of the guardrail fails the bounded claim. Phase 2.9's short-dwell counterexample rules out unconditional benefit.",
+        "Readiness": "the original Phase 2.10 bundle lacks a dependency and a complete test package. The isolated version 3 experiment supplies these locally and evaluates a specific frozen comparison; broader robustness remains open."
+      },
+      "full_card_tex": "\\textbf{Prediction and endpoint:} a causal mixture of forgetting rates improves equally weighted held-out scenario-average Brier loss relative to the best fixed rate selected on the same validation mixture, subject to worst-scenario and stationary-regime harm limits. \\textbf{Comparison:} selected fixed rate, adaptive mixture, uniform mixture, no memory, and TTL. \\textbf{Controls:} common paths, disjoint seeds, prequential scoring, identical shadow base/archive for weighting ablations, and separate replacement-policy factors. \\textbf{Decision:} lack of improvement over the strongest selected baseline or violation of the guardrail fails the bounded claim. Phase 2.9's short-dwell counterexample rules out unconditional benefit. \\textbf{Readiness:} the original Phase 2.10 bundle lacks a dependency and a complete test package. The isolated version 3 experiment supplies these locally and evaluates a specific frozen comparison; broader robustness remains open.",
+      "version_3_execution": "1,100 fresh paths / 100 seed clusters; small mean gain fails minimum-effect and worst-scenario harm requirements."
+    },
+    {
+      "id": "Z4",
+      "title": "Provenance awareness resists duplicated and stale evidence.",
+      "status": "partial software controls",
+      "fields_tex": {
+        "Prediction and endpoint": "source-ancestry and time metadata reduce increases in false definite judgments under duplication or obsolete-report perturbations while preserving appropriate use of genuinely new evidence.",
+        "Comparison": "metadata present versus ablated with paired, truth-preserving perturbations: duplicates, independent corroboration, superseded reports, unavailable current records, and authentic but irrelevant quotations.",
+        "Controls": "equalized context/source budgets, blinded semantic labels, fixed underlying propositions, and record-level clustering.",
+        "Decision": "unwarranted certainty rises materially under duplicate/stale evidence, or independent corroboration cannot be distinguished from copying. Numerical confidence scoring is a new endpoint if added; it cannot be inferred from the existing verdict labels.",
+        "Readiness": "controlled evidence benchmark."
+      },
+      "full_card_tex": "\\textbf{Prediction and endpoint:} source-ancestry and time metadata reduce increases in false definite judgments under duplication or obsolete-report perturbations while preserving appropriate use of genuinely new evidence. \\textbf{Comparison:} metadata present versus ablated with paired, truth-preserving perturbations: duplicates, independent corroboration, superseded reports, unavailable current records, and authentic but irrelevant quotations. \\textbf{Controls:} equalized context/source budgets, blinded semantic labels, fixed underlying propositions, and record-level clustering. \\textbf{Decision:} unwarranted certainty rises materially under duplicate/stale evidence, or independent corroboration cannot be distinguished from copying. Numerical confidence scoring is a new endpoint if added; it cannot be inferred from the existing verdict labels. \\textbf{Readiness:} controlled evidence benchmark.",
+      "version_3_execution": "Integrity/stress tests; no metadata-ablation factorial or semantic-benefit estimate."
+    },
+    {
+      "id": "F1",
+      "title": "Fixed-count population bits are insensitive to pure dephasing.",
+      "status": "conditional implementation checks passed",
+      "fields_tex": {
+        "Prediction": "under Proposition~\\ref{prop:bits}, bit-value distributions and their likelihood have zero dependence on the dephasing rate.",
+        "Comparison": "retain path-basis bits versus recombined, phase-resolved interference data from the same stipulated dynamics.",
+        "Observable": "likelihood derivative or estimated rate information, not a post hoc bit imbalance.",
+        "Controls": "known preparation, readout basis, independence, fixed count, and timing exclusion; the interference model must retain nuisance contrast and phase.",
+        "Failure interpretation": "parameter dependence in the exact stipulated bit model rejects the implementation or an assumption. A laboratory bias suggests preparation, readout, population transfer, or another mechanism; it is not distinctive support for rate-only physics.",
+        "Readiness": "analytic and software test available now; it does not require a claimed field detection."
+      },
+      "full_card_tex": "\\textbf{Prediction:} under Proposition~\\ref{prop:bits}, bit-value distributions and their likelihood have zero dependence on the dephasing rate. \\textbf{Comparison:} retain path-basis bits versus recombined, phase-resolved interference data from the same stipulated dynamics. \\textbf{Observable:} likelihood derivative or estimated rate information, not a post hoc bit imbalance. \\textbf{Controls:} known preparation, readout basis, independence, fixed count, and timing exclusion; the interference model must retain nuisance contrast and phase. \\textbf{Failure interpretation:} parameter dependence in the exact stipulated bit model rejects the implementation or an assumption. A laboratory bias suggests preparation, readout, population transfer, or another mechanism; it is not distinctive support for rate-only physics. \\textbf{Readiness:} analytic and software test available now; it does not require a claimed field detection.",
+      "version_3_execution": "960 density configurations and channel controls; no laboratory channel identification."
+    },
+    {
+      "id": "F2",
+      "title": "Quadratic-portal decoherence has a constrained spatial shape.",
+      "status": "initial numerical warnings; exploratory resolution",
+      "fields_tex": {
+        "Prediction": "the massive thermal weak-coupling point-probe model gives zero rate at coincident paths, quadratic small-separation scaling, a finite saturation value, and the stated low-temperature activation.",
+        "Observable": "$-\\log(V/V_{\\rm ref})/\\tau$ over several separations, durations, and independently characterized bath states; a ratio at two nonzero rates removes the shared coupling.",
+        "Comparison": "the full kernel versus conventional noise mechanisms and a generic fitted damping curve, with identical nuisance treatment.",
+        "Decision": "a jointly incompatible shape rejects the frozen bath/portal/apparatus model after quantified systematics. Agreement does not uniquely identify a scalar. No signal cannot reject arbitrarily weak coupling or absent bath population.",
+        "Readiness": "conditional numerical curve supplied here; finite trajectories, composite form factors, bath preparation, and power remain open."
+      },
+      "full_card_tex": "\\textbf{Prediction:} the massive thermal weak-coupling point-probe model gives zero rate at coincident paths, quadratic small-separation scaling, a finite saturation value, and the stated low-temperature activation. \\textbf{Observable:} $-\\log(V/V_{\\rm ref})/\\tau$ over several separations, durations, and independently characterized bath states; a ratio at two nonzero rates removes the shared coupling. \\textbf{Comparison:} the full kernel versus conventional noise mechanisms and a generic fitted damping curve, with identical nuisance treatment. \\textbf{Decision:} a jointly incompatible shape rejects the frozen bath/portal/apparatus model after quantified systematics. Agreement does not uniquely identify a scalar. No signal cannot reject arbitrarily weak coupling or absent bath population. \\textbf{Readiness:} conditional numerical curve supplied here; finite trajectories, composite form factors, bath preparation, and power remain open.",
+      "version_3_execution": "56-case sweep with nine initial reference warnings; separate phase-aware follow-up; no measured visibility."
+    },
+    {
+      "id": "F3",
+      "title": "One portal parameter must fit both width and visibility.",
+      "status": "unexecuted empirical proposal",
+      "fields_tex": {
+        "Prediction": "Eq.~\\eqref{eq:cross} holds when the same scalar, normalization, mass, and portal account for Higgs decay and the prepared probe environment.",
+        "Observable": "a joint likelihood for the width and visibility kernel with independently constrained bath occupation and nuclear inputs.",
+        "Comparison": "a single shared coupling versus unrelated effective amplitudes, including ordinary decoherence.",
+        "Decision": "no allowed shared parameter region rejects the specified common explanation, conditional on nuisance and model adequacy. A width upper limit by itself supplies no lower bound on visibility loss.",
+        "Controls": "invisibility assumptions, thresholds, data overlap, total-width conventions, and absence of double counting.",
+        "Readiness": "algebraic bridge available; no joint empirical fit or new exclusion is reported."
+      },
+      "full_card_tex": "\\textbf{Prediction:} Eq.~\\eqref{eq:cross} holds when the same scalar, normalization, mass, and portal account for Higgs decay and the prepared probe environment. \\textbf{Observable:} a joint likelihood for the width and visibility kernel with independently constrained bath occupation and nuclear inputs. \\textbf{Comparison:} a single shared coupling versus unrelated effective amplitudes, including ordinary decoherence. \\textbf{Decision:} no allowed shared parameter region rejects the specified common explanation, conditional on nuisance and model adequacy. A width upper limit by itself supplies no lower bound on visibility loss. \\textbf{Controls:} invisibility assumptions, thresholds, data overlap, total-width conventions, and absence of double counting. \\textbf{Readiness:} algebraic bridge available; no joint empirical fit or new exclusion is reported.",
+      "version_3_execution": "No new cross-channel joint fit or physical data."
+    },
+    {
+      "id": "F4",
+      "title": "Calibrated rate modulation obeys a composition constraint.",
+      "status": "unexecuted empirical proposal",
+      "fields_tex": {
+        "Prediction": "if two calibrated source contributions add in $\\mathcal E$, the exponential response satisfies\n\\begin{equation}\n \\log\\!\\left[\\frac{\\gamma(\\mathcal E_1+\\mathcal E_2)\\gamma(0)}\n {\\gamma(\\mathcal E_1)\\gamma(\\mathcal E_2)}\\right]=0.\n\\end{equation}",
+        "Observable": "a source-factorial rate contrast with positive rates and fixed channel/readout.",
+        "Comparison": "exponential, linear-response, saturating, and ordinary environmental models over a predeclared range.",
+        "Decision": "a contrast incompatible with zero rejects additive exponential response under the calibrated source assumptions. Small-signal agreement is weak discrimination because many models share a linear Taylor term.",
+        "Controls": "independent field/source calibration, baseline drift, nonlinear source transfer, nuisance rates, and held-out amplitude levels.",
+        "Readiness": "source and apparatus objects remain open; cognitive or ethical labels are not calibrated physical sources."
+      },
+      "full_card_tex": "\\textbf{Prediction:} if two calibrated source contributions add in $\\mathcal E$, the exponential response satisfies\n\\begin{equation}\n \\log\\!\\left[\\frac{\\gamma(\\mathcal E_1+\\mathcal E_2)\\gamma(0)}\n {\\gamma(\\mathcal E_1)\\gamma(\\mathcal E_2)}\\right]=0.\n\\end{equation}\n\\textbf{Observable:} a source-factorial rate contrast with positive rates and fixed channel/readout. \\textbf{Comparison:} exponential, linear-response, saturating, and ordinary environmental models over a predeclared range. \\textbf{Decision:} a contrast incompatible with zero rejects additive exponential response under the calibrated source assumptions. Small-signal agreement is weak discrimination because many models share a linear Taylor term. \\textbf{Controls:} independent field/source calibration, baseline drift, nonlinear source transfer, nuisance rates, and held-out amplitude levels. \\textbf{Readiness:} source and apparatus objects remain open; cognitive or ethical labels are not calibrated physical sources.",
+      "version_3_execution": "No calibrated source-factorial experiment or physical data."
+    },
+    {
+      "id": "T1",
+      "title": "Exact finite-radius kernels split the local mixed quartics.",
+      "status": "selected finite numerical checks passed",
+      "fields_tex": {
+        "Prediction": "for the fixed supplied operator, profile, radius, and scalar convention, $C_0+C_1=2A_4$ while $C_1/C_0\\simeq1.59179265$, not one.",
+        "Comparison": "independent block-exponential and Cauchy-contour implementations, increased angular cutoffs, and the local approximation.",
+        "Observable": "coefficient differences and cutoff convergence.",
+        "Proposed tolerances": "absolute coefficient agreement $10^{-9}$ and sum-identity residual $10^{-10}$, to be frozen alongside precision and cutoff rules. These tolerances are new protocol choices, not observed errors.",
+        "Decision": "persistent disagreement after controlled convergence rejects the stated calculation; recovery of unequal coefficients does not reject it.",
+        "Readiness": "independent computational replication can proceed from the saved package. Physical masses require further normalization and vacuum matching."
+      },
+      "full_card_tex": "\\textbf{Prediction:} for the fixed supplied operator, profile, radius, and scalar convention, $C_0+C_1=2A_4$ while $C_1/C_0\\simeq1.59179265$, not one. \\textbf{Comparison:} independent block-exponential and Cauchy-contour implementations, increased angular cutoffs, and the local approximation. \\textbf{Observable:} coefficient differences and cutoff convergence. \\textbf{Proposed tolerances:} absolute coefficient agreement $10^{-9}$ and sum-identity residual $10^{-10}$, to be frozen alongside precision and cutoff rules. These tolerances are new protocol choices, not observed errors. \\textbf{Decision:} persistent disagreement after controlled convergence rejects the stated calculation; recovery of unequal coefficients does not reject it. \\textbf{Readiness:} independent computational replication can proceed from the saved package. Physical masses require further normalization and vacuum matching.",
+      "version_3_execution": "Fresh exact suite plus independently fitted quartics and controls; shared monopole builder."
+    },
+    {
+      "id": "T2",
+      "title": "The protected photon direction survives the scalar response.",
+      "status": "selected finite numerical checks passed",
+      "fields_tex": {
+        "Prediction": "neutral alignment and the stipulated charge imply $M^2N=0$, while the kinetic residue follows the quoted quadratic response.",
+        "Comparison": "an independent full external-Clifford finite-momentum implementation versus the saved reduction.",
+        "Observable": "a scale-normalized mass-null residual, the scalar--gauge Ward relation, and a remainder scaling as $O(h^4)$ after subtracting the quadratic term under uniform field rescaling.",
+        "Decision": "a residual surviving precision/cutoff control or a remainder inconsistent with the $O(h^4)$ bound rejects the specified calculation. Roundoff near zero must be controlled.",
+        "Readiness": "computational test; photon masslessness is common to other gauge theories and is not distinctive empirical confirmation of this construction."
+      },
+      "full_card_tex": "\\textbf{Prediction:} neutral alignment and the stipulated charge imply $M^2N=0$, while the kinetic residue follows the quoted quadratic response. \\textbf{Comparison:} an independent full external-Clifford finite-momentum implementation versus the saved reduction. \\textbf{Observable:} a scale-normalized mass-null residual, the scalar--gauge Ward relation, and a remainder scaling as $O(h^4)$ after subtracting the quadratic term under uniform field rescaling. \\textbf{Decision:} a residual surviving precision/cutoff control or a remainder inconsistent with the $O(h^4)$ bound rejects the specified calculation. Roundoff near zero must be controlled. \\textbf{Readiness:} computational test; photon masslessness is common to other gauge theories and is not distinctive empirical confirmation of this construction.",
+      "version_3_execution": "Field scaling, photon-null, Ward and external-Clifford checks; no physical measurements."
+    },
+    {
+      "id": "T3",
+      "title": "A complete benchmark must pass coupled consistency.",
+      "status": "unresolved consistency gate",
+      "fields_tex": {
+        "Gate, not an assumed positive prediction": "in one frozen scheme solve joint radius/scalar stationarity and flatness, require positive physical kinetic eigenvalues and an acceptable normalized Hessian after removing gauge directions, then compute and cancel the appropriate higher-dimensional anomalies with stipulated fields/counterterms.",
+        "Comparison": "exact treatment versus controlled truncations inside their own domains.",
+        "Decision": "no admissible solution in a rigorously covered domain, a forbidden physical instability, or an uncancelled irreducible anomaly rejects that benchmark. An unsuccessful bounded numerical search is only a bounded search result.",
+        "Controls": "fixed allowed parameters and counterterms; no unregistered rescue term.",
+        "Readiness": "unresolved theoretical work. Success would establish conditional consistency, not observed unification."
+      },
+      "full_card_tex": "\\textbf{Gate, not an assumed positive prediction:} in one frozen scheme solve joint radius/scalar stationarity and flatness, require positive physical kinetic eigenvalues and an acceptable normalized Hessian after removing gauge directions, then compute and cancel the appropriate higher-dimensional anomalies with stipulated fields/counterterms. \\textbf{Comparison:} exact treatment versus controlled truncations inside their own domains. \\textbf{Decision:} no admissible solution in a rigorously covered domain, a forbidden physical instability, or an uncancelled irreducible anomaly rejects that benchmark. An unsuccessful bounded numerical search is only a bounded search result. \\textbf{Controls:} fixed allowed parameters and counterterms; no unregistered rescue term. \\textbf{Readiness:} unresolved theoretical work. Success would establish conditional consistency, not observed unification.",
+      "version_3_execution": "No new coupled-vacuum solution or higher-dimensional anomaly completion."
+    },
+    {
+      "id": "T4",
+      "title": "A fixed light spectrum predicts relative running slopes.",
+      "status": "unexecuted empirical proposal",
+      "fields_tex": {
+        "Prediction": "in a predeclared threshold-free interval with the stipulated active matter, Eq.~\\eqref{eq:running} fixes the relative inverse-coupling slope.",
+        "Observable": "multi-scale scattering observables translated using a single matching scheme and covariance model.",
+        "Comparison": "the frozen joint slope vector versus alternatives with different independently specified spectra; constant matching offsets may float.",
+        "Decision": "incompatible slopes reject that spectrum/completion at the declared perturbative accuracy. Choosing thresholds from the same test data destroys the claimed out-of-sample prediction.",
+        "Controls": "physical masses, hypercharge normalization, thresholds, higher-order errors, and correlated datasets.",
+        "Readiness": "phenomenology and spectrum audit required, especially for the four chiral generations. No measured running fit is performed here."
+      },
+      "full_card_tex": "\\textbf{Prediction:} in a predeclared threshold-free interval with the stipulated active matter, Eq.~\\eqref{eq:running} fixes the relative inverse-coupling slope. \\textbf{Observable:} multi-scale scattering observables translated using a single matching scheme and covariance model. \\textbf{Comparison:} the frozen joint slope vector versus alternatives with different independently specified spectra; constant matching offsets may float. \\textbf{Decision:} incompatible slopes reject that spectrum/completion at the declared perturbative accuracy. Choosing thresholds from the same test data destroys the claimed out-of-sample prediction. \\textbf{Controls:} physical masses, hypercharge normalization, thresholds, higher-order errors, and correlated datasets. \\textbf{Readiness:} phenomenology and spectrum audit required, especially for the four chiral generations. No measured running fit is performed here.",
+      "version_3_execution": "No threshold-matched observed running fit; phenomenological comparison remains open."
+    }
+  ],
+  "physical_experiments_performed": false,
+  "execution_scope": "Bounded computational campaign; see fresh_run_manifest.json and Executed local tests section. No public preregistration."
+}

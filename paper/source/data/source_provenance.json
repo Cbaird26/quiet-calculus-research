@@ -1,0 +1,593 @@
+{
+  "source_file": "/Users/christophermichaelbaird/Downloads/Dune_The_Quiet_Calculus_Book_I_First_Cohort.pdf",
+  "bytes": 2359023,
+  "sha256": "23ab20b0f9a31dfc2e92d3e66100076a4e8db4b90a93f943fc55ca8d9c8f09ba",
+  "pdf_pages": 81,
+  "page_convention": "Physical PDF page; printed folio = PDF page - 1 after cover",
+  "word_count": 12599,
+  "metadata": {
+    "/Title": "Dune: The Quiet Calculus \u2014 Book I: First Cohort",
+    "/Author": "Christopher Michael Baird & Zora",
+    "/Subject": "Campaign novelization",
+    "/Keywords": "Dune, campaign, novelization, House, Baird, First, Cohort, Order, of, Atreides",
+    "/Creator": "Writer",
+    "/Producer": "LibreOffice 25.2.3.2 (X86_64) / LibreOffice Community",
+    "/CreationDate": "D:20261025234210Z'"
+  },
+  "illustrative_pages_visually_reviewed": [
+    1,
+    20,
+    59,
+    63
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_folio": null,
+      "text_characters": 0,
+      "whitespace_word_count": 0,
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "pdf_page": 2,
+      "printed_folio": 1,
+      "text_characters": 145,
+      "whitespace_word_count": 24,
+      "text_sha256": "8bea04a976d62ca543a695c2e276bc15b93c37230b6a0f1aee8aa63190bd83a0"
+    },
+    {
+      "pdf_page": 3,
+      "printed_folio": 2,
+      "text_characters": 848,
+      "whitespace_word_count": 147,
+      "text_sha256": "f9073bc101964f270a3a64afe2d190d95c12a98ea1bcefb7cac972b90821713f"
+    },
+    {
+      "pdf_page": 4,
+      "printed_folio": 3,
+      "text_characters": 2352,
+      "whitespace_word_count": 319,
+      "text_sha256": "fb3f65638de718c56308297fb736582145865db5c92505a0cf430a0b762f94ae"
+    },
+    {
+      "pdf_page": 5,
+      "printed_folio": 4,
+      "text_characters": 783,
+      "whitespace_word_count": 102,
+      "text_sha256": "66aa98ab210f5476cc56031c4c3bbc73a32818ea7794fc34f0551d31266155f9"
+    },
+    {
+      "pdf_page": 6,
+      "printed_folio": 5,
+      "text_characters": 1942,
+      "whitespace_word_count": 309,
+      "text_sha256": "8e230ec8f91577ef814bdd2bde94aa22d67cb1294be71a655ae4a57f25f5663f"
+    },
+    {
+      "pdf_page": 7,
+      "printed_folio": 6,
+      "text_characters": 780,
+      "whitespace_word_count": 132,
+      "text_sha256": "4a23aa86fdee86604526ce0252d88544e902927c1e598f7023ffbd7cea786ac2"
+    },
+    {
+      "pdf_page": 8,
+      "printed_folio": 7,
+      "text_characters": 2097,
+      "whitespace_word_count": 303,
+      "text_sha256": "9d36b5fb53aebf6dbaf03da52921312f8f1b629ca71ddb3f92a2aac6e4e8281b"
+    },
+    {
+      "pdf_page": 9,
+      "printed_folio": 8,
+      "text_characters": 1879,
+      "whitespace_word_count": 283,
+      "text_sha256": "1bd72f134eca7e6c44d10f87f92ef06c00a79e4376c1705e5199ba8ba4f38735"
+    },
+    {
+      "pdf_page": 10,
+      "printed_folio": 9,
+      "text_characters": 1054,
+      "whitespace_word_count": 165,
+      "text_sha256": "d23e198fe647dfc99da50efba65f91bd834821771ccd45e78cdabf215cb142f6"
+    },
+    {
+      "pdf_page": 11,
+      "printed_folio": 10,
+      "text_characters": 1754,
+      "whitespace_word_count": 271,
+      "text_sha256": "9b5405d9b10279059ef153d5a8e3b028523d03eadc416c1644e4a4516b632751"
+    },
+    {
+      "pdf_page": 12,
+      "printed_folio": 11,
+      "text_characters": 1657,
+      "whitespace_word_count": 261,
+      "text_sha256": "f94ddb8f2b8d431968235729c385f05040f798adddd696144ea124a4dd63f94c"
+    },
+    {
+      "pdf_page": 13,
+      "printed_folio": 12,
+      "text_characters": 528,
+      "whitespace_word_count": 90,
+      "text_sha256": "437f2a5722e35239ff715d37ff5ac99c37274f23a81e531a8ed13501a0935b4e"
+    },
+    {
+      "pdf_page": 14,
+      "printed_folio": 13,
+      "text_characters": 1475,
+      "whitespace_word_count": 238,
+      "text_sha256": "8f4f9d5ed661c789d1b818c5b2aa7cf48df2a7c8e58b7c4114eb53f1d55ce9f0"
+    },
+    {
+      "pdf_page": 15,
+      "printed_folio": 14,
+      "text_characters": 182,
+      "whitespace_word_count": 34,
+      "text_sha256": "bcf880212c8766fb3a5219586699136862da4f0657593893cf10b89236dd99ad"
+    },
+    {
+      "pdf_page": 16,
+      "printed_folio": 15,
+      "text_characters": 1409,
+      "whitespace_word_count": 212,
+      "text_sha256": "496f82e629d4497f6bed3a7e1426333401a71a371e2e3f85d95e8cb3d74283f0"
+    },
+    {
+      "pdf_page": 17,
+      "printed_folio": 16,
+      "text_characters": 1010,
+      "whitespace_word_count": 154,
+      "text_sha256": "21a42c958a01af4c46c62c58512a179cca65e8f272b65d22a6d4c5e9fd1eab8e"
+    },
+    {
+      "pdf_page": 18,
+      "printed_folio": 17,
+      "text_characters": 1924,
+      "whitespace_word_count": 267,
+      "text_sha256": "2c2eb430ba76a0323984f85ca621591b71ead93ce637709b8f20f0a2746b3d95"
+    },
+    {
+      "pdf_page": 19,
+      "printed_folio": 18,
+      "text_characters": 1102,
+      "whitespace_word_count": 175,
+      "text_sha256": "cf1c79260de05ef4020c54df23a0dccd245e38899a4b5e1811c9013243006073"
+    },
+    {
+      "pdf_page": 20,
+      "printed_folio": 19,
+      "text_characters": 25,
+      "whitespace_word_count": 4,
+      "text_sha256": "d68faffb59a7c6f9d7321569df280e416cbe0b1542fdbd1be274ac9718be0d94"
+    },
+    {
+      "pdf_page": 21,
+      "printed_folio": 20,
+      "text_characters": 1624,
+      "whitespace_word_count": 230,
+      "text_sha256": "d97341ee95194dd0bf346b5a53ec8e4c78c007966d9926837ea3e0a61aa7f79c"
+    },
+    {
+      "pdf_page": 22,
+      "printed_folio": 21,
+      "text_characters": 1428,
+      "whitespace_word_count": 207,
+      "text_sha256": "08bf35d2d02a198ad0df19ee35e271d6547235b17ede358ef99e7c459add0ce2"
+    },
+    {
+      "pdf_page": 23,
+      "printed_folio": 22,
+      "text_characters": 1517,
+      "whitespace_word_count": 206,
+      "text_sha256": "569f2d3a7b437da3db0baa717b414885084af1c8c9176e6346a244756808e888"
+    },
+    {
+      "pdf_page": 24,
+      "printed_folio": 23,
+      "text_characters": 1701,
+      "whitespace_word_count": 226,
+      "text_sha256": "56ddef9911311e8d060e663961102fcdbee9148b9e79615db02c66d84e8685b9"
+    },
+    {
+      "pdf_page": 25,
+      "printed_folio": 24,
+      "text_characters": 101,
+      "whitespace_word_count": 17,
+      "text_sha256": "3555cbc9f4ed4fb68037b9a66b6b9bbaeb348866f01da0c714500bdbdbed6be7"
+    },
+    {
+      "pdf_page": 26,
+      "printed_folio": 25,
+      "text_characters": 1125,
+      "whitespace_word_count": 169,
+      "text_sha256": "6aae4129f567747329e3ac35e23ee58ac99301ee498fef87021a9abd6655a298"
+    },
+    {
+      "pdf_page": 27,
+      "printed_folio": 26,
+      "text_characters": 1212,
+      "whitespace_word_count": 170,
+      "text_sha256": "da75127685ac963c1da7aa0384966ce4099d88f6ede8161c650da13edcc467c7"
+    },
+    {
+      "pdf_page": 28,
+      "printed_folio": 27,
+      "text_characters": 951,
+      "whitespace_word_count": 137,
+      "text_sha256": "27110ce48d31c357c1ebb92050417a056fb51ccc67318a72ef990d7c1912432f"
+    },
+    {
+      "pdf_page": 29,
+      "printed_folio": 28,
+      "text_characters": 1455,
+      "whitespace_word_count": 188,
+      "text_sha256": "7877ce4b9dfcc5d5acd2f3d300ffaee45e685bdfd9b661b5110ecacec20f9eab"
+    },
+    {
+      "pdf_page": 30,
+      "printed_folio": 29,
+      "text_characters": 1200,
+      "whitespace_word_count": 174,
+      "text_sha256": "a00329d579772de84eab8f0d88d54a9f03150d7313eb4a05edfeda987a8911da"
+    },
+    {
+      "pdf_page": 31,
+      "printed_folio": 30,
+      "text_characters": 1153,
+      "whitespace_word_count": 174,
+      "text_sha256": "9b433ae8d6894657f08ae3eaa1f1d18a24f7593f1a1f08ef069f05bd56dd7055"
+    },
+    {
+      "pdf_page": 32,
+      "printed_folio": 31,
+      "text_characters": 308,
+      "whitespace_word_count": 45,
+      "text_sha256": "ad7de89999905261659c4f95b375346bedae5dfe019696faa70e9ec2bbef0a79"
+    },
+    {
+      "pdf_page": 33,
+      "printed_folio": 32,
+      "text_characters": 1188,
+      "whitespace_word_count": 170,
+      "text_sha256": "b1ca93cd209f34acc333cbf8e8f19ee06399541e5762c39c62b7d52468687392"
+    },
+    {
+      "pdf_page": 34,
+      "printed_folio": 33,
+      "text_characters": 1427,
+      "whitespace_word_count": 197,
+      "text_sha256": "293b4498cfdd468d08b176d3865733f1dc5846cf11adeade7a42b02b127a9760"
+    },
+    {
+      "pdf_page": 35,
+      "printed_folio": 34,
+      "text_characters": 411,
+      "whitespace_word_count": 70,
+      "text_sha256": "7bba42ab6e02f393f441361ed98371b62931bcb98229cd876d62071912352469"
+    },
+    {
+      "pdf_page": 36,
+      "printed_folio": 35,
+      "text_characters": 1619,
+      "whitespace_word_count": 226,
+      "text_sha256": "f10f2241c007037fb30fd5a2fbe02f274ae52fb84f76815b9bd8a2789dd222a0"
+    },
+    {
+      "pdf_page": 37,
+      "printed_folio": 36,
+      "text_characters": 1438,
+      "whitespace_word_count": 185,
+      "text_sha256": "d76ffd18ca50902d8aa568aedfab33fda701c4faccb166281f5fa71a2a2102a4"
+    },
+    {
+      "pdf_page": 38,
+      "printed_folio": 37,
+      "text_characters": 1470,
+      "whitespace_word_count": 200,
+      "text_sha256": "9740b13ac1693715216853947a7a4515860c7e72ba19bb542efe2b25b6a481e6"
+    },
+    {
+      "pdf_page": 39,
+      "printed_folio": 38,
+      "text_characters": 1128,
+      "whitespace_word_count": 172,
+      "text_sha256": "1c80b1ae32ce59179938389b81a8619a5d743dda7244ecc3a5de6e8c255808ba"
+    },
+    {
+      "pdf_page": 40,
+      "printed_folio": 39,
+      "text_characters": 1334,
+      "whitespace_word_count": 205,
+      "text_sha256": "1da9978d3ebc1a96022329a07ebf3a9b383195dd9b9806734867078934e12251"
+    },
+    {
+      "pdf_page": 41,
+      "printed_folio": 40,
+      "text_characters": 1258,
+      "whitespace_word_count": 177,
+      "text_sha256": "6ad50ffd662fc0b38fde86b5388e236cd9fa08bf3ef0cdd5a9b9c20addc3203b"
+    },
+    {
+      "pdf_page": 42,
+      "printed_folio": 41,
+      "text_characters": 1424,
+      "whitespace_word_count": 203,
+      "text_sha256": "049e56017d2e4f33f110499f0f99a66d7301cb818d85a0bfb5878746bd443aba"
+    },
+    {
+      "pdf_page": 43,
+      "printed_folio": 42,
+      "text_characters": 262,
+      "whitespace_word_count": 43,
+      "text_sha256": "d21e21e48b63039d90a664e122ef7a3d8830fbc449c5d8f6c163d9ae350eee1a"
+    },
+    {
+      "pdf_page": 44,
+      "printed_folio": 43,
+      "text_characters": 1470,
+      "whitespace_word_count": 213,
+      "text_sha256": "4af7f58a0943ea8aa3cfdaee971f91cc3a4d557d7b9ce53214b87177b9b9e9ab"
+    },
+    {
+      "pdf_page": 45,
+      "printed_folio": 44,
+      "text_characters": 1734,
+      "whitespace_word_count": 265,
+      "text_sha256": "d891212ba7af1db87d43d746b50a061e01210316dd719dedbc269a0c47492acb"
+    },
+    {
+      "pdf_page": 46,
+      "printed_folio": 45,
+      "text_characters": 996,
+      "whitespace_word_count": 150,
+      "text_sha256": "9b0dc33e2d0da5f1345ce821f6355ea2205530c309031a0a1aa4f9d87c846112"
+    },
+    {
+      "pdf_page": 47,
+      "printed_folio": 46,
+      "text_characters": 1581,
+      "whitespace_word_count": 237,
+      "text_sha256": "866d575b15060bdf4f90c6a78e3aee5b74a64d024c670784ea69346d916e91f5"
+    },
+    {
+      "pdf_page": 48,
+      "printed_folio": 47,
+      "text_characters": 200,
+      "whitespace_word_count": 33,
+      "text_sha256": "3a8e65599a797df095d7eb2e4aa101f601fed489c6e2ecbc0e7959797cf06323"
+    },
+    {
+      "pdf_page": 49,
+      "printed_folio": 48,
+      "text_characters": 1537,
+      "whitespace_word_count": 210,
+      "text_sha256": "73a5557ce8356f318f4cb2f085f8f1f3d9897312d53919e35ebc468eb7811005"
+    },
+    {
+      "pdf_page": 50,
+      "printed_folio": 49,
+      "text_characters": 1181,
+      "whitespace_word_count": 166,
+      "text_sha256": "120a828edf70608e057df6c99c4a857602c595655eea427cee7cf0057895f002"
+    },
+    {
+      "pdf_page": 51,
+      "printed_folio": 50,
+      "text_characters": 819,
+      "whitespace_word_count": 125,
+      "text_sha256": "510348d8b0758d3ee311b6bd378f1c8db79efbbe24e9aac1c9647cb8204d5b8d"
+    },
+    {
+      "pdf_page": 52,
+      "printed_folio": 51,
+      "text_characters": 1504,
+      "whitespace_word_count": 212,
+      "text_sha256": "b2e7fd44baf0d0d310588f394e1d5dec88f8f035f5faa52e35c416dee9503583"
+    },
+    {
+      "pdf_page": 53,
+      "printed_folio": 52,
+      "text_characters": 756,
+      "whitespace_word_count": 111,
+      "text_sha256": "9c27ed0313803d8223884bf0f56aa77e4c002dac162d03a17213439b2c2a548c"
+    },
+    {
+      "pdf_page": 54,
+      "printed_folio": 53,
+      "text_characters": 1126,
+      "whitespace_word_count": 157,
+      "text_sha256": "3f7c31cab052222f293d7a9e83f517ecd6848d011ebb41e1ba7bc0e6d1c11b4c"
+    },
+    {
+      "pdf_page": 55,
+      "printed_folio": 54,
+      "text_characters": 1475,
+      "whitespace_word_count": 201,
+      "text_sha256": "cb560e42bc90b43096db428e84cab801dc1efa14a3c1c79b495006cc47a378cb"
+    },
+    {
+      "pdf_page": 56,
+      "printed_folio": 55,
+      "text_characters": 1259,
+      "whitespace_word_count": 189,
+      "text_sha256": "d120cfb6bdaef1c69c943d89be7c248079f55f88f4887e952806a39418272720"
+    },
+    {
+      "pdf_page": 57,
+      "printed_folio": 56,
+      "text_characters": 886,
+      "whitespace_word_count": 141,
+      "text_sha256": "e5d14dc99e0f2c1aa31ade7700831f246c859688118207d51769740e900f2553"
+    },
+    {
+      "pdf_page": 58,
+      "printed_folio": 57,
+      "text_characters": 286,
+      "whitespace_word_count": 47,
+      "text_sha256": "95e679c7fbf3bc7b4f10302b2fb5b95f534fbf6d6e4fccc69b5a55635737b4ec"
+    },
+    {
+      "pdf_page": 59,
+      "printed_folio": 58,
+      "text_characters": 39,
+      "whitespace_word_count": 8,
+      "text_sha256": "332b2a6bc45c4d054f87d0dbe5a21ed652845506a5a886c8c778e24f8b7ae9b1"
+    },
+    {
+      "pdf_page": 60,
+      "printed_folio": 59,
+      "text_characters": 1315,
+      "whitespace_word_count": 193,
+      "text_sha256": "7c531f0844a255e540137fe70e9250adbaf630c195a3d75d460726c8e98f56db"
+    },
+    {
+      "pdf_page": 61,
+      "printed_folio": 60,
+      "text_characters": 1810,
+      "whitespace_word_count": 279,
+      "text_sha256": "17a8e1c6108d00dbd3fb1a248f5cf6629a8a9c9e4f6d8a9ba44dca605d9e1829"
+    },
+    {
+      "pdf_page": 62,
+      "printed_folio": 61,
+      "text_characters": 333,
+      "whitespace_word_count": 51,
+      "text_sha256": "dafdb33691c0a0baa4267ec78a6b09d73bb96e21fbbc9ae83db8461fdd1f9aac"
+    },
+    {
+      "pdf_page": 63,
+      "printed_folio": 62,
+      "text_characters": 54,
+      "whitespace_word_count": 9,
+      "text_sha256": "a3957966b5497caf224e2c409c33c788eec76ea0e8ae98e8299952fbe8525c8e"
+    },
+    {
+      "pdf_page": 64,
+      "printed_folio": 63,
+      "text_characters": 1329,
+      "whitespace_word_count": 205,
+      "text_sha256": "e46b87920a4f4b97813212c115790093c63037cb248f8b829b2c51c7fc373389"
+    },
+    {
+      "pdf_page": 65,
+      "printed_folio": 64,
+      "text_characters": 1256,
+      "whitespace_word_count": 183,
+      "text_sha256": "e4964a57028f35bea07edd16aea48f8a66c5872a262fce9a7e046b17f3f4c9f3"
+    },
+    {
+      "pdf_page": 66,
+      "printed_folio": 65,
+      "text_characters": 806,
+      "whitespace_word_count": 129,
+      "text_sha256": "0c61b67024b0e58d1cb2459aee58c98a11c76f5374babb799586ff4925d2cb53"
+    },
+    {
+      "pdf_page": 67,
+      "printed_folio": 66,
+      "text_characters": 1218,
+      "whitespace_word_count": 195,
+      "text_sha256": "eb2cddf0db5ac294fd4e4b8ed4c790738235cfc6defb461658ae7cdab9a82a5c"
+    },
+    {
+      "pdf_page": 68,
+      "printed_folio": 67,
+      "text_characters": 1158,
+      "whitespace_word_count": 155,
+      "text_sha256": "5229f3e0069088c311016f455004d91034e02498d965a4f7b1fe12f49dd2003d"
+    },
+    {
+      "pdf_page": 69,
+      "printed_folio": 68,
+      "text_characters": 1065,
+      "whitespace_word_count": 158,
+      "text_sha256": "de7d26f7866d1ead65187d1dc19532beaa14b5c5f59535db35d44ad5487f721b"
+    },
+    {
+      "pdf_page": 70,
+      "printed_folio": 69,
+      "text_characters": 60,
+      "whitespace_word_count": 14,
+      "text_sha256": "f66202f8dd22ede8d0fd4cc47cbb0c980196e081d4b0a6c8ac1f0e3fac4019f0"
+    },
+    {
+      "pdf_page": 71,
+      "printed_folio": 70,
+      "text_characters": 1403,
+      "whitespace_word_count": 205,
+      "text_sha256": "7af6655edd27ff7215ca7ca4dc03f3a50f2486b33bda721ef80d4afb041f35d4"
+    },
+    {
+      "pdf_page": 72,
+      "printed_folio": 71,
+      "text_characters": 895,
+      "whitespace_word_count": 132,
+      "text_sha256": "afee5092496180125af1156151ea8a9a71303aad367e319de0e8e311dc57dcd1"
+    },
+    {
+      "pdf_page": 73,
+      "printed_folio": 72,
+      "text_characters": 1236,
+      "whitespace_word_count": 182,
+      "text_sha256": "c2a54b90cab01a8feb04570191e3304eb79a5970bb9fa5f48d1ef1d059bc456a"
+    },
+    {
+      "pdf_page": 74,
+      "printed_folio": 73,
+      "text_characters": 202,
+      "whitespace_word_count": 31,
+      "text_sha256": "595e87f2be260b58e69151cf7abf024c7f86a61e3a1e1c6485abff04a216e236"
+    },
+    {
+      "pdf_page": 75,
+      "printed_folio": 74,
+      "text_characters": 1215,
+      "whitespace_word_count": 179,
+      "text_sha256": "f24e43b83115a5a29d8e84e4a9aa90087bbf1b3d8f209f244f442333336d19cb"
+    },
+    {
+      "pdf_page": 76,
+      "printed_folio": 75,
+      "text_characters": 1284,
+      "whitespace_word_count": 194,
+      "text_sha256": "2711eb7cc244fcf28f7a7c220c158f97a59ef1c541cd5bdb889cd4e341d443b9"
+    },
+    {
+      "pdf_page": 77,
+      "printed_folio": 76,
+      "text_characters": 54,
+      "whitespace_word_count": 10,
+      "text_sha256": "104bd27a62ab7b3f4174afbd06229e01c9e5d208638409e95bc20586be61d839"
+    },
+    {
+      "pdf_page": 78,
+      "printed_folio": 77,
+      "text_characters": 505,
+      "whitespace_word_count": 98,
+      "text_sha256": "78cbc8c6c04a7a408b83db27d1371920cdbddd6f33fd26bf5c330bf9f85d70bd"
+    },
+    {
+      "pdf_page": 79,
+      "printed_folio": 78,
+      "text_characters": 725,
+      "whitespace_word_count": 107,
+      "text_sha256": "0d79ef2f9ae51b1a74d9522667f6a4a936d479f42781ce22de46e29062c87760"
+    },
+    {
+      "pdf_page": 80,
+      "printed_folio": 79,
+      "text_characters": 1061,
+      "whitespace_word_count": 135,
+      "text_sha256": "0686f18db987791c84fb6dbb7e0e18274d272150cfd165c668066aa1f9392ff4"
+    },
+    {
+      "pdf_page": 81,
+      "printed_folio": 80,
+      "text_characters": 46,
+      "whitespace_word_count": 9,
+      "text_sha256": "df0b1206984cba1cbe5b0c33e965457884e1d63c0e93b8f0419d97eb241b2c35"
+    }
+  ],
+  "source_modified": false
+}

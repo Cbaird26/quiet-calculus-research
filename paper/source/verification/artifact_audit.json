@@ -1,0 +1,16 @@
+{
+  "pages": 58,
+  "catalogue_items": 92,
+  "bibliography_items": 33,
+  "all_catalogue_ids_present": true,
+  "all_citation_keys_resolved": true,
+  "out_of_page_text_bounds": [],
+  "source_hash_unchanged": true,
+  "replacement_characters": false,
+  "empty_pages": false,
+  "pdf_sha256": "f7f0c2a09d631f5ea82f8e5426dcbf7eb71fbd1b91336bcd418e73aae61e0c08",
+  "prediction_cards": 12,
+  "research_sources": 24,
+  "all_research_hashes_unchanged": true,
+  "scope": "Structural and source-integrity checks only"
+}

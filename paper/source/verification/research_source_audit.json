@@ -1,0 +1,16 @@
+{
+  "date_local": "2026-10-25",
+  "all_24_manifest_source_hashes_match": true,
+  "source_files_modified": false,
+  "inherited_experiments_rerun": false,
+  "pilot_result_rows_inspected": 48,
+  "pilot_case_count": 12,
+  "pilot_independent_record_clusters": 4,
+  "phase29_manifest_matched": 32,
+  "exact_mode_manifest_matched": 22,
+  "scalar_verification_manifest_matched": 21,
+  "scalar_verification_manifest_total": 22,
+  "scalar_exception": "independent_check_results.json differs from sealed ZIP: 57 leaves; NumPy version plus numerical differences max 9.094947017729282e-13; booleans identical",
+  "scope": "Current read-only file audit and AI-assisted source review; saved computational results are not new experiments",
+  "scope_version": "Historical version 2 source audit; fresh version 3 runs are separately recorded in data/fresh_run_manifest.json"
+}

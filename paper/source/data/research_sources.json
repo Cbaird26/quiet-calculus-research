@@ -1,0 +1,245 @@
+{
+  "scope": "Targeted source inventory, not complete research corpus",
+  "sources": [
+    {
+      "id": "R01",
+      "role": "Pilot overview",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/zora_integrity_pilot/README.md",
+      "bytes": 21244,
+      "sha256": "02f7d895632491c417e7fa1f2b1c3275f7522e5a28dfedf8af9618c8681184bf",
+      "locator": "lines 38-59,137-148",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R02",
+      "role": "Pilot result",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/zora_integrity_pilot/state/comparisons/20261023T035112Z-4b0d424e/result.json",
+      "bytes": 892500,
+      "sha256": "29eb75e8cc990971051878c4a892e249f5a7e4d9dcd4e91b87ec2200549d3c54",
+      "locator": "48 rows; metrics lines 351-514",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R03",
+      "role": "Pilot frozen protocol",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/zora_integrity_pilot/state/comparisons/20261023T035112Z-4b0d424e/protocol-freeze.json",
+      "bytes": 4730,
+      "sha256": "3870ea141fb10c1078eae0446daaaa07a146e7eb69d6b63ccd263683bd6e1504",
+      "locator": "frozen source hashes",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R04",
+      "role": "Pilot cases",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/zora_integrity_pilot/state/comparisons/20261023T035112Z-4b0d424e/dataset.json",
+      "bytes": 28630,
+      "sha256": "2c932d922e653f4a8f5e2c2d3eed841967b499223ca2bb9b246d350924f0cb15",
+      "locator": "12 cases",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R05",
+      "role": "Phase 2.9 protocol",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/outputs/qualia-phase29-verification-2026-10-20/PROTOCOL.txt",
+      "bytes": 4511,
+      "sha256": "bd2139e6511846f107d145d12381d1efaef93d48d0de1291d00922a7ec1a22b4",
+      "locator": "lines 7-30,44-67",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R06",
+      "role": "Phase 2.9 benchmark",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/outputs/qualia-phase29-verification-2026-10-20/results/benchmark.json",
+      "bytes": 82722064,
+      "sha256": "d1c854a532afc96b458311b5675d4b30fa313b1c1ed7774f2a610ceea5634f43",
+      "locator": "2200 per-seed paths",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R07",
+      "role": "Phase 2.9 comparisons",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/outputs/qualia-phase29-verification-2026-10-20/results/derived_comparisons.json",
+      "bytes": 782064,
+      "sha256": "1bf16d4e06ea44ef2f62e80cecdb272188cf9e74083cd34a31653b1128372555",
+      "locator": "paired loss summaries",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R08",
+      "role": "Phase 2.10 proposal",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/outputs/qualia-phase210-verification-2026-10-21/corrected/phase2_10_adaptive_memory.py",
+      "bytes": 12441,
+      "sha256": "1b50d2ec7d9aac762b41e52e5c6fe5b74211fffcd9defa99b5e5099744a03892",
+      "locator": "lines 35-42,97-111,166-249",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R09",
+      "role": "Dated ToE corpus audit",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/toe_processing/README.md",
+      "bytes": 2247,
+      "sha256": "940c22b781c8f0973b1937c131038e58fec8eb2bade82ccb93970d75c935d7cc",
+      "locator": "scope and source identity",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R10",
+      "role": "Dated claim ledger",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/toe_processing/scientific_claim_ledger.md",
+      "bytes": 5389,
+      "sha256": "f07bdfec23ebe867939a8207c0a2bcb85885b934aaed68771bb2b7d6ffa9afb5",
+      "locator": "CORE01-06; EMP01-03; UV01",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R11",
+      "role": "GATE-04 endpoint rules",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/toe_processing/GATE-04/README.md",
+      "bytes": 3604,
+      "sha256": "81c92917929b863f35fe48d902fc9e5f8a97898c36aad205c24b827bdb6dc068",
+      "locator": "rate-only branch and retired QRNG endpoint",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R12",
+      "role": "GATE-04 apparatus objects",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/toe_processing/GATE-04/OBJECTS_STATUS.md",
+      "bytes": 5014,
+      "sha256": "de31e4c03e9c8dd2b906d4ec8cda68a0b69c59e9ce290a7388e4877d1a590344",
+      "locator": "five open apparatus objects",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R13",
+      "role": "Quadratic portal note",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/research/toe-quadratic-portal-20261011/quadratic_portal_measurement_bridge.tex",
+      "bytes": 29683,
+      "sha256": "bb6e04d5188710227655c5085db2bbb4da0951c5676812ec38c18466f4cc3a4b",
+      "locator": "matching, noise, validity, cross-channel relation",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R14",
+      "role": "Quadratic portal checks",
+      "path": "/Users/christophermichaelbaird/.codex/.chatgpt-projects/g-p-692f6a4c55bc8191803829546b141e2f/output/research/toe-quadratic-portal-20261011/checks.json",
+      "bytes": 5842,
+      "sha256": "51ee945f5a2824e87e1796ea7e5f4491d99ae418bf2ff74830033881790ab643",
+      "locator": "saved conditional numerical checks",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R15",
+      "role": "Exact-mode manuscript",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/exact_scalar_mode_sums_2026-10-22/main.tex",
+      "bytes": 33777,
+      "sha256": "924c62568638d214499d6e15b98f9cfc0c20056cc8982e1dbe059730d6d2cf4c",
+      "locator": "lines 43-87,93-203,267-341,362-368",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R16",
+      "role": "Exact-mode assumptions",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/exact_scalar_mode_sums_2026-10-22/ASSUMPTIONS.md",
+      "bytes": 4452,
+      "sha256": "8f454ecb5e2081ca60b2826c42b03de79f0060130b7eac9068f054dce97db10a",
+      "locator": "lines 3-12",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R17",
+      "role": "Exact-mode results",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/exact_scalar_mode_sums_2026-10-22/results.json",
+      "bytes": 32279,
+      "sha256": "12705180792e79ce7121edb2237388f88fd1a823f2f583294d47b10458ddb2aa",
+      "locator": "lines 121-164,685-851",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R18",
+      "role": "Exact-mode checks",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/exact_scalar_mode_sums_2026-10-22/checks.json",
+      "bytes": 15171,
+      "sha256": "637da0c9e0632103a9372712994ce2a96b5db9a31331b264380ba141b79262a8",
+      "locator": "126 saved passing checks",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R19",
+      "role": "Scalar/anomaly note",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/verification/Scalar_Anomaly_Sector_2026-10-22/research_note.tex",
+      "bytes": 48449,
+      "sha256": "b460e081a98d701dadc7597705cea7af9439688c86873665185642459146a5e0",
+      "locator": "lines 225,244-256,322-328",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R20",
+      "role": "Scalar/anomaly assumptions",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/verification/Scalar_Anomaly_Sector_2026-10-22/ASSUMPTIONS.md",
+      "bytes": 7509,
+      "sha256": "e9882fa23e8b30429b90ecc07ed53ddc172a5ca8ce39862f6c03201cc5f73c10",
+      "locator": "lines 9-70",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R21",
+      "role": "Scalar results",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/verification/Scalar_Anomaly_Sector_2026-10-22/scalar_sector_results.json",
+      "bytes": 8030,
+      "sha256": "21340b39848b694e7cea03e9e3a0b71cba88bf3e76d6d7a1a3e60585d7d31a89",
+      "locator": "conditional scalar fixture",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R22",
+      "role": "Anomaly results",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/verification/Scalar_Anomaly_Sector_2026-10-22/anomaly_sector_results.json",
+      "bytes": 3506,
+      "sha256": "6e07692d9a024be38ebfe54571ea6a262e5b2d783860c342c186148fa7511c93",
+      "locator": "lines 49-87",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R23",
+      "role": "Vacuum matching results",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/verification/Scalar_Anomaly_Sector_2026-10-22/vacuum_matching_results.json",
+      "bytes": 64310,
+      "sha256": "e2963a509c5dc02df89b612ee744930ed03c7f2568ca5dbc77e0a281d15abf36",
+      "locator": "bounded local approximation",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    },
+    {
+      "id": "R24",
+      "role": "Sealed scalar/anomaly ZIP",
+      "path": "/Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/release_2026-10-22_scalar_anomaly/publication_handoff/Scalar_Anomaly_Sector_Reproducibility_2026-10-22.zip",
+      "bytes": 491945,
+      "sha256": "0648b79b1e910e8e20fa26cc91289bf7a25036536d561bc2c2b63b504dcc7b59",
+      "locator": "sealed bytes; read-only verification comparison",
+      "inspection_date": "2026-10-25",
+      "evidence_status": "local primary research artifact; no publication status inferred"
+    }
+  ]
+}

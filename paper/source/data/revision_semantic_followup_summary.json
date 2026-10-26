@@ -1,0 +1,1583 @@
+{
+  "audit_checks": 671,
+  "audit_passed": true,
+  "audit_sha256": "b2bfe8e035c1f6000e3894de27ae378e2ed61420c882462a25b7cbb503f47ad9",
+  "complete": true,
+  "completed_at": "2026-10-26T01:44:09.285563+00:00",
+  "created_at": "2026-10-26T01:22:21.543417+00:00",
+  "dataset_metadata": {
+    "authored_at": "2026-10-26T00:59:54.534399+00:00",
+    "canonical_hash_encoding": "UTF-8 JSON; ensure_ascii=False; sort_keys=True; separators=(comma,colon); allow_nan=False",
+    "case_count": 24,
+    "event_groups": 24,
+    "fictional": true,
+    "input_keys": [
+      "id",
+      "domain",
+      "as_of",
+      "claim",
+      "evidence"
+    ],
+    "label_keys": [
+      "id",
+      "group_id",
+      "family",
+      "gold",
+      "gold_rationale",
+      "gold_quotes",
+      "truth_specification"
+    ],
+    "label_provenance": "AI-assisted author, same-author second pass; not human-independent gold.",
+    "model_calls_during_authoring": 0,
+    "name": "Quiet Calculus semantic follow-up holdout",
+    "read_sources": [
+      "../../semantic/heldout/PROTOCOL.md for format/family rules only; exact schema supplied by root as field names without cases"
+    ],
+    "separation": "Author did not inspect current semantic implementation, progress, raw calls, results, or implementer messages.",
+    "shuffle_seed": 2026102524,
+    "version": 1
+  },
+  "development_calls": 16,
+  "development_cap": 16,
+  "development_result": "Both models matched 8/8 author-visible development labels; exact tie resolved to zora:fast.",
+  "development_selected_model": "zora:fast",
+  "development_selection_rule": [
+    "min processing failures",
+    "min incorrect definite judgments",
+    "max total correct",
+    "min unnecessary abstentions",
+    "prefer zora:fast on exact tie"
+  ],
+  "elapsed_seconds": 1307.7347833329986,
+  "evaluation_freeze_sha256": "1b3c1714f95db25e995ef99e76e0ef5b97e56c47b7989e635d7042c50c5a0957",
+  "family_metrics": {
+    "closed_document": {
+      "larger_model_baseline": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 2
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 2914,
+        "median_case_seconds": 19.913,
+        "output_tokens": 520,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 94.024
+      },
+      "old_fast": {
+        "accuracy_including_errors": 0.75,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 1
+          }
+        },
+        "correct": 3,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 1,
+        "input_tokens": 2913,
+        "median_case_seconds": 13.401,
+        "output_tokens": 561,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 53.615
+      },
+      "revised_selected": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 2
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 3805,
+        "median_case_seconds": 14.075,
+        "output_tokens": 618,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 57.092
+      }
+    },
+    "justified_resolution": {
+      "larger_model_baseline": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 2
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 3723,
+        "median_case_seconds": 15.856,
+        "output_tokens": 397,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 63.355
+      },
+      "old_fast": {
+        "accuracy_including_errors": 0.75,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 1
+          }
+        },
+        "correct": 3,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 1,
+        "input_tokens": 3720,
+        "median_case_seconds": 12.318,
+        "output_tokens": 458,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 47.886
+      },
+      "revised_selected": {
+        "accuracy_including_errors": 0.25,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 1
+          }
+        },
+        "correct": 1,
+        "decisive_coverage": 0.5,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 1,
+        "input_tokens": 4612,
+        "median_case_seconds": 13.553,
+        "output_tokens": 592,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.5,
+        "unnecessary_abstentions": 2,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 56.255
+      }
+    },
+    "omission_negative": {
+      "larger_model_baseline": {
+        "accuracy_including_errors": 0.75,
+        "appropriate_abstention_recall": 0.5,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 1,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 1
+          }
+        },
+        "correct": 3,
+        "decisive_coverage": 0.75,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 1,
+        "input_tokens": 2939,
+        "median_case_seconds": 22.314,
+        "output_tokens": 426,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 96.182
+      },
+      "old_fast": {
+        "accuracy_including_errors": 0.75,
+        "appropriate_abstention_recall": 0.5,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 1,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 1
+          }
+        },
+        "correct": 3,
+        "decisive_coverage": 0.75,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 1,
+        "input_tokens": 2937,
+        "median_case_seconds": 13.38,
+        "output_tokens": 545,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 51.746
+      },
+      "revised_selected": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": 1.0,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 1
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 0.5,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 3829,
+        "median_case_seconds": 14.739,
+        "output_tokens": 562,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 65.638
+      }
+    },
+    "ordinary_controls": {
+      "larger_model_baseline": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 2
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 2866,
+        "median_case_seconds": 17.249,
+        "output_tokens": 409,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 80.616
+      },
+      "old_fast": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 2
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 1.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 2874,
+        "median_case_seconds": 11.6,
+        "output_tokens": 473,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 59.759
+      },
+      "revised_selected": {
+        "accuracy_including_errors": 0.5,
+        "appropriate_abstention_recall": null,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 1,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 1
+          }
+        },
+        "correct": 2,
+        "decisive_coverage": 0.75,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 1,
+        "input_tokens": 3766,
+        "median_case_seconds": 15.254,
+        "output_tokens": 591,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.25,
+        "unnecessary_abstentions": 1,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 61.566
+      }
+    },
+    "quantifier_scope": {
+      "larger_model_baseline": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": 1.0,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 1
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 0.5,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 2890,
+        "median_case_seconds": 14.381,
+        "output_tokens": 418,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 61.663
+      },
+      "old_fast": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": 1.0,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 1,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 1
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 0.5,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 2892,
+        "median_case_seconds": 11.668,
+        "output_tokens": 486,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.0,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 46.809
+      },
+      "revised_selected": {
+        "accuracy_including_errors": 0.75,
+        "appropriate_abstention_recall": 1.0,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 1,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 1
+          }
+        },
+        "correct": 3,
+        "decisive_coverage": 0.25,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 3784,
+        "median_case_seconds": 14.48,
+        "output_tokens": 592,
+        "processing_errors": 0,
+        "supported_precision": 1.0,
+        "unnecessary_abstention_rate": 0.5,
+        "unnecessary_abstentions": 1,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 57.032
+      }
+    },
+    "unresolved_conflict": {
+      "larger_model_baseline": {
+        "accuracy_including_errors": 0.5,
+        "appropriate_abstention_recall": 0.5,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          }
+        },
+        "correct": 2,
+        "decisive_coverage": 0.5,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 2,
+        "input_tokens": 3774,
+        "median_case_seconds": 34.591,
+        "output_tokens": 706,
+        "processing_errors": 0,
+        "supported_precision": null,
+        "unnecessary_abstention_rate": null,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 138.477
+      },
+      "old_fast": {
+        "accuracy_including_errors": 0.5,
+        "appropriate_abstention_recall": 0.5,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 2,
+            "processing_error": 0,
+            "refuted": 2,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          }
+        },
+        "correct": 2,
+        "decisive_coverage": 0.5,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 2,
+        "input_tokens": 3769,
+        "median_case_seconds": 20.111,
+        "output_tokens": 804,
+        "processing_errors": 0,
+        "supported_precision": null,
+        "unnecessary_abstention_rate": null,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 107.035
+      },
+      "revised_selected": {
+        "accuracy_including_errors": 1.0,
+        "appropriate_abstention_recall": 1.0,
+        "cases": 4,
+        "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+        "confusion_matrix": {
+          "insufficient_evidence": {
+            "insufficient_evidence": 4,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "refuted": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          },
+          "supported": {
+            "insufficient_evidence": 0,
+            "processing_error": 0,
+            "refuted": 0,
+            "supported": 0
+          }
+        },
+        "correct": 4,
+        "decisive_coverage": 0.0,
+        "disagreements": 0,
+        "false_confirmation_rate_among_non_supported": 0.0,
+        "false_confirmations": 0,
+        "incorrect_definite_judgments": 0,
+        "input_tokens": 4661,
+        "median_case_seconds": 26.765,
+        "output_tokens": 913,
+        "processing_errors": 0,
+        "supported_precision": null,
+        "unnecessary_abstention_rate": null,
+        "unnecessary_abstentions": 0,
+        "valid_response_rate": 1.0,
+        "wall_seconds": 107.97
+      }
+    }
+  },
+  "frozen_files_preserved": true,
+  "gate": {
+    "all_planned_rows_complete": true,
+    "fewer_incorrect_definite": true,
+    "no_accuracy_drop": false,
+    "no_extra_processing_failure": true,
+    "no_extra_unnecessary_abstention": false,
+    "passed": false
+  },
+  "inference_calls": 72,
+  "interpretation": "Frozen primary gate fails (accuracy and unnecessary-abstention requirements). Rejected as a repair; no further candidate or retuning within the campaign.",
+  "label_scope": "Provisional AI-authored and AI-reviewed labels, no independent human adjudication",
+  "metrics": {
+    "larger_model_baseline": {
+      "accuracy_including_errors": 0.875,
+      "appropriate_abstention_recall": 0.625,
+      "cases": 24,
+      "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+      "confusion_matrix": {
+        "insufficient_evidence": {
+          "insufficient_evidence": 5,
+          "processing_error": 0,
+          "refuted": 3,
+          "supported": 0
+        },
+        "refuted": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 8,
+          "supported": 0
+        },
+        "supported": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 0,
+          "supported": 8
+        }
+      },
+      "correct": 21,
+      "decisive_coverage": 0.7917,
+      "definite_count": 19,
+      "disagreements": 0,
+      "false_confirmation_rate_among_non_supported": 0.0,
+      "false_confirmations": 0,
+      "incorrect_definite_judgments": 3,
+      "input_tokens": 19106,
+      "median_case_seconds": 18.304,
+      "output_tokens": 2876,
+      "processing_errors": 0,
+      "selective_error": 0.15789473684210525,
+      "supported_precision": 1.0,
+      "total_tokens": 21982,
+      "unnecessary_abstention_rate": 0.0,
+      "unnecessary_abstentions": 0,
+      "valid_response_rate": 1.0,
+      "wall_seconds": 534.317
+    },
+    "old_fast": {
+      "accuracy_including_errors": 0.7917,
+      "appropriate_abstention_recall": 0.625,
+      "cases": 24,
+      "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+      "confusion_matrix": {
+        "insufficient_evidence": {
+          "insufficient_evidence": 5,
+          "processing_error": 0,
+          "refuted": 3,
+          "supported": 0
+        },
+        "refuted": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 8,
+          "supported": 0
+        },
+        "supported": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 2,
+          "supported": 6
+        }
+      },
+      "correct": 19,
+      "decisive_coverage": 0.7917,
+      "definite_count": 19,
+      "disagreements": 0,
+      "false_confirmation_rate_among_non_supported": 0.0,
+      "false_confirmations": 0,
+      "incorrect_definite_judgments": 5,
+      "input_tokens": 19105,
+      "median_case_seconds": 12.489,
+      "output_tokens": 3327,
+      "processing_errors": 0,
+      "selective_error": 0.2631578947368421,
+      "supported_precision": 1.0,
+      "total_tokens": 22432,
+      "unnecessary_abstention_rate": 0.0,
+      "unnecessary_abstentions": 0,
+      "valid_response_rate": 1.0,
+      "wall_seconds": 366.85
+    },
+    "revised_selected": {
+      "accuracy_including_errors": 0.75,
+      "appropriate_abstention_recall": 1.0,
+      "cases": 24,
+      "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+      "confusion_matrix": {
+        "insufficient_evidence": {
+          "insufficient_evidence": 8,
+          "processing_error": 0,
+          "refuted": 0,
+          "supported": 0
+        },
+        "refuted": {
+          "insufficient_evidence": 4,
+          "processing_error": 0,
+          "refuted": 4,
+          "supported": 0
+        },
+        "supported": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 2,
+          "supported": 6
+        }
+      },
+      "correct": 18,
+      "decisive_coverage": 0.5,
+      "definite_count": 12,
+      "disagreements": 0,
+      "false_confirmation_rate_among_non_supported": 0.0,
+      "false_confirmations": 0,
+      "incorrect_definite_judgments": 2,
+      "input_tokens": 24457,
+      "median_case_seconds": 14.606,
+      "output_tokens": 3868,
+      "processing_errors": 0,
+      "selective_error": 0.16666666666666666,
+      "supported_precision": 1.0,
+      "total_tokens": 28325,
+      "unnecessary_abstention_rate": 0.25,
+      "unnecessary_abstentions": 4,
+      "valid_response_rate": 1.0,
+      "wall_seconds": 405.553
+    }
+  },
+  "operator_handoff_sha256": "3a1b0db61acc3a508613c0678cbfb30e1fadbaae78fd4600c64fc763b7f37fd3",
+  "paired": [
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH005",
+      "family": "unresolved_conflict",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        }
+      },
+      "case_id": "FH016",
+      "family": "closed_document",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH024",
+      "family": "justified_resolution",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH022",
+      "family": "justified_resolution",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        }
+      },
+      "case_id": "FH012",
+      "family": "omission_negative",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH019",
+      "family": "quantifier_scope",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH002",
+      "family": "ordinary_controls",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH006",
+      "family": "unresolved_conflict",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        }
+      },
+      "case_id": "FH011",
+      "family": "omission_negative",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "old_fast": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH007",
+      "family": "unresolved_conflict",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        }
+      },
+      "case_id": "FH014",
+      "family": "closed_document",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        }
+      },
+      "case_id": "FH017",
+      "family": "quantifier_scope",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        }
+      },
+      "case_id": "FH004",
+      "family": "ordinary_controls",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH009",
+      "family": "omission_negative",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        }
+      },
+      "case_id": "FH023",
+      "family": "justified_resolution",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH020",
+      "family": "quantifier_scope",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH008",
+      "family": "unresolved_conflict",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        }
+      },
+      "case_id": "FH001",
+      "family": "ordinary_controls",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH010",
+      "family": "omission_negative",
+      "gold": "insufficient_evidence"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "insufficient_evidence"
+        }
+      },
+      "case_id": "FH018",
+      "family": "quantifier_scope",
+      "gold": "refuted"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        }
+      },
+      "case_id": "FH015",
+      "family": "closed_document",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        }
+      },
+      "case_id": "FH013",
+      "family": "closed_document",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "revised_selected": {
+          "correct": false,
+          "processing_error": false,
+          "verdict": "refuted"
+        }
+      },
+      "case_id": "FH003",
+      "family": "ordinary_controls",
+      "gold": "supported"
+    },
+    {
+      "arms": {
+        "larger_model_baseline": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "old_fast": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        },
+        "revised_selected": {
+          "correct": true,
+          "processing_error": false,
+          "verdict": "supported"
+        }
+      },
+      "case_id": "FH021",
+      "family": "justified_resolution",
+      "gold": "supported"
+    }
+  ],
+  "paired_label_improvements": [
+    "FH006",
+    "FH007",
+    "FH010",
+    "FH015"
+  ],
+  "paired_label_regressions": [
+    "FH002",
+    "FH003",
+    "FH018",
+    "FH022",
+    "FH024"
+  ],
+  "physical_evidence": false,
+  "protocol": {
+    "arms": [
+      {
+        "method": "baseline",
+        "model": "zora:fast",
+        "name": "old_fast"
+      },
+      {
+        "method": "baseline",
+        "model": "gemma4:12b-it-qat",
+        "name": "larger_model_baseline"
+      },
+      {
+        "method": "revision",
+        "model": "zora:fast",
+        "name": "revised_selected"
+      }
+    ],
+    "case_order": "Six blocks of four frozen cases; arm order cyclically rotated per block (three arms) or alternated (two arms). Every arm is first on the same number of cases. No shuffle after freeze.",
+    "cases": 24,
+    "context_tokens": 8192,
+    "failure_rule": "All failures retained, no retries, no post-freeze implementation/model/case/label changes.",
+    "generation_cap": 768,
+    "model_metadata": {
+      "gemma4:12b-it-qat": {
+        "details": {
+          "context_length": 262144,
+          "embedding_length": 3840,
+          "families": [
+            "gemma4"
+          ],
+          "family": "gemma4",
+          "format": "gguf",
+          "parameter_size": "11.9B",
+          "parent_model": "",
+          "quantization_level": "Q4_0"
+        },
+        "digest": "38044be4f923e5a55264ed7df4eaac2676651a905f735197c504045140c02bd3",
+        "name": "gemma4:12b-it-qat",
+        "size": 7151003754
+      },
+      "zora:fast": {
+        "details": {
+          "context_length": 262144,
+          "embedding_length": 4096,
+          "families": [
+            "mistral3"
+          ],
+          "family": "mistral3",
+          "format": "gguf",
+          "parameter_size": "8.9B",
+          "parent_model": "ministral-3:8b",
+          "quantization_level": "Q4_K_M"
+        },
+        "digest": "a92f9fa6055834220446827338ecf10952b65304b2c77295df92bdb3cd22b6a5",
+        "name": "zora:fast",
+        "size": 6022245282
+      }
+    },
+    "per_call_timeout_seconds": 90,
+    "planned_calls": 72,
+    "primary_gate": "Against old_fast: strictly fewer incorrect definite judgments, no lower total label agreement, no more unnecessary abstentions, no more processing errors, all planned rows complete.",
+    "scope": "Second-stage internal revision informed by first-stage failures; provisional AI labels and constructed held-out cases; no physical evidence or production deployment.",
+    "secondary_comparison": "Revision versus selected-model unchanged baseline, if different model; descriptive isolation of method and model changes, no complete factorial or population causal effect.",
+    "seed": 42,
+    "selected_model": "zora:fast",
+    "selection_sha256": "02bdbb3d27a9b5f5d0edbe1ac15a54a616811799b3b6ec85d7a9bbcc76cd5a7a",
+    "stage": "semantic_followup",
+    "temperature": 0,
+    "thinking": false,
+    "total_runtime_cap_seconds": 3600,
+    "version": "4.0"
+  },
+  "public_release": false,
+  "qualitative_review_sha256": "e6f7bfed0c86cc02f4b0aad05de4f1f25cc90711fa1c678f37199093d8077e33",
+  "result_sha256": "09356716900718eb91528c99caa6b1fc7d7d24ae658543faeefd5034351a71cc",
+  "revised_label_disagreements": [
+    "FH002",
+    "FH003",
+    "FH018",
+    "FH022",
+    "FH023",
+    "FH024"
+  ],
+  "software_tests_passed": 31,
+  "stage": "semantic_followup",
+  "version": "4.0"
+}

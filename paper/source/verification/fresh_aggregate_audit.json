@@ -1,0 +1,16 @@
+{
+  "memory_clusters": 100,
+  "scenario_paths": 1100,
+  "memory_mean": -0.0002796969956730637,
+  "memory_ci95": [
+    -0.0003341055648079339,
+    -0.00022528842653819352
+  ],
+  "summary_arithmetic_matches": true,
+  "memory_minimum_effect_gate": false,
+  "memory_harm_guardrail": false,
+  "memory_max_simultaneous_upper_bound": 0.0018906109123036242,
+  "scope": "Independent recomputation from saved per-path metrics; not independent regenerated forecasts",
+  "portal_initial_failure_preserved": true,
+  "portal_exploratory_followup_separate": true
+}

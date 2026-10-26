@@ -1,0 +1,448 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size11.clo))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/inputenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/lmodern.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amscls/amsthm.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/booktabs/booktabs.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/array.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/etoolbox/etoolbox.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/microtype-pdftex.d
+ef) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/microtype.cfg)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty)))
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty)))
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty))) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/t1lmr.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef)
+No file main.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/ot1lmr.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omllmm.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omslmsy.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/omxlmex.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+[1{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/
+usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local
+/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texl
+ive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025b
+asic/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+No file main.toc.
+
+[2] (./sections/01_scope.tex
+
+LaTeX Warning: Citation `source' on page 3 undefined on input line 2.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 3 undefined on input
+ line 14.
+
+
+[3]
+
+LaTeX Warning: Reference `app:catalogue' on page 4 undefined on input line 37.
+
+) (./sections/02_inference.tex
+[4]
+[5{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+LaTeX Warning: Citation `lord' on page 6 undefined on input line 26.
+
+
+LaTeX Warning: Citation `brier' on page 6 undefined on input line 34.
+
+
+LaTeX Warning: Citation `gneiting' on page 6 undefined on input line 34.
+
+
+LaTeX Warning: Citation `lorenz' on page 6 undefined on input line 50.
+
+
+LaTeX Warning: Citation `shannon' on page 6 undefined on input line 57.
+
+) (./sections/03_optimization.tex
+[6]
+
+LaTeX Warning: Citation `bental' on page 7 undefined on input line 3.
+
+
+[7]
+
+LaTeX Warning: Reference `sec:examples' on page 8 undefined on input line 45.
+
+
+LaTeX Warning: Citation `dwork' on page 8 undefined on input line 57.
+
+) (./sections/04_embodiment.tex
+[8]
+
+LaTeX Warning: Citation `garfinkel' on page 9 undefined on input line 5.
+
+
+LaTeX Warning: Citation `desmedt' on page 9 undefined on input line 15.
+
+
+[9]
+
+LaTeX Warning: Citation `balban' on page 10 undefined on input line 27.
+
+
+LaTeX Warning: Citation `waite' on page 10 undefined on input line 27.
+
+
+LaTeX Warning: Citation `church' on page 10 undefined on input line 27.
+
+
+LaTeX Warning: Reference `sec:protocols' on page 10 undefined on input line 29.
+
+
+
+LaTeX Warning: Citation `depaulo' on page 10 undefined on input line 34.
+
+) (./sections/05_learning.tex
+[10]
+
+LaTeX Warning: Reference `eq:cohort' on page 11 undefined on input line 14.
+
+
+LaTeX Warning: Citation `woolley' on page 11 undefined on input line 28.
+
+
+LaTeX Warning: Citation `edmondson' on page 11 undefined on input line 28.
+
+
+LaTeX Warning: Citation `roediger' on page 11 undefined on input line 33.
+
+
+LaTeX Warning: Citation `walker' on page 11 undefined on input line 33.
+
+
+[11]) (./sections/06_results_protocols.tex (./data/result_macros.tex)
+[12]
+
+LaTeX Warning: Reference `fig:toys' on page 13 undefined on input line 9.
+
+(./data/schedule_table.tex)
+[13 <./figures/toy_results.pdf>]
+[14]
+[15]) (./sections/10_research_connections.tex
+[16]
+
+LaTeX Warning: Citation `pilot' on page 17 undefined on input line 25.
+
+
+LaTeX Warning: Reference `sec:local-tests' on page 17 undefined on input line 2
+5.
+
+
+LaTeX Warning: Reference `tab:pilot' on page 17 undefined on input line 25.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/lm/t1lmtt.fd)
+[17]
+
+LaTeX Warning: Citation `geifman' on page 18 undefined on input line 52.
+
+
+LaTeX Warning: Citation `memory29' on page 18 undefined on input line 55.
+
+
+LaTeX Warning: Reference `sec:local-tests' on page 18 undefined on input line 5
+5.
+
+
+[18]
+
+LaTeX Warning: Citation `memory210' on page 19 undefined on input line 66.
+
+) (./sections/11_conditional_physics.tex
+[19]
+
+LaTeX Warning: Citation `toeaudit' on page 20 undefined on input line 5.
+
+
+LaTeX Warning: Citation `portal' on page 20 undefined on input line 5.
+
+
+LaTeX Warning: Citation `scalar' on page 20 undefined on input line 5.
+
+
+LaTeX Warning: Citation `exact' on page 20 undefined on input line 5.
+
+
+LaTeX Warning: Citation `lindblad' on page 20 undefined on input line 18.
+
+
+[20]
+
+LaTeX Warning: Citation `gate04' on page 21 undefined on input line 42.
+
+
+LaTeX Warning: Citation `athron' on page 21 undefined on input line 57.
+
+
+LaTeX Warning: Citation `portal' on page 21 undefined on input line 59.
+
+
+LaTeX Warning: Citation `hornberger' on page 21 undefined on input line 69.
+
+
+[21]
+
+LaTeX Warning: Reference `eq:kernel' on page 22 undefined on input line 96.
+
+
+LaTeX Warning: Reference `eq:kernel' on page 22 undefined on input line 96.
+
+
+[22 <./figures/portal_shape.pdf>]
+
+LaTeX Warning: Reference `eq:rate' on page 23 undefined on input line 116.
+
+
+LaTeX Warning: Reference `eq:noise' on page 23 undefined on input line 116.
+
+
+LaTeX Warning: Citation `scalar' on page 23 undefined on input line 119.
+
+
+LaTeX Warning: Citation `exact' on page 23 undefined on input line 119.
+
+
+[23]) (./sections/12_prediction_program.tex
+[24]
+
+LaTeX Warning: Reference `sec:local-tests' on page 25 undefined on input line 5
+.
+
+
+LaTeX Warning: Reference `sec:revisions' on page 25 undefined on input line 5.
+
+
+[25]
+
+LaTeX Warning: Reference `prop:bits' on page 26 undefined on input line 31.
+
+
+[26]
+
+LaTeX Warning: Reference `eq:cross' on page 27 undefined on input line 37.
+
+
+[27]
+
+LaTeX Warning: Reference `eq:running' on page 28 undefined on input line 58.
+
+
+[28]) (./sections/14_local_tests.tex
+[29]
+
+LaTeX Warning: Citation `localtests' on page 30 undefined on input line 5.
+
+
+[30]
+[31]
+
+LaTeX Warning: Reference `fig:memory-test' on page 32 undefined on input line 5
+8.
+
+
+[32]
+[33 <./figures/fresh_memory_results.pdf>]
+[34]
+[35]) (./sections/15_revisions.tex
+[36]
+
+LaTeX Warning: Reference `sec:local-tests' on page 37 undefined on input line 5
+.
+
+
+LaTeX Warning: Citation `revisiontests' on page 37 undefined on input line 5.
+
+
+[37]
+[38]
+[39]
+
+LaTeX Warning: Reference `tab:followup-semantic' on page 40 undefined on input 
+line 86.
+
+
+[40]
+
+LaTeX Warning: Reference `tab:followup-families' on page 41 undefined on input 
+line 113.
+
+
+[41]
+
+LaTeX Warning: Citation `cesabianchi' on page 42 undefined on input line 146.
+
+
+[42]
+
+LaTeX Warning: Reference `eq:convex-gate' on page 43 undefined on input line 16
+5.
+
+
+[43]
+[44]
+[45 <./figures/revision_memory_results.pdf>]) (./sections/07_discussion.tex
+
+LaTeX Warning: Reference `sec:zora' on page 46 undefined on input line 10.
+
+
+LaTeX Warning: Reference `sec:predictions' on page 46 undefined on input line 1
+0.
+
+
+[46]
+[47])
+[48] (./sections/08_catalogue.tex
+
+LaTeX Warning: Reference `tab:status' on page 49 undefined on input line 3.
+
+[49] [50] [51])
+[52] (./sections/09_provenance.tex
+[53])
+[54] (./sections/13_research_provenance.tex (./data/research_source_table.tex)
+[55])
+[56] (./references.tex
+
+LaTeX Warning: Reference `app:provenance' on page 57 undefined on input line 4.
+
+
+
+[57]
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 48.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 50.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 52.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 54.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 56.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 58.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 60.
+
+
+LaTeX Warning: Reference `app:research-provenance' on page 58 undefined on inpu
+t line 62.
+
+
+LaTeX Warning: Reference `sec:local-tests' on page 58 undefined on input line 6
+3.
+
+
+LaTeX Warning: Reference `sec:revisions' on page 58 undefined on input line 64.
+
+
+)
+[58] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )</usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></u
+sr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
+cal/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/t
+exlive/2025basic/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texliv
+e/2025basic/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2025
+basic/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025basic/
+texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texlive/2025basic/texm
+f-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025basic/texmf-dist
+/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts
+/type1/public/lm/lmr6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/
+public/lm/lmr8.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/
+lm/lmr9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmri
+10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmsy10.pf
+b></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></us
+r/local/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loca
+l/texlive/2025basic/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/tex
+live/2025basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
+local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb>
+Output written on main.pdf (58 pages, 562776 bytes).
+Transcript written on main.log.

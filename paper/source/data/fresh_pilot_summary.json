@@ -1,0 +1,166 @@
+{
+  "complete": true,
+  "completed_rows": 24,
+  "elapsed_seconds": 568.9156105829898,
+  "freeze_preserved": true,
+  "independent_underlying_synthetic_records": 12,
+  "inference_calls": 48,
+  "kind": "synthetic_computational_diagnostic",
+  "limitations": [
+    "AI-authored synthetic records and claims with deterministic author-specified truth rules; no independent human adjudication.",
+    "Small deliberately balanced set; common templates; no real-world generalization claim.",
+    "Equal generation allowance is not equal compute.",
+    "No probability calibration measured. No physical measurements."
+  ],
+  "metrics": {
+    "baseline": {
+      "accuracy_including_errors": 0.8333,
+      "appropriate_abstention_recall": 0.5,
+      "cases": 12,
+      "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+      "confusion_matrix": {
+        "insufficient_evidence": {
+          "insufficient_evidence": 2,
+          "processing_error": 0,
+          "refuted": 2,
+          "supported": 0
+        },
+        "refuted": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 4,
+          "supported": 0
+        },
+        "supported": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 0,
+          "supported": 4
+        }
+      },
+      "correct": 10,
+      "decisive_coverage": 0.8333,
+      "disagreements": 0,
+      "false_confirmation_rate_among_non_supported": 0.0,
+      "false_confirmations": 0,
+      "incorrect_definite_judgments": 2,
+      "input_tokens": 8449,
+      "median_case_seconds": 10.726,
+      "output_tokens": 1233,
+      "processing_errors": 0,
+      "selective_error": 0.2,
+      "supported_precision": 1.0,
+      "total_tokens": 9682,
+      "unnecessary_abstention_rate": 0.0,
+      "unnecessary_abstentions": 0,
+      "valid_response_rate": 1.0,
+      "wall_seconds": 122.85
+    },
+    "three_role": {
+      "accuracy_including_errors": 0.8333,
+      "appropriate_abstention_recall": 0.5,
+      "cases": 12,
+      "citation_check": "Exact quote membership only; semantic entailment is not automatically scored.",
+      "confusion_matrix": {
+        "insufficient_evidence": {
+          "insufficient_evidence": 2,
+          "processing_error": 0,
+          "refuted": 2,
+          "supported": 0
+        },
+        "refuted": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 4,
+          "supported": 0
+        },
+        "supported": {
+          "insufficient_evidence": 0,
+          "processing_error": 0,
+          "refuted": 0,
+          "supported": 4
+        }
+      },
+      "correct": 10,
+      "decisive_coverage": 0.8333,
+      "disagreements": 1,
+      "false_confirmation_rate_among_non_supported": 0.0,
+      "false_confirmations": 0,
+      "incorrect_definite_judgments": 2,
+      "input_tokens": 27228,
+      "median_case_seconds": 37.553,
+      "output_tokens": 4541,
+      "processing_errors": 0,
+      "selective_error": 0.2,
+      "supported_precision": 1.0,
+      "total_tokens": 31769,
+      "unnecessary_abstention_rate": 0.0,
+      "unnecessary_abstentions": 0,
+      "valid_response_rate": 1.0,
+      "wall_seconds": 445.783
+    }
+  },
+  "model": {
+    "details": {
+      "context_length": 262144,
+      "embedding_length": 4096,
+      "families": [
+        "mistral3"
+      ],
+      "family": "mistral3",
+      "format": "gguf",
+      "parameter_size": "8.9B",
+      "parent_model": "ministral-3:8b",
+      "quantization_level": "Q4_K_M"
+    },
+    "digest": "a92f9fa6055834220446827338ecf10952b65304b2c77295df92bdb3cd22b6a5",
+    "name": "zora:fast",
+    "size": 6022245282
+  },
+  "planned_rows": 24,
+  "protocol_freeze_sha256": "b18148c0c337ac1887f1be36cba1e1a29369ec833196d340965d200302682386",
+  "result_sha256": "398f6e531a387b53fbdacffe6707bde8167de11d06ad67c17ec82bf97df53169",
+  "source_preserved": true,
+  "unit_tests": {
+    "command": [
+      "/Users/christophermichaelbaird/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "fresh": true
+  },
+  "fresh_control_checks": {
+    "categories": {
+      "bounded_context_guard": 4,
+      "dependent_mirror_count": 36,
+      "explicit_relation_mapping": 12,
+      "freshness_boundary": 3,
+      "future_capture": 200,
+      "future_publication": 200,
+      "label_field_exclusion": 12,
+      "semantic_negative_control": 1,
+      "tamper_detection": 200
+    },
+    "checks": 668,
+    "computational_only": true,
+    "created_at": "2026-10-26T00:21:37.059891+00:00",
+    "dataset_sha256": "1808ec89d26f0bd545b3bf39494a51443c1b73158d5797cea171a5792d7d59b0",
+    "failures": [],
+    "passed": true,
+    "script_sha256": "c43c19221a47a9eb42950cd96310d2135cd8d95a2a5b300b0bfd637893b58b26",
+    "semantic_negative_control": {
+      "interpretation": "Expected limitation: exact quote membership and hashes cannot establish semantic entailment.",
+      "traceability_validator_accepted_deliberately_wrong_supported_verdict": true
+    }
+  },
+  "independent_artifact_audit": {
+    "passed": true,
+    "checks": 380,
+    "sha256": "1869977d46bd4d51d8ed462a45e56b95ddebe4b0353c5e20b554e76ec5b70803"
+  }
+}

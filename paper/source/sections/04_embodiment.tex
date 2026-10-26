@@ -1,0 +1,34 @@
+\section{Embodied calibration and the proposed updating loop}
+\subsection{Measurement before interpretation}
+The watch sequence proposes a particularly clear methodological rule: estimate a bodily variable before consulting a measurement \srcs{64--69}. Its value is that it makes disagreement observable. It does not establish that internal sensing outperforms instruments. A wearable has sampling, artifact, and algorithmic error; a subjective estimate has perceptual, memory, expectation, and reporting error. Neither should silently define the other as correct.
+
+Interoceptive accuracy, self-reported sensibility, and metacognitive awareness are distinguishable constructs in the relevant literature \cite{garfinkel}. Pulse estimation, respiration estimation, fatigue ratings, muscular tension, and recovery scores also require different measurement models. A proprietary ``coherence'' score has no usable scientific meaning here until its algorithm, units, validation, and intended interpretation are specified. Missing watch data during an exercise remain missing; recollection is not a replacement physiological recording.
+
+For participant $i$ and trial $t$, record an estimate $\hat y_{it}$, confidence, and the exact time window before revealing a synchronized reference value $y^{\rm ref}_{it}$. Then calculate
+\begin{align}
+ e_{it}&=\hat y_{it}-y^{\rm ref}_{it},\\
+ \operatorname{MAE}_i&=\frac{1}{n_i}\sum_t|e_{it}|,
+ &\operatorname{Bias}_i&=\frac{1}{n_i}\sum_t e_{it}.
+\end{align}
+An uncertainty interval $I_{it}$ should additionally be assessed for coverage and width. Always reporting a very wide interval is not useful calibration. Error is relative to the reference procedure, whose own uncertainty and invalid-trial criteria must be reported. Do not pool heart-rate errors in beats per minute with respiration errors in breaths per minute without a justified normalization.
+
+An estimate can be accurate because the person knows a typical resting heart rate or infers elapsed time. Heartbeat counting therefore cannot alone identify interoceptive perception; experimental evidence demonstrates substantial non-interoceptive contributions \cite{desmedt}. A stronger battery combines multiple tasks, randomized windows, recorded strategies, baseline-knowledge controls, and a prespecified reference modality. Attending to respiration may also change it, so the estimation and reference windows must coincide.
+
+\subsection{Calibration, autonomy, and sensor use}
+The narrative rejects both replacing a device with unexplained teacher authority and refusing useful technology to maintain an identity \srcs{68--69}. A real protocol needs explicit criteria: task-specific error tolerances, uncertainty coverage, repeated independent trials, transfer to a new setting, and a plan for detecting drift. Tolerances should follow the intended use and measurement precision, not be invented from the story. Human estimates must not replace monitoring required for care or safety.
+
+Feedback can be compared with delayed feedback or a matched educational control. Removing a display tests performance without visible feedback; it does not necessarily require removing the sensor. Keeping the reference recording while hiding the display avoids creating an unnecessary data gap. Calibration training is a hypothesis about learning, not a consequence of voluntary device surrender.
+
+\subsection{Embodied updating as a decomposable intervention}
+The source combines attention to sensation, an EFT-like tapping sequence, breathing, a verbal revision cue, and reassessment \srcs{71--74}. The most defensible scientific translation is a multicomponent experimental package, provisionally named \emph{embodied updating}. The sequence is: record the current experience and belief; apply the assigned attention/sensory routine; reassess; identify any new evidence; state whether the belief, affect, or intended action changed. The package is not presented here as a validated therapy.
+
+The word ``updating'' can describe at least three different events: a change in reported affect, a change in a probabilistic belief about an external proposition, or a change in intended behavior. These outcomes must not be conflated. Feeling calmer does not automatically make a prediction more accurate, and feeling more anxious does not automatically make an exercise unsuccessful. A legitimate result may be greater awareness of fatigue with no change in an external belief.
+
+Breathing research provides a relevant but bounded connection: one randomized study compared structured breathing practices with mindfulness meditation and measured mood and physiological outcomes \cite{balban}. It did not test this narrative's complete routine, factual belief accuracy, or meridian mechanisms. Component studies of EFT likewise do not settle which aspect of a new package would be active \cite{waite,church}. Those studies differ in populations, controls, and tasks; they cannot be pooled informally into proof that the present sequence works. Sensory anchoring, expectancy, rhythmic attention, exposure, task interruption, social support, and the evidence prompt are competing explanations.
+
+No claim is made that the listed tapping points possess special energetic properties. To test location specificity requires a matched alternative-location comparison holding touch, rhythm, expectancy, and instruction as constant as practicable. To test breath pacing requires a matched comparator and a defined comfortable protocol. To test cognitive framing requires a neutral verbal control. The factorial design in Section~\ref{sec:protocols} targets these separable questions.
+
+\subsection{Synchrony and interpersonal inference}
+The paired watch response during fictional travel is an example of underdetermination \srcs{26--27}. Shared stimuli, common motion artifacts, synchronized instructions, social interaction, chance, and selective inspection can all produce apparent synchrony. A future ordinary physiological study would need synchronized clocks, raw signal quality checks, predefined windows, baseline and shuffled-pair controls, and models accounting for autocorrelation. Selecting the largest cross-correlation after trying many lags inflates apparent evidence.
+
+The same caution applies to behavioral cues. A gaze shift, reduced blinking, or muscle tension is not an individually validated lie detector. The deception-cue literature finds many weak or absent associations \cite{depaulo}. This does not imply that all nonverbal information is useless; it means that a scientific claim needs predictive performance and error rates in its intended setting. Consent to observe, collect, infer, or share personal data remains distinct from the ability to notice a cue.

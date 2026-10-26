@@ -1,0 +1,192 @@
+{
+  "source": "memory/results/summary.json",
+  "status": "complete",
+  "selected_hazard": 0.05,
+  "paths": 1100,
+  "validation_sha256": "da0bcc5f02cdbfdc6ea74ba5766ec445227ff15b57513e599981e5d69fe5fafc",
+  "raw_sha256": "bf39fd18478713ccfed048a1d379290f32218090d2ef15528d36c00e9e763c26",
+  "estimand": "Paired adaptive minus selected fixed Brier; negative favors adaptive; equal scenario means within seed then average seeds",
+  "primary": {
+    "n": 50,
+    "mean": -0.00031431688722688753,
+    "sd": 0.00027632467903590963,
+    "ci95": [
+      -0.0003909087731145004,
+      -0.00023772500133927468
+    ],
+    "upper_one_sided_95": -0.0002500389503407882
+  },
+  "replication": {
+    "n": 50,
+    "mean": -0.0002450771041192398,
+    "sd": 0.0002772989528023047,
+    "ci95": [
+      -0.00032193903995461474,
+      -0.00016821516828386489
+    ],
+    "upper_one_sided_95": -0.0001805725341727689
+  },
+  "combined": {
+    "n": 100,
+    "mean": -0.0002796969956730637,
+    "sd": 0.00027759984144626153,
+    "ci95": [
+      -0.0003341055648079339,
+      -0.00022528842653819352
+    ],
+    "upper_one_sided_95": -0.00023403588506866002
+  },
+  "scenarios": {
+    "mixed_9": {
+      "n": 100,
+      "mean": 0.0018053837116746194,
+      "sd": 0.00032671419623810403,
+      "ci95": [
+        0.001741348905888156,
+        0.001869418517461083
+      ],
+      "upper_one_sided_95": 0.0018591234147404974
+    },
+    "recurrent_45": {
+      "n": 100,
+      "mean": 0.0017787626832359283,
+      "sd": 0.00033718227439319,
+      "ci95": [
+        0.0017126761718323329,
+        0.0018448491946395237
+      ],
+      "upper_one_sided_95": 0.0018342242319338668
+    },
+    "familiar_novel": {
+      "n": 100,
+      "mean": 0.0016097431283715444,
+      "sd": 0.0004160626861135028,
+      "ci95": [
+        0.0015281963403621986,
+        0.0016912899163808901
+      ],
+      "upper_one_sided_95": 0.0016781793502008411
+    },
+    "unseen_random": {
+      "n": 100,
+      "mean": 0.0006082788993605997,
+      "sd": 0.0005875912227686758,
+      "ci95": [
+        0.0004931131359347541,
+        0.0007234446627864454
+      ],
+      "upper_one_sided_95": 0.0007049290547541904
+    },
+    "stationary_a": {
+      "n": 100,
+      "mean": -0.0009610919431914358,
+      "sd": 0.0005506267584211469,
+      "ci95": [
+        -0.0010690128047343842,
+        -0.0008531710816484873
+      ],
+      "upper_one_sided_95": -0.0008705219011228803
+    },
+    "recurrent_q0_zero": {
+      "n": 100,
+      "mean": 0.0017951204196410778,
+      "sd": 0.00034027819513665375,
+      "ci95": [
+        0.0017284271189218644,
+        0.0018618137203602913
+      ],
+      "upper_one_sided_95": 0.0018510912019853805
+    },
+    "recurrent_q0_half": {
+      "n": 100,
+      "mean": 0.0017922210073567566,
+      "sd": 0.0003369235473725166,
+      "ci95": [
+        0.001726185205517396,
+        0.0018582568091961172
+      ],
+      "upper_one_sided_95": 0.0018476399992468605
+    },
+    "stationary_c": {
+      "n": 100,
+      "mean": -0.0032466255408435418,
+      "sd": 0.0017798638619656638,
+      "ci95": [
+        -0.003595472447527249,
+        -0.0028977786341598346
+      ],
+      "upper_one_sided_95": -0.002953863987960134
+    },
+    "short_dwell": {
+      "n": 100,
+      "mean": -0.006739050671266018,
+      "sd": 0.0012775553935093656,
+      "ci95": [
+        -0.006989446927219344,
+        -0.006488654415312693
+      ],
+      "upper_one_sided_95": -0.006528911509001489
+    },
+    "long_return": {
+      "n": 100,
+      "mean": -0.0013699209114765149,
+      "sd": 0.0008082157183182169,
+      "ci95": [
+        -0.0015283282814408023,
+        -0.0012115135415122274
+      ],
+      "upper_one_sided_95": -0.0012369812559130241
+    },
+    "rare_row_gap": {
+      "n": 100,
+      "mean": -0.00014948773526671553,
+      "sd": 0.00017410995975561646,
+      "ci95": [
+        -0.00018361266031378818,
+        -0.0001153628102196429
+      ],
+      "upper_one_sided_95": -0.00012084919538747548
+    }
+  },
+  "decision": {
+    "mean_brier_minimum_effect": 0.0005,
+    "primary_superiority": false,
+    "scenario_harm_margin": 0.001,
+    "bonferroni_upper_bounds": {
+      "mixed_9": 0.0018906109123036242,
+      "recurrent_45": 0.001866720603886886,
+      "familiar_novel": 0.0017182779224880376,
+      "unseen_random": 0.0007615589086389588,
+      "stationary_a": -0.0008174545446577736,
+      "recurrent_q0_zero": 0.0018838859472505723,
+      "recurrent_q0_half": 0.001880111436053116,
+      "stationary_c": -0.0027823273370840952,
+      "short_dwell": -0.00640578547773908,
+      "long_return": -0.0011590884347437872,
+      "rare_row_gap": -0.00010406912584459685
+    },
+    "harm_guardrail_pass": false,
+    "worst_mean_scenario": "mixed_9"
+  },
+  "timings": {
+    "adaptive": 41.725489675605786,
+    "fixed": 15.921748981738347,
+    "uniform": 38.77887806392391,
+    "no_memory": 39.4070656439435,
+    "p29_share_gap": 13.905373426125152,
+    "p29_ttl": 10.33515980867378,
+    "adaptive_fifo": 42.12741758901393,
+    "adaptive_utility": 41.665404033701634
+  },
+  "limitations": [
+    "Internal prospective freeze informed by previous Phase2.9 results; not external preregistration.",
+    "Fresh paths from existing known synthetic scenario families; no external application or independently novel environment validation.",
+    "Normal Monte Carlo intervals over seed clusters; shared seed numbers across scenarios are averaged within each seed, not treated as independent observations.",
+    "One primary contrast and joint robustness gate; all other arms, log loss, scopes and bank-specific comparisons are descriptive, with no blanket multiple-comparison significance claim.",
+    "Minimum effect 0.0005 and harm margin 0.001 Brier are protocol choices for this bounded engineering test, not empirically established utility thresholds.",
+    "A fixed hazard is selected on separate validation data; it is not the hindsight-best test hazard. Fixed and adaptive weighting arms use no replacement and a common base/archive; replacement arms compare full policies.",
+    "Fixed compute implementation and machine timing are reported, not a resource-matched performance contest. Double forecast calls check causal emission and add verification overhead.",
+    "No claims about subjective experience, persistent identity, a physical consciousness field, or MQGT-SCF validation follow."
+  ],
+  "freeze_sha256": "f41a2d1de586d66b646fc4e59bb318d856cf3aabd41351aff79d27e8b73571cb"
+}

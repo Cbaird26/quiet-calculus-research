@@ -1,0 +1,171 @@
+{
+  "status": "synthetic illustration only",
+  "q": 0.7,
+  "epsilon": 0.2,
+  "brier": [
+    {
+      "p": 0.5,
+      "expected_brier": 0.25
+    },
+    {
+      "p": 0.7,
+      "expected_brier": 0.21
+    },
+    {
+      "p": 0.95,
+      "expected_brier": 0.2725
+    }
+  ],
+  "routes": [
+    {
+      "route": "A",
+      "nominal_cost": 1.0,
+      "margin": 0.12,
+      "L": 1.0,
+      "certified_residual": -0.08
+    },
+    {
+      "route": "B",
+      "nominal_cost": 1.25,
+      "margin": 0.35,
+      "L": 1.0,
+      "certified_residual": 0.15
+    }
+  ],
+  "cohort": [
+    {
+      "p": 0.9,
+      "all_30": 0.04239115827521624
+    },
+    {
+      "p": 0.95,
+      "all_30": 0.21463876394293727
+    },
+    {
+      "p": 0.99,
+      "all_30": 0.7397003733882802
+    }
+  ],
+  "scheduling": {
+    "jobs": {
+      "due": {
+        "A": 4,
+        "B": 3,
+        "C": 7
+      },
+      "weights": {
+        "A": 1,
+        "B": 2,
+        "C": 1
+      },
+      "miss_penalties": {
+        "A": 10,
+        "B": 8,
+        "C": 6
+      }
+    },
+    "scenarios": [
+      {
+        "A": 1,
+        "B": 2,
+        "C": 2
+      },
+      {
+        "A": 1,
+        "B": 2,
+        "C": 4
+      },
+      {
+        "A": 5,
+        "B": 2,
+        "C": 2
+      },
+      {
+        "A": 5,
+        "B": 2,
+        "C": 4
+      }
+    ],
+    "scenario_probability": 0.25,
+    "ranked_orders": [
+      {
+        "order": "BAC",
+        "scenario_losses": [
+          0,
+          0,
+          21,
+          23
+        ],
+        "expected_loss": 11.0,
+        "expected_unweighted_tardiness": 3.0,
+        "expected_missed_connections": 1.0
+      },
+      {
+        "order": "BCA",
+        "scenario_losses": [
+          11,
+          13,
+          15,
+          17
+        ],
+        "expected_loss": 14.0,
+        "expected_unweighted_tardiness": 4.0,
+        "expected_missed_connections": 1.0
+      },
+      {
+        "order": "ABC",
+        "scenario_losses": [
+          0,
+          0,
+          35,
+          37
+        ],
+        "expected_loss": 18.0,
+        "expected_unweighted_tardiness": 4.0,
+        "expected_missed_connections": 1.5
+      },
+      {
+        "order": "ACB",
+        "scenario_losses": [
+          12,
+          16,
+          31,
+          43
+        ],
+        "expected_loss": 25.5,
+        "expected_unweighted_tardiness": 6.0,
+        "expected_missed_connections": 1.75
+      },
+      {
+        "order": "CBA",
+        "scenario_losses": [
+          21,
+          27,
+          25,
+          31
+        ],
+        "expected_loss": 26.0,
+        "expected_unweighted_tardiness": 6.0,
+        "expected_missed_connections": 2.0
+      },
+      {
+        "order": "CAB",
+        "scenario_losses": [
+          12,
+          27,
+          33,
+          39
+        ],
+        "expected_loss": 27.75,
+        "expected_unweighted_tardiness": 7.25,
+        "expected_missed_connections": 1.75
+      }
+    ]
+  },
+  "checks": {
+    "brier_identity_exact_rational": true,
+    "robust_route_counterexample": true,
+    "six_orders_enumerated": true,
+    "BAC_completion_formula_agrees": true
+  }
+}

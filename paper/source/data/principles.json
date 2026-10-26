@@ -1,0 +1,646 @@
+[
+  {
+    "id": "1",
+    "pages": "6--7,19",
+    "status": "M",
+    "principle": "Observe before intervening",
+    "qualification": "Preserve the evidential state and log interventions; premature action can change the observation target."
+  },
+  {
+    "id": "2",
+    "pages": "6--7,11--12",
+    "status": "M",
+    "principle": "Model the evidence-generating process",
+    "qualification": "Conspicuous clues can be selected or manufactured. Their number is not their independence."
+  },
+  {
+    "id": "3",
+    "pages": "6,12,40--42",
+    "status": "M",
+    "principle": "Maintain competing hypotheses",
+    "qualification": "Include ordinary, common-cause, and adversarial alternatives; compare predictions rather than narrative appeal."
+  },
+  {
+    "id": "4",
+    "pages": "7,11,25",
+    "status": "M",
+    "principle": "Interpret absence conditionally",
+    "qualification": "Omission is informative only under an explicit model of what would otherwise be observed or reported."
+  },
+  {
+    "id": "5",
+    "pages": "7,11",
+    "status": "H",
+    "principle": "Urgency and ambiguity can influence judgment",
+    "qualification": "A test should vary framing while holding evidence fixed; the scene supplies no effect estimate."
+  },
+  {
+    "id": "6",
+    "pages": "11--12",
+    "status": "M",
+    "principle": "Coincidence does not establish connection",
+    "qualification": "Treat proposed links as provisional until discriminating evidence addresses alternatives."
+  },
+  {
+    "id": "7",
+    "pages": "8,71--73",
+    "status": "M",
+    "principle": "Separate heritage, utility, and mechanism",
+    "qualification": "Historical attribution, subjective usefulness, and causal validity require different evidence."
+  },
+  {
+    "id": "8",
+    "pages": "16--17,39",
+    "status": "M/H",
+    "principle": "Evaluate capability externally",
+    "qualification": "Use unfamiliar tasks and independent assessment; an authority's endorsement alone does not validate a standard."
+  },
+  {
+    "id": "9",
+    "pages": "33--34,51",
+    "status": "N/M",
+    "principle": "Distinguish honesty from unlimited disclosure",
+    "qualification": "Respect confidentiality while making limitations and consequential omissions explicit."
+  },
+  {
+    "id": "10",
+    "pages": "19,27,37--38,47",
+    "status": "M",
+    "principle": "Distinguish models from targets",
+    "qualification": "Declare assumptions, approximations, and the conditions under which a model applies."
+  },
+  {
+    "id": "11",
+    "pages": "36",
+    "status": "M",
+    "principle": "Audit input integrity",
+    "qualification": "Correct computation cannot repair false premises without an error model or additional evidence."
+  },
+  {
+    "id": "12",
+    "pages": "37--38",
+    "status": "M",
+    "principle": "Separate fluency, precision, and certainty",
+    "qualification": "Measure confidence against outcomes; an articulate explanation is not a calibration test."
+  },
+  {
+    "id": "13",
+    "pages": "38",
+    "status": "E/H",
+    "principle": "Reasoning can defend preferred conclusions",
+    "qualification": "Biased assimilation offers an empirical connection; do not label all disagreement as motivated reasoning."
+  },
+  {
+    "id": "14",
+    "pages": "38,69",
+    "status": "H",
+    "principle": "Identity can compete with revision",
+    "qualification": "Compare neutral and identity-relevant conditions; the narrative provides no measured causal effect."
+  },
+  {
+    "id": "15",
+    "pages": "13,38,79",
+    "status": "M/E",
+    "principle": "Treat emotion as an observation",
+    "qualification": "A feeling can inform a model of the observer without establishing an external threat or proposition."
+  },
+  {
+    "id": "16",
+    "pages": "45,76",
+    "status": "M",
+    "principle": "Record predictions prospectively",
+    "qualification": "Timestamp forecasts and preserve versions before outcomes; a hash does not authenticate a claim's truth."
+  },
+  {
+    "id": "17",
+    "pages": "35,46--47,79",
+    "status": "N/M",
+    "principle": "Combine fallibilism with shared truth conditions",
+    "qualification": "Specify the proposition and time; changing reality is compatible with revisable knowledge."
+  },
+  {
+    "id": "18",
+    "pages": "46--47",
+    "status": "M",
+    "principle": "Revisability requires source scrutiny",
+    "qualification": "Being open to change does not require accepting manufactured or unverified evidence."
+  },
+  {
+    "id": "19",
+    "pages": "47",
+    "status": "H/N",
+    "principle": "Representation depends on perspective",
+    "qualification": "Measure differences in attention, language, and interpretation without assuming equally accurate models."
+  },
+  {
+    "id": "20",
+    "pages": "47",
+    "status": "H/N",
+    "principle": "Separate expressed belief from compelled behavior",
+    "qualification": "Power may alter what is said or done; those changes do not establish factual accuracy."
+  },
+  {
+    "id": "21",
+    "pages": "26--27,35,57",
+    "status": "M",
+    "principle": "Allow justified uncertainty and abstention",
+    "qualification": "Score appropriate refusal alongside accuracy; unanswered questions need not be analytical failures."
+  },
+  {
+    "id": "22",
+    "pages": "26--27",
+    "status": "M",
+    "principle": "Distinguish compatibility from confirmation",
+    "qualification": "Compare alternative predictive likelihoods; a shared prediction cannot uniquely identify a mechanism."
+  },
+  {
+    "id": "23",
+    "pages": "22--24,80",
+    "status": "M",
+    "principle": "Separate feasibility from optimality",
+    "qualification": "An efficient nominal route can violate constraints; write the objective and constraints separately."
+  },
+  {
+    "id": "24",
+    "pages": "22--24,80",
+    "status": "M",
+    "principle": "Quantify robust feasibility",
+    "qualification": "Specify uncertainty sets and the requirement to satisfy constraints for every permitted disturbance."
+  },
+  {
+    "id": "25",
+    "pages": "22,24,80",
+    "status": "M",
+    "principle": "Use margins with regularity bounds",
+    "qualification": "A nominal safety margin needs a sensitivity bound before it can certify perturbation tolerance."
+  },
+  {
+    "id": "26",
+    "pages": "23--24,80",
+    "status": "M",
+    "principle": "Local optimality does not imply robustness",
+    "qualification": "The margin certificate in this paper is a new formalization of the source's question."
+  },
+  {
+    "id": "27",
+    "pages": "22--24",
+    "status": "M/N",
+    "principle": "Expose efficiency--safety tradeoffs",
+    "qualification": "Compare constrained or Pareto formulations; the selected tradeoff depends on stated objectives."
+  },
+  {
+    "id": "28",
+    "pages": "23--24",
+    "status": "M",
+    "principle": "Respect information constraints",
+    "qualification": "An implementable policy uses only information available at the decision time."
+  },
+  {
+    "id": "29",
+    "pages": "24,80",
+    "status": "M",
+    "principle": "Optimize stochastic capacity allocation",
+    "qualification": "Specify arrivals, loading uncertainty, occupancy, priority, and delay rather than assuming a complete network model."
+  },
+  {
+    "id": "30",
+    "pages": "24,80",
+    "status": "M/H",
+    "principle": "Include downstream connection costs",
+    "qualification": "A locally fast allocation may create later delays; compare system-wide outcomes."
+  },
+  {
+    "id": "31",
+    "pages": "24,80",
+    "status": "M/N",
+    "principle": "Declare priority and welfare weights",
+    "qualification": "Political priority is a design choice; weighted efficiency need not imply equity."
+  },
+  {
+    "id": "32",
+    "pages": "24,80",
+    "status": "M/N",
+    "principle": "Define confidentiality precisely",
+    "qualification": "Withholding raw routes is not a leakage guarantee; specify adversaries and observable outputs."
+  },
+  {
+    "id": "33",
+    "pages": "23",
+    "status": "M/H",
+    "principle": "Use formal structure across specialties",
+    "qualification": "Proof exposes assumptions but does not remove power, model choice, or empirical uncertainty."
+  },
+  {
+    "id": "34",
+    "pages": "24",
+    "status": "N/M",
+    "principle": "Govern research provenance and dissemination",
+    "qualification": "The fictional compact motivates accountable access and release rules; it is not an instruction governing this paper."
+  },
+  {
+    "id": "35",
+    "pages": "29",
+    "status": "M/H/F",
+    "principle": "Model dependency hubs across layers",
+    "qualification": "The transferable idea is interdependence; the listed powers of spice remain fictional."
+  },
+  {
+    "id": "36",
+    "pages": "29,45,61",
+    "status": "M",
+    "principle": "Declare system boundaries",
+    "qualification": "Test whether added couplings improve prediction rather than assuming that more complex models are better."
+  },
+  {
+    "id": "37",
+    "pages": "41--42",
+    "status": "M/H",
+    "principle": "Study collective coordination failures",
+    "qualification": "Specify objectives, information, and shared dependencies; individually rational choices may conflict."
+  },
+  {
+    "id": "38",
+    "pages": "42,60--61",
+    "status": "H/M",
+    "principle": "Test coalition formation under common risk",
+    "qualification": "Shared vulnerability can alter incentives but need not overcome distrust or enforcement problems."
+  },
+  {
+    "id": "39",
+    "pages": "44--45",
+    "status": "M/H",
+    "principle": "Test common-cause explanations",
+    "qualification": "Multiple domain signals may share a cause, reporting bias, or feedback; independence is not supplied."
+  },
+  {
+    "id": "40",
+    "pages": "44",
+    "status": "H",
+    "principle": "Evaluate operational leading indicators",
+    "qualification": "Transport demand might predict later events; use held-out time periods and declared prediction horizons."
+  },
+  {
+    "id": "41",
+    "pages": "44--45",
+    "status": "M/N",
+    "principle": "Account for asymmetric error costs",
+    "qualification": "Declare the costs of preparation, false alarms, missed events, and delay."
+  },
+  {
+    "id": "42",
+    "pages": "19,61,79",
+    "status": "H/N",
+    "principle": "Distinguish access from protection",
+    "qualification": "Contact, status, usefulness, aligned interests, and enforceable obligations are separate variables."
+  },
+  {
+    "id": "43",
+    "pages": "37,49--51,61",
+    "status": "H/N",
+    "principle": "Test interdisciplinary integration",
+    "qualification": "Compare cross-domain transfer with equally resourced instruction; broad exposure is not automatically superior."
+  },
+  {
+    "id": "44",
+    "pages": "61--62",
+    "status": "M",
+    "principle": "Do not generalize from one selected cohort",
+    "qualification": "Replication requires a counterfactual and attention to selection, teachers, history, and expectations."
+  },
+  {
+    "id": "45",
+    "pages": "18,38--39,64--66",
+    "status": "E/H",
+    "principle": "Specify physiological contributions to cognition",
+    "qualification": "Measure particular states and outcomes instead of treating bodily knowledge as a unitary power."
+  },
+  {
+    "id": "46",
+    "pages": "18,26,64,67--69",
+    "status": "M",
+    "principle": "Validate wearable measurements",
+    "qualification": "Separate raw signals from inferred sleep, recovery, and undefined coherence scores."
+  },
+  {
+    "id": "47",
+    "pages": "64--69",
+    "status": "M/H",
+    "principle": "Compare subjective and instrument estimates",
+    "qualification": "Both have error; subjective recollection does not replace a missing objective time series."
+  },
+  {
+    "id": "48",
+    "pages": "68",
+    "status": "M",
+    "principle": "Estimate before revealing measurement",
+    "qualification": "Timestamp the estimate and synchronize the reference window to prevent display leakage."
+  },
+  {
+    "id": "49",
+    "pages": "68",
+    "status": "M/E",
+    "principle": "Measure confidence and accuracy separately",
+    "qualification": "Report absolute error, bias, interval coverage, and discrimination rather than confidence alone."
+  },
+  {
+    "id": "50",
+    "pages": "68",
+    "status": "M/H",
+    "principle": "Assess interoception by domain",
+    "qualification": "Pulse, breathing, fatigue, tension, and arousal need distinct reference procedures and validation."
+  },
+  {
+    "id": "51",
+    "pages": "68--69",
+    "status": "H/M",
+    "principle": "Test adaptive feedback training",
+    "qualification": "Measure learning, retention, and transfer against matched feedback controls."
+  },
+  {
+    "id": "52",
+    "pages": "64--65,68,71--73",
+    "status": "M/H",
+    "principle": "Account for measurement reactivity",
+    "qualification": "Attention to a bodily variable may change it; preserve timing and task context."
+  },
+  {
+    "id": "53",
+    "pages": "65",
+    "status": "H",
+    "principle": "Separate performance from impression management",
+    "qualification": "Observed posture can reflect being watched; compare functional performance across evaluation contexts."
+  },
+  {
+    "id": "54",
+    "pages": "65",
+    "status": "H",
+    "principle": "Test one-variable attentional scaffolding",
+    "qualification": "Compare staged attention with simultaneous monitoring; simplicity is a proposed aid, not a demonstrated effect here."
+  },
+  {
+    "id": "55",
+    "pages": "65,68",
+    "status": "H",
+    "principle": "Use individual baselines",
+    "qualification": "Avoid inferring universal meanings from one person's stillness, blinking, or tension."
+  },
+  {
+    "id": "56",
+    "pages": "67--69",
+    "status": "N/M",
+    "principle": "Replace vague authority with criteria",
+    "qualification": "Specify proficiency and stopping conditions rather than treating teacher approval as measurement."
+  },
+  {
+    "id": "57",
+    "pages": "69",
+    "status": "N/M",
+    "principle": "Distinguish tool use from dependence",
+    "qualification": "Evaluate appropriate selection and performance; rejection of instruments can itself be an identity commitment."
+  },
+  {
+    "id": "58",
+    "pages": "71,79",
+    "status": "H",
+    "principle": "Test intuition prospectively",
+    "qualification": "Record the signal before its interpretation and compare predictive value with baseline alternatives."
+  },
+  {
+    "id": "59",
+    "pages": "31,55,64--65",
+    "status": "E/H",
+    "principle": "Do not equate bodily cues with lie detection",
+    "qualification": "Validate sensitivity, specificity, context, and error costs; the story's labels establish none of these."
+  },
+  {
+    "id": "60",
+    "pages": "26--27",
+    "status": "M/F",
+    "principle": "Do not infer exotic causes from synchrony",
+    "qualification": "Compare shared stimuli, artifacts, chance, and analysis selection before positing a mechanism."
+  },
+  {
+    "id": "61",
+    "pages": "18,39,52--53,68",
+    "status": "E/H",
+    "principle": "Include fatigue, rest, and diminishing returns",
+    "qualification": "Specify task, dose, and outcome; no universal optimum follows from the narrative."
+  },
+  {
+    "id": "62",
+    "pages": "71--73",
+    "status": "M",
+    "principle": "Separate experience from interpretation",
+    "qualification": "Record sensation, affect, belief, confidence, and action in separate fields."
+  },
+  {
+    "id": "63",
+    "pages": "71--73",
+    "status": "H",
+    "principle": "Treat updating as a multicomponent package",
+    "qualification": "Tapping, breathing, attention, cue, and reassessment require component controls."
+  },
+  {
+    "id": "64",
+    "pages": "72",
+    "status": "H",
+    "principle": "Test sensory anchoring",
+    "qualification": "Compare matched touch, location, rhythm, and expectancy; special efficacy of the listed points is not established."
+  },
+  {
+    "id": "65",
+    "pages": "72--73",
+    "status": "E/H",
+    "principle": "Separate breathing outcomes",
+    "qualification": "Tempo, attention, physiology, and clinical benefit are distinct endpoints; the source specifies no validated dose."
+  },
+  {
+    "id": "66",
+    "pages": "72",
+    "status": "H",
+    "principle": "Test the verbal revision cue",
+    "qualification": "Compare evidence-focused language with neutral wording while controlling other components."
+  },
+  {
+    "id": "67",
+    "pages": "72--73",
+    "status": "M/H",
+    "principle": "Do not define success only as calm",
+    "qualification": "Evaluate appropriate detection and revision separately from distress or mood change."
+  },
+  {
+    "id": "68",
+    "pages": "72--74",
+    "status": "M",
+    "principle": "Separate state change from factual updating",
+    "qualification": "More trust or comfort is not necessarily more accurate belief; identify the evidence for revision."
+  },
+  {
+    "id": "69",
+    "pages": "73",
+    "status": "M/H",
+    "principle": "Specify a testable feedback loop",
+    "qualification": "Declare timing, entry criteria, observations, continuation rules, and stopping rules."
+  },
+  {
+    "id": "70",
+    "pages": "73",
+    "status": "H/N",
+    "principle": "Design software to support awareness",
+    "qualification": "Test usability, autonomy, and task outcomes; a prompt should not prescribe what the user must feel."
+  },
+  {
+    "id": "71",
+    "pages": "71--74",
+    "status": "H",
+    "principle": "Treat embodied updating as a protocol candidate",
+    "qualification": "The source supplies a synthesis and fictional experience, not a validated treatment or effect size."
+  },
+  {
+    "id": "72",
+    "pages": "12,16,39,54--55,79",
+    "status": "M/H",
+    "principle": "Separate knowledge from competence",
+    "qualification": "Reading, vocabulary, and placement do not establish independent performance or transfer."
+  },
+  {
+    "id": "73",
+    "pages": "34--35,55",
+    "status": "M/H",
+    "principle": "Distinguish collaboration from dependency",
+    "qualification": "Assess private capability and the additional benefit or cost of group reasoning."
+  },
+  {
+    "id": "74",
+    "pages": "39,45",
+    "status": "H",
+    "principle": "Test performance beyond ideal conditions",
+    "qualification": "Use ethical, predefined variation in task context; difficulty or suffering is not educational validation."
+  },
+  {
+    "id": "75",
+    "pages": "49--50",
+    "status": "M/N",
+    "principle": "Define multidimensional mastery",
+    "qualification": "Give each domain observable criteria, uncertainty, reliability, and a justified threshold."
+  },
+  {
+    "id": "76",
+    "pages": "52--53,79",
+    "status": "M/H",
+    "principle": "Use adaptive instructional decisions",
+    "qualification": "Repeat, advance, integrate, and certify form a policy to evaluate against alternatives."
+  },
+  {
+    "id": "77",
+    "pages": "52--53",
+    "status": "E/H",
+    "principle": "Treat rest as a possible training action",
+    "qualification": "Distinguish a justified consolidation interval from an unexplained pause."
+  },
+  {
+    "id": "78",
+    "pages": "54--55",
+    "status": "M/H",
+    "principle": "Treat placement as uncertain and revisable",
+    "qualification": "Scores are estimates, not fixed identities or automatically comparable interval scales."
+  },
+  {
+    "id": "79",
+    "pages": "56",
+    "status": "H/M",
+    "principle": "Consider person--environment interactions",
+    "qualification": "Evaluate teaching, context, fear, physiology, and knowledge before locating every obstacle in the learner."
+  },
+  {
+    "id": "80",
+    "pages": "55--56,79",
+    "status": "M/H/N",
+    "principle": "Test shared success incentives",
+    "qualification": "The terminal rule may reward helping; actual cooperation depends on costs and enforcement."
+  },
+  {
+    "id": "81",
+    "pages": "55--56,79",
+    "status": "H/N",
+    "principle": "Evaluate bottlenecks and coercion",
+    "qualification": "This critical implication extends the source: monitor scapegoating, concealment, exclusion, and unfair delay."
+  },
+  {
+    "id": "82",
+    "pages": "56",
+    "status": "H",
+    "principle": "Target peer support to individual needs",
+    "qualification": "Compare structured tutoring with unstructured interaction and assess both partners' outcomes."
+  },
+  {
+    "id": "83",
+    "pages": "52--53,68",
+    "status": "N/M",
+    "principle": "Make certification accountable",
+    "qualification": "Use explicit criteria, independent assessment, assessor agreement, and a review or appeal path."
+  },
+  {
+    "id": "84",
+    "pages": "50--51",
+    "status": "N/M",
+    "principle": "Distinguish exposure from qualification",
+    "qualification": "Foundational instruction does not confer specialist membership, credentials, or unrestricted competence."
+  },
+  {
+    "id": "85",
+    "pages": "49",
+    "status": "N/M",
+    "principle": "Distinguish novelty from repetition",
+    "qualification": "A contribution requires identifiable new knowledge or method, scrutiny, and reproducibility."
+  },
+  {
+    "id": "86",
+    "pages": "67--68",
+    "status": "N",
+    "principle": "Obtain individual voluntary consent",
+    "qualification": "Agreement is each participant's decision; authority or a partner's request is not a substitute."
+  },
+  {
+    "id": "87",
+    "pages": "65--66",
+    "status": "N",
+    "principle": "Observation does not grant entitlement",
+    "qualification": "Permission to collect, interpret, share, and act on personal data are distinct questions."
+  },
+  {
+    "id": "88",
+    "pages": "57--58",
+    "status": "N/M",
+    "principle": "Record knowledge boundaries about people",
+    "qualification": "Keep observed facts separate from stereotypes, guesses, and unverified personal narratives."
+  },
+  {
+    "id": "89",
+    "pages": "37",
+    "status": "N/H",
+    "principle": "Separate capability from ethical objectives",
+    "qualification": "Analytical efficiency does not guarantee prosocial conduct or moral judgment."
+  },
+  {
+    "id": "90",
+    "pages": "9--10",
+    "status": "F",
+    "principle": "Treat engineered lineage as fiction",
+    "qualification": "No genotype, developmental mechanism, or evidence supports machine inheritance or superior cognition here."
+  },
+  {
+    "id": "91",
+    "pages": "21--27,50,80",
+    "status": "F/M",
+    "principle": "Keep branch selection at the toy-model level",
+    "qualification": "Robust decisions do not establish spacetime folding, quantum control, or mental selection of reality."
+  },
+  {
+    "id": "92",
+    "pages": "4,21--27,36--37,49--51",
+    "status": "F",
+    "principle": "Keep fictional capabilities and institutions illustrative",
+    "qualification": "The setting motivates questions; it supplies no observations of extraordinary human powers or physics."
+  }
+]

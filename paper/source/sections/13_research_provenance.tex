@@ -1,0 +1,24 @@
+\section{Research-source provenance and reproducible expansion}
+\label{app:research-provenance}
+\subsection{Version-specific source selection}
+The narrative extraction remains the same 81-page corpus and 92-item inventory. The additional research layer is a targeted audit of local primary artifacts, not an exhaustive rereading of every historical Theory of Everything page or every Zora conversation. One synced project source was unavailable; no completeness claim is made for that mirror. The dated 6,433-page audit is treated as a particular historical packet, not as a claim that it is the latest or complete corpus. Synced references and original research packages were left unchanged.
+
+The machine-readable \texttt{data/research\_sources.json} supplies absolute paths, file sizes, full SHA-256 hashes, source roles, and relevant locators for the records below. The shorter digests printed here are navigation aids only; use the full manifest for identity checks. Local-only records have no asserted public DOI or publication status. The paper cites them as primary project evidence, separately from the external literature.
+
+\input{data/research_source_table}
+
+\subsection{Version 2 source audit: what was inspected and not rerun}
+During the version 2 audit, the pilot's aggregate result, dataset, and frozen source hashes were checked, including all forty-eight saved rows. Phase 2.9's thirty-two-entry manifest was verified, and selected paired loss summaries were recomputed from saved per-seed outcomes. Its full forecast traces are retained only for the first mixed-scenario seed in each bank; the other paths preserve losses and forecast hashes. The exact-mode package's twenty-two manifest entries matched, and its 126 passing checks were read as saved records. These activities did not execute new evidence-review, memory-forecasting, or exact-mode research runs.
+
+The scalar/anomaly verification folder matched twenty-one of twenty-two manifest entries. The exception was \texttt{independent\_check\_results.json}. Read-only comparison with the sealed ZIP found fifty-seven changed leaves: one environment-version change, from NumPy 2.5.3 to 2.4.3, and numerical differences with maximum absolute value about $9.095\times10^{-13}$. Boolean check outcomes were identical. Existing rerun records document the difference. The manuscript, assumptions, scripts, and core result files matched their sealed entries. This bounded discrepancy is retained rather than calling the entire folder byte-identical. The recorded 228-check result was not newly rerun here.
+
+The quadratic-portal note and its saved checks were inspected as conditional mathematics. The new \texttt{scripts/prediction\_checks.py} independently evaluates the dimensionless separation kernel, cross-checks one point with a different quadrature, checks resolution sensitivity and limiting behavior, verifies a numerical Fisher-information derivative, and regenerates the new vector figure. Those fresh calculations are mathematical illustrations, not an empirical replication of a proposed scalar bath. Their outputs are stored separately from inherited result summaries.
+
+\subsection{Independent reproduction of the new illustrations}
+With NumPy installed, run
+\begin{quote}\ttfamily
+python3 scripts/prediction\_checks.py
+\end{quote}
+Add \texttt{--figures} when ReportLab is also available. The script uses a finite exponentially bounded tail, composite Simpson quadrature with a doubled-resolution check, and an independent Gauss--Legendre evaluation at $m/T=rT=1$. It obtains a normalized rate of approximately $0.81615527584$ there. The maximum tested resolution difference is less than $10^{-8}$ in the dimensionless unnormalized kernel. This is a convergence diagnostic, not a rigorous interval enclosure for every plotted point. At $m/T=1$, the ratio between $rT=0.002$ and $0.001$ is approximately $3.999951$, consistent with the quadratic limit.
+
+The twelve target cards are also supplied in \texttt{data/prediction\_registry.json}, with their status, observables, controls, failure criteria, and prerequisites. They are planning records, not registered protocols. Version 3 execution records separately identify which targets were tested and which remain open. Prior manuscripts and archives are retained separately as versions 1, 2, and 3. Version 4 revision records additionally bind the held-out tests to their frozen code, labels, validation selections, and raw outcomes; \texttt{data/revision\_run\_manifest.json} lists their paths and hashes, and the separate revision evidence ZIP contains the full records. New references have bibliographic identity checks recorded in the expanded reference audit. A fresh compilation and visual check of this manuscript verify its presentation and reproducibility; neither confers external peer review.
